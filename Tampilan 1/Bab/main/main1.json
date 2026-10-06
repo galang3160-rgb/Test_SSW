@@ -1,0 +1,29 @@
+{
+  "vocab": [
+    { "kanji": "髪の毛", "furigana": "かみのけ", "arti": "Rambut" },
+    { "kanji": "首", "furigana": "くび", "arti": "Leher" },
+    { "kanji": "脇の下", "furigana": "わきのした", "arti": "Bawah ketiak" },
+    { "kanji": "腕", "furigana": "うで", "arti": "Lengan" },
+    { "kanji": "肘", "furigana": "ひじ", "arti": "Siku" },
+    { "kanji": "臍", "furigana": "へそ", "arti": "Pusar" },
+    { "kanji": "腰", "furigana": "こし", "arti": "Pinggang" },
+    { "kanji": "背中", "furigana": "せなか", "arti": "Punggung" },
+    { "kanji": "頭", "furigana": "あたま", "arti": "Kepala" },
+    { "kanji": "肩", "furigana": "かた", "arti": "Bahu" },
+    { "kanji": "胸", "furigana": "むね", "arti": "Dada" },
+    { "kanji": "腹", "furigana": "はら", "arti": "Perut" },
+    { "kanji": "尻", "furigana": "しり", "arti": "Pantat" },
+    { "kanji": "額", "furigana": "ひたい", "arti": "Dahi" },
+    { "kanji": "眉毛", "furigana": "まゆげ", "arti": "Alis" },
+    { "kanji": "睫毛", "furigana": "まつげ", "arti": "Bulu mata" },
+    { "kanji": "鼻", "furigana": "はな", "arti": "Hidung" },
+    { "kanji": "口", "furigana": "くち", "arti": "Mulut" },
+    { "kanji": "歯", "furigana": "は", "arti": "Gigi" },
+    { "kanji": "顎", "furigana": "あご", "arti": "Dagu" },
+    { "kanji": "顔", "furigana": "かお", "arti": "Wajah" }
+  ],
+  "dokkai": {
+    "title": "入浴介助と身体の観察",
+    "text": "<ruby>介護職<rt>かいごしょく</rt></ruby>の<ruby>田中<rt>たなか</rt></ruby>さんは、<ruby>利用者<rt>りようしゃ</rt></ruby>の<ruby>山田<rt>やまだ</rt></ruby>さんの<ruby>入浴<rt>にゅうよく</rt></ruby><ruby>介助<rt>かいじょ</rt></ruby>を<ruby>行<rt>おこな</rt></ruby>いました。まず、お<ruby>湯<rt>ゆ</rt></ruby>の<ruby>温度<rt>おんど</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>してから、<span class=\"kaigo-target-kw\">頭</span>と<span class=\"kaigo-target-kw\">髪の毛</span>をていねいに<ruby>洗<rt>あら</rt></ruby>いました。シャンプーが<span class=\"kaigo-target-kw\">顔</span>や<span class=\"kaigo-target-kw\">額</span>、そして<span class=\"kaigo-target-kw\">眉毛</span>や<span class=\"kaigo-target-kw\">睫毛</span>の<ruby>近<rt>ちか</rt></ruby>く、また<span class=\"kaigo-target-kw\">鼻</span>や<span class=\"kaigo-target-kw\">口</span>に<ruby>入<rt>はい</rt></ruby>らないように<ruby>注意<rt>ちゅうい</rt></ruby>しました。そのあと、<ruby>口腔<rt>こうくう</rt></ruby>ケアの<ruby>時<rt>とき</rt></ruby>に<span class=\"kaigo-target-kw\">歯</span>の<ruby>状態<rt>じょうたい</rt></ruby>や<span class=\"kaigo-target-kw\">顎</span>の<ruby>動<rt>うご</rt></ruby>きもチェックしました。<ruby>次<rt>つぎ</rt></ruby>に、タオルで<span class=\"kaigo-target-kw\">首</span>のまわりや<span class=\"kaigo-target-kw\">肩</span>、汗がたまりやすい<span class=\"kaigo-target-kw\">脇の下</span>をやさしく<ruby>拭<rt>ふ</rt></ruby>きました。<span class=\"kaigo-target-kw\">腕</span>から<span class=\"kaigo-target-kw\">肘</span>へかけて<ruby>洗<rt>あら</rt></ruby>う<ruby>際<rt>さい</rt></ruby>、<ruby>皮膚<rt>ひふ</rt></ruby>に<ruby>赤<rt>あか</rt></ruby>みや<ruby>傷<rt>きず</rt></ruby>がないかを<ruby>観察<rt>かんさつ</rt></ruby>しました。また、<span class=\"kaigo-target-kw\">胸</span>や<span class=\"kaigo-target-kw\">腹</span>、そして<span class=\"kaigo-target-kw\">臍</span>の<ruby>周<rt>まわ</rt></ruby>りの<ruby>汚<rt>よご</rt></ruby>れもきれいに<ruby>落<rt>お</rt></ruby>としました。<ruby>山田<rt>やまだ</rt></ruby>さんは「<span class=\"kaigo-target-kw\">腰</span>と<span class=\"kaigo-target-kw\">背中</span>が<ruby>痛<rt>いた</rt></ruby>い」とおっしゃったため、<ruby>無理<rt>むり</rt></ruby>な<ruby>姿勢<rt>しせい</rt></ruby>をとらせないように<ruby>配慮<rt>はいりょ</rt></ruby>しました。<ruby>最後<rt>さいご</rt></ruby>に、<span class=\"kaigo-target-kw\">尻</span>の<ruby>褥瘡<rt>じょくそう</rt></ruby>の<ruby>有無<rt>うむ</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>し、すべての<ruby>介助<rt>かいじょ</rt></ruby>を<ruby>安全<rt>あんぜん</rt></ruby>に<ruby>終<rt>お</rt></ruby>えました。"
+  }
+}

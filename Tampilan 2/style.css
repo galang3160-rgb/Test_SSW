@@ -1,0 +1,411 @@
+/* =========================================================
+   SSW KAIGO PORTAL — VERTICAL MODERN SAGE/EMERALD STYLE
+   Typography: Plus Jakarta Sans & Zen Kaku Gothic New
+   ========================================================= */
+
+:root {
+  --bg: #F8FAF9;
+  --surface: #FFFFFF;
+  --ink: #112217;
+  --dim: #5E7166;
+  --border: #E2EAE5;
+  --primary: #10B981;
+  --primary-dark: #047857;
+  --primary-light: #ECFDF5;
+  --primary-glow: rgba(16, 185, 129, 0.16);
+  --shadow-subtle: 0 4px 20px rgba(17, 34, 23, 0.04);
+  --shadow-hover: 0 10px 28px rgba(16, 185, 129, 0.12);
+  --ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Zen Kaku Gothic New", sans-serif;
+  background-color: var(--bg);
+  color: var(--ink);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: clamp(32px, 6vh, 64px) clamp(16px, 4vw, 24px);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Pola titik halus di background */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  opacity: 0.35;
+  background-image: radial-gradient(var(--dim) 0.75px, transparent 0.75px);
+  background-size: 24px 24px;
+  pointer-events: none;
+}
+
+.portal-wrapper {
+  width: 100%;
+  max-width: 680px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+/* ==================== Header ==================== */
+.portal-header {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.category-pill {
+  align-self: flex-start;
+  background-color: var(--primary-light);
+  color: var(--primary-dark);
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 1.2px;
+  padding: 5px 14px;
+  border-radius: 999px;
+  border: 1px solid rgba(16, 185, 129, 0.28);
+  text-transform: uppercase;
+}
+
+/* Judul Utama: Bold, Rapi, & Elegan */
+.main-title {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: clamp(2.2rem, 5vw, 2.9rem);
+  font-weight: 900;
+  color: var(--ink);
+  letter-spacing: -0.04em;
+  line-height: 1.1;
+  margin-top: 2px;
+}
+
+/* Subtitle Bahasa Jepang: Proporsional & Tajam */
+.subtitle {
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+  font-size: 14.5px;
+  font-weight: 700;
+  color: var(--dim);
+  letter-spacing: 0.04em;
+  line-height: 1.6;
+}
+
+/* ==================== Search Box ==================== */
+.search-box {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search-icon {
+  position: absolute;
+  left: 18px;
+  width: 18px;
+  height: 18px;
+  stroke: var(--dim);
+  pointer-events: none;
+  transition: stroke 0.2s ease;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 14px 18px 14px 48px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 14.5px;
+  font-weight: 600;
+  color: var(--ink);
+  background-color: var(--surface);
+  border: 1.5px solid var(--border);
+  border-radius: 16px;
+  outline: none;
+  box-shadow: var(--shadow-subtle);
+  transition: all 0.25s var(--ease);
+}
+
+.search-box input:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 4px var(--primary-glow);
+}
+
+.search-box input:focus + .search-icon,
+.search-box:focus-within .search-icon {
+  stroke: var(--primary);
+}
+
+.search-box input::placeholder {
+  color: #94A3B8;
+  font-weight: 500;
+}
+
+/* ==================== Exercise Section ==================== */
+.exercise-section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.section-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4px;
+}
+
+.count-label {
+  font-size: 12.5px;
+  font-weight: 800;
+  color: var(--dim);
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+}
+
+.badge-total {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--primary-dark);
+  background-color: var(--primary-light);
+  border: 1px solid rgba(16, 185, 129, 0.2);
+  padding: 4px 12px;
+  border-radius: 999px;
+}
+
+/* List Selalu Lurus ke Bawah */
+.exercise-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: 100%;
+}
+
+/* ==================== Clean Card Layout ==================== */
+.exercise-card {
+  background-color: var(--surface);
+  border: 1.5px solid var(--border);
+  border-radius: 18px;
+  box-shadow: var(--shadow-subtle);
+  transition: transform 0.25s var(--ease), border-color 0.25s var(--ease), box-shadow 0.25s var(--ease);
+  overflow: hidden;
+}
+
+.card-action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 22px;
+  text-decoration: none;
+  color: inherit;
+  width: 100%;
+  gap: 16px;
+}
+
+.card-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  min-width: 0;
+}
+
+.status-indicator {
+  font-size: 10.5px;
+  font-weight: 800;
+  padding: 3px 9px;
+  border-radius: 6px;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+}
+
+.status-indicator.available {
+  background-color: var(--primary-light);
+  color: var(--primary-dark);
+  border: 1px solid rgba(16, 185, 129, 0.28);
+}
+
+.status-indicator.unavailable {
+  background-color: #F1F5F9;
+  color: #94A3B8;
+  border: 1px solid #E2E8F0;
+}
+
+/* Judul Modul Soal */
+.subtext {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: clamp(15.5px, 2vw, 17px);
+  font-weight: 800;
+  color: var(--ink);
+  letter-spacing: -0.02em;
+  line-height: 1.35;
+}
+
+.card-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.detail-tag {
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--dim);
+}
+
+.meta-dot {
+  font-size: 12px;
+  color: #CBD5E1;
+}
+
+.card-right {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+/* ==================== Active Card ==================== */
+.exercise-card.active {
+  border-color: rgba(16, 185, 129, 0.35);
+}
+
+.exercise-card.active .action-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background-color: var(--primary-light);
+  color: var(--primary-dark);
+  padding: 8px 16px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 800;
+  border: 1px solid rgba(16, 185, 129, 0.25);
+  transition: all 0.2s var(--ease);
+}
+
+.exercise-card.active .chevron-icon {
+  width: 14px;
+  height: 14px;
+  stroke: var(--primary-dark);
+  transition: transform 0.2s ease, stroke 0.2s ease;
+}
+
+.exercise-card.active:hover {
+  transform: translateY(-3px);
+  border-color: var(--primary);
+  box-shadow: var(--shadow-hover);
+}
+
+.exercise-card.active:hover .action-btn {
+  background-color: var(--primary);
+  color: #FFFFFF;
+  border-color: var(--primary);
+}
+
+.exercise-card.active:hover .chevron-icon {
+  stroke: #FFFFFF;
+  transform: translateX(3px);
+}
+
+/* ==================== Locked Card ==================== */
+.exercise-card.locked {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-color: var(--border);
+  opacity: 0.75;
+}
+
+.exercise-card.locked .subtext {
+  color: #64748B;
+}
+
+.exercise-card.locked .lock-indicator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background-color: #F8FAFC;
+  border: 1px solid #E2E8F0;
+  transition: background-color 0.2s ease;
+}
+
+.exercise-card.locked .lock-icon {
+  width: 16px;
+  height: 16px;
+  stroke: #94A3B8;
+}
+
+.exercise-card.locked .card-action {
+  cursor: default;
+}
+
+/* ==================== State & Toast ==================== */
+.no-results {
+  text-align: center;
+  padding: 40px 0;
+  font-size: 14.5px;
+  font-weight: 600;
+  color: var(--dim);
+}
+
+.hidden {
+  display: none !important;
+}
+
+.toast {
+  position: fixed;
+  bottom: 28px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--ink);
+  color: #FFFFFF;
+  font-size: 13.5px;
+  font-weight: 700;
+  padding: 10px 20px;
+  border-radius: 999px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.18);
+  pointer-events: none;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+  z-index: 9999;
+}
+
+.toast.hidden {
+  opacity: 0;
+  transform: translate(-50%, 10px);
+}
+
+/* ==================== Responsive Layar Ponsel ==================== */
+@media (max-width: 480px) {
+  body {
+    padding: 24px 14px;
+  }
+
+  .portal-wrapper {
+    gap: 20px;
+  }
+
+  .card-action {
+    padding: 14px 16px;
+  }
+
+  .subtext {
+    font-size: 15px;
+  }
+
+  .action-btn span {
+    display: none;
+  }
+
+  .exercise-card.active .action-btn {
+    padding: 8px;
+  }
+}

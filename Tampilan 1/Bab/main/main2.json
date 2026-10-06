@@ -1,0 +1,22 @@
+[
+  { "kanji": "目", "furigana": "め", "arti": "Mata" },
+  { "kanji": "耳", "furigana": "みみ", "arti": "Telinga" },
+  { "kanji": "頬", "furigana": "ほほ", "arti": "Pipi" },
+  { "kanji": "唇", "furigana": "くちびる", "arti": "Bibir" },
+  { "kanji": "喉", "furigana": "のど", "arti": "Tenggorokan" },
+  { "kanji": "手", "furigana": "て", "arti": "Tangan" },
+  { "kanji": "指", "furigana": "ゆび", "arti": "Jari" },
+  { "kanji": "爪", "furigana": "つめ", "arti": "Kuku" },
+  { "kanji": "手の甲", "furigana": "てのこう", "arti": "Punggung tangan" },
+  { "kanji": "手首", "furigana": "てくび", "arti": "Pergelangan tangan" },
+  { "kanji": "手のひら", "furigana": "てのひら", "arti": "Telapak tangan" },
+  { "kanji": "親指", "furigana": "おやゆび", "arti": "Ibu jari" },
+  { "kanji": "人差し指", "furigana": "ひとさしゆび", "arti": "Jari telunjuk" },
+  { "kanji": "中指", "furigana": "なかゆび", "arti": "Jari tengah" },
+  { "kanji": "薬指", "furigana": "くすりゆび", "arti": "Jari manis" },
+  { "kanji": "小指", "furigana": "こゆび", "arti": "Jari kelingking" },
+  { "kanji": "太もも", "furigana": "ふともも", "arti": "Paha" },
+  { "kanji": "ふくらはぎ", "furigana": "ふくらはぎ", "arti": "Betis" },
+  { "kanji": "足首", "furigana": "あしくび", "arti": "Pergelangan kaki" },
+  { "kanji": "膝", "furigana": "ひざ", "arti": "Lutut" }
+]

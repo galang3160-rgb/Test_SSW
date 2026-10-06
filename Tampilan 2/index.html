@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>SSW Kaigo - Portal Ujian</title>
+
+  <!-- Google Fonts: Plus Jakarta Sans & Zen Kaku Gothic New -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800;900&family=Zen+Kaku+Gothic+New:wght@500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="portal-wrapper">
+    <!-- Header -->
+    <header class="portal-header">
+      <div class="category-pill">TOKUTEI GINOU · 介護</div>
+      <h1 class="main-title">SSW Kaigo</h1>
+      <p class="subtitle">おめでとう‼ 合格するなんって</p>
+    </header>
+
+    <!-- Search Input -->
+    <div class="search-box">
+      <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+        <circle cx="11" cy="11" r="8" stroke-width="2"/>
+        <line x1="21" y1="21" x2="16.65" y2="16.65" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+      <input type="text" id="searchInput" placeholder="Cari modul latihan..." autocomplete="off" spellcheck="false">
+    </div>
+
+    <!-- Cards List (Lurus ke Bawah) -->
+    <section class="exercise-section">
+      <div class="section-meta">
+        <span class="count-label">Daftar Modul</span>
+        <span class="badge-total" id="totalBadge">5 Modul</span>
+      </div>
+
+      <div class="exercise-list" id="exerciseGrid">
+        <!-- Item 1: Active -->
+        <article class="exercise-card active" data-title="Simulasi Try Out SSW Kaigo 1">
+          <a href="Question 1/index.html" class="card-action">
+            <div class="card-left">
+              <div class="status-indicator available">Tersedia</div>
+              <h2 class="subtext">Simulasi Try Out SSW Kaigo 1</h2>
+              <div class="card-meta">
+                <span class="detail-tag">30 Soal</span>
+                <span class="meta-dot">&bull;</span>
+                <span class="detail-tag">60 Menit</span>
+              </div>
+            </div>
+            <div class="card-right">
+              <div class="action-btn">
+                <span>Mulai</span>
+                <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7" />
+                </svg>
+              </div>
+            </div>
+          </a>
+        </article>
+
+        <!-- Item 2: Locked -->
+        <article class="exercise-card locked" data-title="Simulasi Try Out SSW Kaigo 2">
+          <a href="#" class="card-action">
+            <div class="card-left">
+              <div class="status-indicator unavailable">Terkunci</div>
+              <h2 class="subtext">Simulasi Try Out SSW Kaigo 2</h2>
+              <div class="card-meta">
+                <span class="detail-tag">30 Soal</span>
+                <span class="meta-dot">&bull;</span>
+                <span class="detail-tag">60 Menit</span>
+              </div>
+            </div>
+            <div class="card-right">
+              <div class="lock-indicator">
+                <svg class="lock-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                  <rect x="5" y="11" width="14" height="10" rx="2" stroke-width="2"/>
+                  <path d="M8 11V7a4 4 0 018 0v4" stroke-width="2"/>
+                </svg>
+              </div>
+            </div>
+          </a>
+        </article>
+
+        <!-- Item 3: Locked -->
+        <article class="exercise-card locked" data-title="Simulasi Try Out SSW Kaigo 3">
+          <a href="#" class="card-action">
+            <div class="card-left">
+              <div class="status-indicator unavailable">Terkunci</div>
+              <h2 class="subtext">Simulasi Try Out SSW Kaigo 3</h2>
+              <div class="card-meta">
+                <span class="detail-tag">30 Soal</span>
+                <span class="meta-dot">&bull;</span>
+                <span class="detail-tag">60 Menit</span>
+              </div>
+            </div>
+            <div class="card-right">
+              <div class="lock-indicator">
+                <svg class="lock-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                  <rect x="5" y="11" width="14" height="10" rx="2" stroke-width="2"/>
+                  <path d="M8 11V7a4 4 0 018 0v4" stroke-width="2"/>
+                </svg>
+              </div>
+            </div>
+          </a>
+        </article>
+
+        <!-- Item 4: Locked -->
+        <article class="exercise-card locked" data-title="Simulasi Try Out SSW Kaigo 4">
+          <a href="#" class="card-action">
+            <div class="card-left">
+              <div class="status-indicator unavailable">Terkunci</div>
+              <h2 class="subtext">Simulasi Try Out SSW Kaigo 4</h2>
+              <div class="card-meta">
+                <span class="detail-tag">30 Soal</span>
+                <span class="meta-dot">&bull;</span>
+                <span class="detail-tag">60 Menit</span>
+              </div>
+            </div>
+            <div class="card-right">
+              <div class="lock-indicator">
+                <svg class="lock-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                  <rect x="5" y="11" width="14" height="10" rx="2" stroke-width="2"/>
+                  <path d="M8 11V7a4 4 0 018 0v4" stroke-width="2"/>
+                </svg>
+              </div>
+            </div>
+          </a>
+        </article>
+
+        <!-- Item 5: Locked -->
+        <article class="exercise-card locked" data-title="Paket Lengkap Try Out Gabungan">
+          <a href="#" class="card-action">
+            <div class="card-left">
+              <div class="status-indicator unavailable">Terkunci</div>
+              <h2 class="subtext">Paket Lengkap Try Out Gabungan</h2>
+              <div class="card-meta">
+                <span class="detail-tag">30 Soal</span>
+                <span class="meta-dot">&bull;</span>
+                <span class="detail-tag">60 Menit</span>
+              </div>
+            </div>
+            <div class="card-right">
+              <div class="lock-indicator">
+                <svg class="lock-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                  <rect x="5" y="11" width="14" height="10" rx="2" stroke-width="2"/>
+                  <path d="M8 11V7a4 4 0 018 0v4" stroke-width="2"/>
+                </svg>
+              </div>
+            </div>
+          </a>
+        </article>
+      </div>
+
+      <div id="noResults" class="no-results hidden">
+        Modul latihan tidak ditemukan.
+      </div>
+    </section>
+  </main>
+
+  <div id="toast" class="toast hidden">Paket simulasi ini belum dibuka.</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
