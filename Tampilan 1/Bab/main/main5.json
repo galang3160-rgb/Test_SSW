@@ -1,0 +1,21 @@
+{
+  "vocab": [
+    { "kanji": "ベッド", "furigana": "べっど", "arti": "Tempat tidur" },
+    { "kanji": "枕", "furigana": "まくら", "arti": "Bantal" },
+    { "kanji": "オーバーベッドテーブル", "furigana": "おーばーべっどてーぶる", "arti": "Meja tempat tidur" },
+    { "kanji": "毛布", "furigana": "もうふ", "arti": "Selimut" },
+    { "kanji": "シーツ", "furigana": "しーつ", "arti": "Sprei" },
+    { "kanji": "床頭台", "furigana": "しょうとうだい", "arti": "Nakas samping tempat tidur" },
+    { "kanji": "サイドレール", "furigana": "さいどれーる", "arti": "Pagar pengaman tempat tidur" },
+    { "kanji": "布団", "furigana": "ふとん", "arti": "Futon / kasur lipat" },
+    { "kanji": "マットレス", "furigana": "まっとれす", "arti": "Kasur / matras" },
+    { "kanji": "介助バー", "furigana": "かいじょばー", "arti": "Pegangan bantu berdiri" },
+    { "kanji": "リモコン", "furigana": "りもこん", "arti": "Remote kontrol" },
+    { "kanji": "キャスター", "furigana": "きゃすたー", "arti": "Roda" },
+    { "kanji": "ストッパー", "furigana": "すとっぱー", "arti": "Kunci roda" }
+  ],
+  "dokkai": {
+    "title": "ベッド周りの準備と起き上がりの会話",
+    "text": "スタッフ：「山田さん、おはようございます。<span class=\"kaigo-target-kw\"><ruby>リモコン<rt>りもこん</rt></ruby></span>で<span class=\"kaigo-target-kw\"><ruby>ベッド<rt>べっど</rt></ruby></span>を少し上げますね。」<br><br>山田さん：「おはようございます。<span class=\"kaigo-target-kw\"><ruby>枕<rt>まくら</rt></ruby></span>の位置も直してもらえるかしら。」<br><br>スタッフ：「はい。<span class=\"kaigo-target-kw\"><ruby>マットレス<rt>まっとれす</rt></ruby></span>の<span class=\"kaigo-target-kw\"><ruby>シーツ<rt>しーつ</rt></ruby></span>と<span class=\"kaigo-target-kw\"><ruby>毛布<rt>もうふ</rt></ruby></span>も整えました。起き上がりましょうか。」<br><br>山田さん：「ええ、手伝ってください。」<br><br>スタッフ：「では、<span class=\"kaigo-target-kw\"><ruby>サイドレール<rt>さいどれーる</rt></ruby></span>を外しますね。こちらの<span class=\"kaigo-target-kw\"><ruby>介助バー<rt>かいじょばー</rt></ruby></span>につかまってゆっくり起きてください。」<br><br>山田さん：「よいしょ。つかまると起きやすいわね。」<br><br>スタッフ：「上手に起きられましたね。<span class=\"kaigo-target-kw\"><ruby>キャスター<rt>きゃすたー</rt></ruby></span>の<span class=\"kaigo-target-kw\"><ruby>ストッパー<rt>すとっぱー</rt></ruby></span>を外して、<span class=\"kaigo-target-kw\"><ruby>オーバーベッドテーブル<rt>おーばーべっどてーぶる</rt></ruby></span>を近くに動かしますね。メガネは<span class=\"kaigo-target-kw\"><ruby>床頭台<rt>しょうとうだい</rt></ruby></span>の上に置きましたよ。」<br><br>山田さん：「ありがとう。あそこにある<span class=\"kaigo-target-kw\"><ruby>布団<rt>ふとん</rt></ruby></span>もあとで片付けておいてね。」<br><br>スタッフ：「かしこまりました。ゆっくりお茶を飲んでくださいね。」"
+  }
+}

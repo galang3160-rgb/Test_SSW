@@ -1,5 +1,6 @@
 /* =========================================================
-   TWO CARDS CENTER HUB — SAGE & EMERALD MODERN
+   TWO CARDS CENTER HUB : SAGE & EMERALD MODERN
+   Background, warna, dan pola titik dipertahankan.
    ========================================================= */
 
 :root {
@@ -16,6 +17,9 @@
   --shadow-card: 0 8px 24px rgba(17, 34, 23, 0.05);
   --shadow-hover: 0 16px 36px rgba(16, 185, 129, 0.15);
   --ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-jp: 'Zen Kaku Gothic New', 'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', sans-serif;
 }
 
 *, *::before, *::after {
@@ -25,8 +29,15 @@
   -webkit-tap-highlight-color: transparent;
 }
 
+html {
+  overflow-x: hidden;
+  overflow-x: clip;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
 body {
-  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  font-family: var(--font-sans);
   background-color: var(--bg);
   color: var(--ink);
   min-height: 100vh;
@@ -34,12 +45,18 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 24px 16px;
+  padding:
+    max(32px, env(safe-area-inset-top, 0px))
+    max(20px, env(safe-area-inset-right, 0px))
+    max(32px, env(safe-area-inset-bottom, 0px))
+    max(20px, env(safe-area-inset-left, 0px));
   -webkit-font-smoothing: antialiased;
   position: relative;
+  overflow-x: hidden;
+  overflow-x: clip;
 }
 
-/* Pola titik halus latar belakang */
+/* Pola titik halus latar belakang (tidak diubah) */
 body::before {
   content: "";
   position: fixed;
@@ -51,58 +68,70 @@ body::before {
   pointer-events: none;
 }
 
-/* ==================== HUB WRAPPER (TENGAH) ==================== */
+/* ==================== HUB WRAPPER ==================== */
 .center-hub {
   width: 100%;
   max-width: 760px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 32px;
+  gap: 40px;
   margin: auto;
 }
 
-/* Header */
+/* ==================== HEADER ==================== */
 .hub-header {
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 8px;
 }
 
 .hub-pill {
-  font-family: 'Zen Kaku Gothic New', sans-serif;
-  font-size: 11px;
-  font-weight: 900;
-  letter-spacing: 1.2px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.8125rem;
+  font-weight: 700;
   color: var(--primary-dark);
   background-color: var(--primary-light);
   border: 1px solid rgba(16, 185, 129, 0.28);
-  padding: 4px 14px;
+  padding: 5px 14px;
   border-radius: 999px;
-  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+
+.hub-pill-jp {
+  font-family: var(--font-jp);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  padding-left: 8px;
+  border-left: 1px solid rgba(4, 120, 87, 0.25);
 }
 
 .hub-title {
-  font-size: clamp(2rem, 5vw, 2.8rem);
-  font-weight: 900;
+  font-size: clamp(1.875rem, 1.2rem + 3vw, 2.75rem);
+  font-weight: 800;
+  line-height: 1.12;
+  letter-spacing: -0.028em;
   color: var(--ink);
-  letter-spacing: -0.03em;
-  line-height: 1.15;
+  text-wrap: balance;
+  margin-bottom: 12px;
 }
 
 .hub-subtitle {
-  font-size: clamp(0.92rem, 1.4vw, 1.05rem);
+  font-size: clamp(0.95rem, 0.9rem + 0.3vw, 1.0625rem);
+  line-height: 1.6;
+  font-weight: 500;
   color: var(--dim);
-  font-weight: 600;
-  max-width: 460px;
+  max-width: 44ch;
+  text-wrap: pretty;
 }
 
-/* ==================== CARDS GRID (DUA KARTU) ==================== */
+/* ==================== CARDS GRID ==================== */
 .cards-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 20px;
   width: 100%;
 }
@@ -111,31 +140,61 @@ body::before {
   background: var(--surface);
   border: 2px solid var(--border);
   border-radius: 24px;
-  padding: clamp(22px, 3.5vw, 32px);
+  padding: clamp(22px, 3.5vw, 30px);
   text-decoration: none;
   color: inherit;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  min-height: 260px;
+  display: grid;
+  grid-template-areas:
+    "icon"
+    "text"
+    "action";
+  grid-template-rows: auto 1fr auto;
+  min-width: 0;
+  min-height: 268px;
   box-shadow: var(--shadow-card);
   transition: transform 0.28s var(--ease), border-color 0.28s var(--ease), box-shadow 0.28s var(--ease);
   position: relative;
   overflow: hidden;
+  touch-action: manipulation;
 }
 
-.hub-card:hover {
-  transform: translateY(-6px);
+.hub-card:focus-visible {
+  outline: 3px solid var(--primary);
+  outline-offset: 3px;
   border-color: var(--border-hover);
-  box-shadow: var(--shadow-hover);
 }
 
-.hub-card:active {
+.hub-card:active,
+.hub-card.is-leaving {
   transform: scale(0.98);
+  border-color: var(--border-hover);
 }
 
-/* Icon Bulat */
+/* Efek hover hanya untuk perangkat yang punya kursor,
+   supaya di HP kartu tidak "nyangkut" dalam keadaan hover */
+@media (hover: hover) and (pointer: fine) {
+  .hub-card:hover {
+    transform: translateY(-6px);
+    border-color: var(--border-hover);
+    box-shadow: var(--shadow-hover);
+  }
+
+  .hub-card:hover .card-icon-wrap {
+    background-color: var(--primary);
+    border-color: var(--primary);
+    color: #FFFFFF;
+  }
+
+  .hub-card:hover .arrow-circle {
+    background-color: var(--primary);
+    color: #FFFFFF;
+    transform: translateX(3px);
+  }
+}
+
+/* Ikon */
 .card-icon-wrap {
+  grid-area: icon;
   width: 52px;
   height: 52px;
   border-radius: 16px;
@@ -145,8 +204,9 @@ body::before {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 20px;
-  transition: background-color 0.25s ease, color 0.25s ease;
+  margin-bottom: 22px;
+  flex-shrink: 0;
+  transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease;
 }
 
 .card-icon-wrap svg {
@@ -154,104 +214,141 @@ body::before {
   height: 26px;
 }
 
-.hub-card:hover .card-icon-wrap {
-  background-color: var(--primary);
-  color: #FFFFFF;
-}
-
-/* Konten Teks */
+/* Teks kartu */
 .card-text {
+  grid-area: text;
   display: flex;
   flex-direction: column;
-  gap: 6px;
-  margin-bottom: 24px;
-}
-
-.card-tag {
-  font-size: 0.72rem;
-  font-weight: 800;
-  letter-spacing: 1px;
-  color: var(--primary-dark);
-  text-transform: uppercase;
+  gap: 8px;
+  min-width: 0;
+  margin-bottom: 26px;
 }
 
 .card-heading {
-  font-size: clamp(1.35rem, 2vw, 1.6rem);
-  font-weight: 900;
-  color: var(--ink);
+  font-size: clamp(1.25rem, 1.05rem + 0.8vw, 1.5rem);
+  font-weight: 800;
+  line-height: 1.2;
   letter-spacing: -0.02em;
+  color: var(--ink);
+  overflow-wrap: anywhere;
 }
 
 .card-desc {
-  font-size: 0.88rem;
-  color: var(--dim);
-  line-height: 1.5;
+  font-size: 0.9375rem;
+  line-height: 1.6;
   font-weight: 500;
+  color: var(--dim);
+  max-width: 36ch;
+  text-wrap: pretty;
 }
 
-/* Bar Aksi Bawah */
+/* Bar aksi */
 .card-action-bar {
+  grid-area: action;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 12px;
   padding-top: 16px;
   border-top: 1px dashed var(--border);
 }
 
 .action-label {
-  font-size: 0.92rem;
-  font-weight: 800;
-  color: var(--ink);
+  font-size: 0.9375rem;
+  font-weight: 700;
+  color: var(--primary-dark);
 }
 
 .arrow-circle {
-  font-size: 1.2rem;
-  font-weight: 900;
-  color: var(--dim);
-  transition: transform 0.25s var(--ease), color 0.25s var(--ease);
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background-color: var(--primary-light);
+  color: var(--primary-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: transform 0.25s var(--ease), background-color 0.25s var(--ease), color 0.25s var(--ease);
 }
 
-.hub-card:hover .arrow-circle {
-  color: var(--primary);
-  transform: translateX(4px);
+.arrow-circle svg {
+  width: 17px;
+  height: 17px;
 }
 
 /* ==================== FOOTER ==================== */
 .hub-footer {
-  font-size: 0.82rem;
-  font-weight: 600;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  line-height: 1.5;
   color: var(--dim);
   text-align: center;
 }
 
-/* ==================== RESPONSIVE LAYOUT HP ==================== */
-@media (max-width: 640px) {
-  body {
-    padding: 24px 14px;
-    align-items: flex-start;
-  }
-
-  .center-hub {
-    gap: 24px;
-    padding-top: 10px;
-  }
-
-  /* Di layar HP, 2 kartu otomatis tersusun vertikal ke bawah */
+/* ==================== TABLET KECIL ==================== */
+@media (max-width: 720px) {
   .cards-grid {
-    grid-template-columns: 1fr;
     gap: 16px;
   }
 
   .hub-card {
-    min-height: auto;
-    padding: 20px 18px;
+    min-height: 248px;
+  }
+}
+
+/* ==================== HP ==================== */
+@media (max-width: 640px) {
+  body {
+    align-items: flex-start;
+    padding:
+      max(28px, env(safe-area-inset-top, 0px))
+      max(16px, env(safe-area-inset-right, 0px))
+      max(24px, env(safe-area-inset-bottom, 0px))
+      max(16px, env(safe-area-inset-left, 0px));
+  }
+
+  .center-hub {
+    gap: 28px;
+    padding-top: 8px;
+  }
+
+  .hub-header {
+    max-width: 30rem;
+  }
+
+  .hub-pill {
+    margin-bottom: 14px;
+  }
+
+  .hub-title {
+    margin-bottom: 10px;
+  }
+
+  /* Kartu tersusun ke bawah, ikon di samping teks agar lebih ringkas */
+  .cards-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 14px;
+  }
+
+  .hub-card {
+    min-height: 0;
+    padding: 18px;
     border-radius: 20px;
+    grid-template-areas:
+      "icon text"
+      "action action";
+    grid-template-columns: auto minmax(0, 1fr);
+    grid-template-rows: auto auto;
+    column-gap: 14px;
+    align-items: start;
   }
 
   .card-icon-wrap {
-    width: 46px;
-    height: 46px;
-    margin-bottom: 14px;
+    width: 44px;
+    height: 44px;
+    border-radius: 14px;
+    margin-bottom: 0;
   }
 
   .card-icon-wrap svg {
@@ -260,6 +357,96 @@ body::before {
   }
 
   .card-text {
-    margin-bottom: 16px;
+    gap: 4px;
+    margin-bottom: 14px;
+    padding-top: 2px;
+  }
+
+  .card-heading {
+    font-size: 1.125rem;
+  }
+
+  .card-desc {
+    font-size: 0.875rem;
+    line-height: 1.55;
+    max-width: none;
+  }
+
+  .card-action-bar {
+    padding-top: 12px;
+  }
+
+  .action-label {
+    font-size: 0.875rem;
+  }
+
+  .arrow-circle {
+    width: 30px;
+    height: 30px;
+  }
+
+  .arrow-circle svg {
+    width: 15px;
+    height: 15px;
+  }
+
+  .hub-footer {
+    font-size: 0.75rem;
+    max-width: 26rem;
+  }
+}
+
+/* ==================== HP SANGAT KECIL (<= 360px) ==================== */
+@media (max-width: 360px) {
+  body {
+    padding-left: max(12px, env(safe-area-inset-left, 0px));
+    padding-right: max(12px, env(safe-area-inset-right, 0px));
+  }
+
+  .hub-card {
+    padding: 16px 14px;
+    column-gap: 12px;
+  }
+
+  .card-icon-wrap {
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
+  }
+
+  .card-icon-wrap svg {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+/* ==================== LAYAR PENDEK (HP LANDSCAPE) ==================== */
+@media (max-height: 520px) and (min-width: 641px) {
+  body {
+    align-items: flex-start;
+  }
+
+  .center-hub {
+    gap: 24px;
+  }
+
+  .hub-card {
+    min-height: 0;
+  }
+}
+
+/* ==================== KURANGI GERAKAN ==================== */
+@media (prefers-reduced-motion: reduce) {
+  .hub-card,
+  .card-icon-wrap,
+  .arrow-circle {
+    transition: none;
+  }
+
+  .hub-card:hover,
+  .hub-card:active,
+  .hub-card.is-leaving,
+  .hub-card:hover .arrow-circle {
+    transform: none;
   }
 }

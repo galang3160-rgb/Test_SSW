@@ -1,0 +1,21 @@
+{
+  "vocab": [
+    { "kanji": "トイレ", "furigana": "といれ", "arti": "Toilet" },
+    { "kanji": "トイレットペーパー", "furigana": "といれっとぺーぱー", "arti": "Tisu toilet" },
+    { "kanji": "手すり", "furigana": "てすり", "arti": "Susuran tangan / pegangan" },
+    { "kanji": "便器", "furigana": "べんき", "arti": "Kloset" },
+    { "kanji": "便座", "furigana": "べんざ", "arti": "Dudukan kloset" },
+    { "kanji": "おむつ交換車", "furigana": "おむつこうかんしゃ", "arti": "Kereta ganti popok" },
+    { "kanji": "汚物入れ", "furigana": "おぶついれ", "arti": "Tempat sampah kotoran / pembuangan pembalut" },
+    { "kanji": "シャワーボトル", "furigana": "しゃわーぼとる", "arti": "Botol bilas / cebok" },
+    { "kanji": "紙おむつ", "furigana": "かみおむつ", "arti": "Popok dewasa" },
+    { "kanji": "パッド", "furigana": "ぱっど", "arti": "Pad / lapisan penyerap urin" },
+    { "kanji": "尿器", "furigana": "にょうき", "arti": "Pispot urin" },
+    { "kanji": "ポータブルトイレ", "furigana": "ぽーたぶるといれ", "arti": "Toilet portabel" },
+    { "kanji": "ナースコール", "furigana": "なーすこーる", "arti": "Tombol panggil perawat" }
+  ],
+  "dokkai": {
+    "title": "排泄介助についての会話",
+    "text": "スタッフ：「山田さん、<span class=\"kaigo-target-kw\"><ruby>ナースコール<rt>なーすこーる</rt></ruby></span>を鳴らしましたね。どうなさいましたか。」<br><br>山田さん：「少しお腹が痛くて、<span class=\"kaigo-target-kw\"><ruby>トイレ<rt>といれ</rt></ruby></span>に行きたいのよ。」<br><br>スタッフ：「わかりました。歩くのが大変でしたら、お部屋の<span class=\"kaigo-target-kw\"><ruby>ポータブルトイレ<rt>ぽーたぶるといれ</rt></ruby></span>を使いますか。」<br><br>山田さん：「今日は少し頑張って、廊下の<span class=\"kaigo-target-kw\"><ruby>トイレ<rt>といれ</rt></ruby></span>まで歩いてみるわ。」<br><br>スタッフ：「では、ゆっくり行きましょう。はい、着きましたよ。転ばないように<span class=\"kaigo-target-kw\"><ruby>手すり<rt>てすり</rt></ruby></span>をしっかり持ってくださいね。冷たくないように<span class=\"kaigo-target-kw\"><ruby>便器<rt>べんき</rt></ruby></span>の<span class=\"kaigo-target-kw\"><ruby>便座<rt>べんざ</rt></ruby></span>を温めてありますから、ゆっくり座ってください。」<br><br>山田さん：「ありがとう。あ、もし出にくいときはベッドで<span class=\"kaigo-target-kw\"><ruby>尿器<rt>にょうき</rt></ruby></span>を使ってもいいかしら。」<br><br>スタッフ：「ええ、いつでも言ってくださいね。終わったら<span class=\"kaigo-target-kw\"><ruby>トイレットペーパー<rt>といれっとぺーぱー</rt></ruby></span>で拭いて、流してください。部屋に戻ったら<span class=\"kaigo-target-kw\"><ruby>おむつ交換車<rt>おむつこうかんしゃ</rt></ruby></span>を準備して、汚れた<span class=\"kaigo-target-kw\"><ruby>紙おむつ<rt>かみおむつ</rt></ruby></span>と<span class=\"kaigo-target-kw\"><ruby>パッド<rt>ぱっど</rt></ruby></span>も交換しましょうね。」<br><br>山田さん：「陰部をきれいに洗ってもらえると嬉しいわ。」<br><br>スタッフ：「はい、温かいお湯を入れた<span class=\"kaigo-target-kw\"><ruby>シャワーボトル<rt>しゃわーぼとる</rt></ruby></span>で流しますね。汚れたものはすべて<span class=\"kaigo-target-kw\"><ruby>汚物入れ<rt>おぶついれ</rt></ruby></span>に片付けますのでご安心ください。私は外で待っていますから、終わったら呼んでくださいね。」"
+  }
+}

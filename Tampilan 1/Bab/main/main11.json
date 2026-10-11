@@ -1,0 +1,36 @@
+{
+  "vocab": [
+    { "kanji": "脱衣室", "furigana": "だついしつ", "arti": "Ruang ganti pakaian" },
+    { "kanji": "バスタオル", "furigana": "ばすたおる", "arti": "Handuk mandi besar" },
+    { "kanji": "ドライヤー", "furigana": "どらいやー", "arti": "Pengering rambut" },
+    { "kanji": "シャンプー", "furigana": "しゃんぷー", "arti": "Sampo" },
+    { "kanji": "リンス", "furigana": "りんす", "arti": "Kondisioner" },
+    { "kanji": "鏡", "furigana": "かがみ", "arti": "Cermin" },
+    { "kanji": "シャワー", "furigana": "しゃわー", "arti": "Shower" },
+    { "kanji": "シャワーハット", "furigana": "しゃわーはっと", "arti": "Topi pelindung keramas" },
+    { "kanji": "タオル", "furigana": "たおる", "arti": "Handuk" },
+    { "kanji": "バスマット", "furigana": "ばすまっと", "arti": "Keset kamar mandi" },
+    { "kanji": "洗面器", "furigana": "せんめんき", "arti": "Baskom mandi" },
+    { "kanji": "シャワーチェア", "furigana": "しゃわーちぇあ", "arti": "Kursi mandi" },
+    { "kanji": "せっけん", "furigana": "せっけん", "arti": "Sabun" },
+    { "kanji": "浴そう", "furigana": "よくそう", "arti": "Bak mandi / bathtub" },
+    { "kanji": "浴室", "furigana": "よくしつ", "arti": "Kamar mandi" },
+    { "kanji": "床", "furigana": "ゆか", "arti": "Lantai" },
+    { "kanji": "バスボード", "furigana": "ばすぼーど", "arti": "Papan bantu masuk bak mandi" },
+    { "kanji": "浴そうないす", "furigana": "よくそうないす", "arti": "Kursi dalam bak mandi" },
+    { "kanji": "歯ブラシ", "furigana": "はぶらし", "arti": "Sikat gigi" },
+    { "kanji": "歯磨き粉", "furigana": "はみがきこ", "arti": "Pasta gigi" },
+    { "kanji": "シェーバー", "furigana": "しぇーばー", "arti": "Alat cukur elektrik" },
+    { "kanji": "化粧水", "furigana": "けしょうすい", "arti": "Toner / losion pelembap wajah" },
+    { "kanji": "耳かき", "furigana": "みみかき", "arti": "Korek kuping / pembersih telinga" },
+    { "kanji": "爪切り", "furigana": "つめきり", "arti": "Gunting kuku" },
+    { "kanji": "クリーム", "furigana": "くりーむ", "arti": "Krim" },
+    { "kanji": "ブラシ", "furigana": "ぶらし", "arti": "Sikat rambut" },
+    { "kanji": "くし", "furigana": "くし", "arti": "Sisir" },
+    { "kanji": "入れ歯（義歯）", "furigana": "いれば（ぎし）", "arti": "Gigi palsu" }
+  ],
+  "dokkai": {
+    "title": "入浴とみだしなみについての会話",
+    "text": "スタッフ：「山田さん、<span class=\"kaigo-target-kw\"><ruby>脱衣室<rt>だついしつ</rt></ruby></span>で服を脱いだら、<span class=\"kaigo-target-kw\"><ruby>浴室<rt>よくしつ</rt></ruby></span>へ入りましょう。<span class=\"kaigo-target-kw\"><ruby>床<rt>ゆか</rt></ruby></span>が滑りやすいので気をつけてこちらの<span class=\"kaigo-target-kw\"><ruby>シャワーチェア<rt>しゃわーちぇあ</rt></ruby></span>に座ってください。」<br><br>山田さん：「ありがとう。まず頭から洗ってもらえるかしら。」<br><br>スタッフ：「はい。<span class=\"kaigo-target-kw\"><ruby>シャワーハット<rt>しゃわーはっと</rt></ruby></span>をつけますね。<span class=\"kaigo-target-kw\"><ruby>シャワー<rt>しゃわー</rt></ruby></span>でお湯をかけてから、<span class=\"kaigo-target-kw\"><ruby>シャンプー<rt>しゃんぷー</rt></ruby></span>と<span class=\"kaigo-target-kw\"><ruby>リンス<rt>りんす</rt></ruby></span>で髪をきれいにします。体は<span class=\"kaigo-target-kw\"><ruby>洗面器<rt>せんめんき</rt></ruby></span>のお湯と<span class=\"kaigo-target-kw\"><ruby>せっけん<rt>せっけん</rt></ruby></span>、やわらかい<span class=\"kaigo-target-kw\"><ruby>タオル<rt>たおる</rt></ruby></span>で洗いましょう。」<br><br>山田さん：「さっぱりしたわ。温かいお湯にも浸かりたいのだけど。」<br><br>スタッフ：「では、<span class=\"kaigo-target-kw\"><ruby>バスボード<rt>ばすぼーど</rt></ruby></span>に腰掛けて、ゆっくり<span class=\"kaigo-target-kw\"><ruby>浴そう<rt>よくそう</rt></ruby></span>に入りましょう。中に沈めた<span class=\"kaigo-target-kw\"><ruby>浴そうないす<rt>よくそうないす</rt></ruby></span>に座ってくださいね。」<br><br>山田さん：「ふう、いい湯加減ね。体がとても温まるわ。」<br><br>スタッフ：「よかったです。温まったら出ましょう。<span class=\"kaigo-target-kw\"><ruby>バスマット<rt>ばすまっと</rt></ruby></span>の上で足を拭いて、大きな<span class=\"kaigo-target-kw\"><ruby>バスタオル<rt>ばすたおる</rt></ruby></span>で体を拭きますね。<span class=\"kaigo-target-kw\"><ruby>ドライヤー<rt>どらいやー</rt></ruby></span>で髪を乾かします。」<br><br>山田さん：「お風呂のあとに、みだしなみも整えたいわ。」<br><br>スタッフ：「はい、<span class=\"kaigo-target-kw\"><ruby>鏡<rt>かがみ</rt></ruby></span>の前に座りましょう。<span class=\"kaigo-target-kw\"><ruby>ブラシ<rt>ぶらし</rt></ruby></span>や<span class=\"kaigo-target-kw\"><ruby>くし<rt>くし</rt></ruby></span>で髪をとかして、お顔に<span class=\"kaigo-target-kw\"><ruby>化粧水<rt>けしょうすい</rt></ruby></span>と<span class=\"kaigo-target-kw\"><ruby>クリーム<rt>くりーむ</rt></ruby></span>を塗りますね。<span class=\"kaigo-target-kw\"><ruby>耳かき<rt>みみかき</rt></ruby></span>と<span class=\"kaigo-target-kw\"><ruby>爪切り<rt>つめきり</rt></ruby></span>も用意してあります。<span class=\"kaigo-target-kw\"><ruby>シェーバー<rt>しぇーばー</rt></ruby></span>で産毛も剃りましょうか。」<br><br>山田さん：「お願いするわ。それから、外した<span class=\"kaigo-target-kw\"><ruby>入れ歯（義歯）<rt>いれば（ぎし）</rt></ruby></span>もきれいに洗って、残った歯は<span class=\"kaigo-target-kw\"><ruby>歯ブラシ<rt>はぶらし</rt></ruby></span>と<span class=\"kaigo-target-kw\"><ruby>歯磨き粉<rt>はみがきこ</rt></ruby></span>で磨いてくれるかしら。」<br><br>スタッフ：「かしこまりました。最後まで丁寧にケアしますね。」"
+  }
+}

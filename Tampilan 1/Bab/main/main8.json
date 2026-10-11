@@ -1,0 +1,24 @@
+{
+  "vocab": [
+    { "kanji": "炊飯器", "furigana": "すいはんき", "arti": "Rice cooker" },
+    { "kanji": "しゃもじ", "furigana": "しゃもじ", "arti": "Centong nasi" },
+    { "kanji": "やかん", "furigana": "やかん", "arti": "Ketel" },
+    { "kanji": "鍋", "furigana": "なべ", "arti": "Panci" },
+    { "kanji": "調味料", "furigana": "ちょうみりょう", "arti": "Bumbu masakan" },
+    { "kanji": "エプロン", "furigana": "えぷろん", "arti": "Celemek" },
+    { "kanji": "食札", "furigana": "しょくさつ", "arti": "Kartu nama menu / kartu diet" },
+    { "kanji": "果物", "furigana": "くだもの", "arti": "Buah-buahan" },
+    { "kanji": "主食", "furigana": "しゅしょく", "arti": "Makanan pokok" },
+    { "kanji": "主菜", "furigana": "しゅさい", "arti": "Lauk utama" },
+    { "kanji": "おしぼりタオル", "furigana": "おしぼりたおる", "arti": "Handuk basah (lap tangan)" },
+    { "kanji": "ふきん", "furigana": "ふきん", "arti": "Kain lap meja" },
+    { "kanji": "副菜（副食）", "furigana": "ふくさい（ふくしょく）", "arti": "Lauk pendamping" },
+    { "kanji": "汁物", "furigana": "しるもの", "arti": "Makanan berkuah / sup" },
+    { "kanji": "配膳車", "furigana": "はいぜんしゃ", "arti": "Kereta dorong makanan" },
+    { "kanji": "ミキサー", "furigana": "みきさー", "arti": "Blender" }
+  ],
+  "dokkai": {
+    "title": "配膳と食事の準備についての会話",
+    "text": "スタッフ：「山田さん、お待たせしました。<span class=\"kaigo-target-kw\"><ruby>配膳車<rt>はいぜんしゃ</rt></ruby></span>からお昼ごはんをお持ちしましたよ。テーブルを<span class=\"kaigo-target-kw\"><ruby>ふきん<rt>ふきん</rt></ruby></span>できれいに拭きますね。」<br><br>山田さん：「ありがとう、いい匂いね。お洋服が汚れそうだから、<span class=\"kaigo-target-kw\"><ruby>エプロン<rt>えぷろん</rt></ruby></span>を着けてもらえるかしら。」<br><br>スタッフ：「はい、どうぞ。手を拭く<span class=\"kaigo-target-kw\"><ruby>おしぼりタオル<rt>おしぼりたおる</rt></ruby></span>も置きますね。お盆の上の<span class=\"kaigo-target-kw\"><ruby>食札<rt>しょくさつ</rt></ruby></span>でお名前を確認します…はい、山田さんのですね。」<br><br>山田さん：「今日のメニューは何かしら。」<br><br>スタッフ：「<span class=\"kaigo-target-kw\"><ruby>主食<rt>しゅしょく</rt></ruby></span>のごはんと、<span class=\"kaigo-target-kw\"><ruby>主菜<rt>しゅさい</rt></ruby></span>の焼き魚、それに<span class=\"kaigo-target-kw\"><ruby>副菜（副食）<rt>ふくさい（ふくしょく）</rt></ruby></span>の野菜の煮物です。厨房の大きな<span class=\"kaigo-target-kw\"><ruby>鍋<rt>なべ</rt></ruby></span>で作った温かい<span class=\"kaigo-target-kw\"><ruby>汁物<rt>しるもの</rt></ruby></span>もありますよ。デザートには<span class=\"kaigo-target-kw\"><ruby>果物<rt>くだもの</rt></ruby></span>もついています。」<br><br>山田さん：「おいしそうね。ごはんはまだ温かいかしら。」<br><br>スタッフ：「はい、<span class=\"kaigo-target-kw\"><ruby>炊飯器<rt>すいはんき</rt></ruby></span>から<span class=\"kaigo-target-kw\"><ruby>しゃもじ<rt>しゃもじ</rt></ruby></span>でよそったばかりですよ。飲み込みにくければ<span class=\"kaigo-target-kw\"><ruby>ミキサー<rt>みきさー</rt></ruby></span>食にもできますが、大丈夫ですか。」<br><br>山田さん：「このままで大丈夫よ。<span class=\"kaigo-target-kw\"><ruby>調味料<rt>ちょうみりょう</rt></ruby></span>の味付けもいつもおいしいから楽しみだわ。」<br><br>スタッフ：「よかったです。<span class=\"kaigo-target-kw\"><ruby>やかん<rt>やかん</rt></ruby></span>で沸かした温かいお茶も注ぎますね。どうぞごゆっくり召し上がってください。」"
+  }
+}

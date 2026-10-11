@@ -1,12 +1,14 @@
 /* =========================================================
    SSW KAIGO PORTAL HUB CONTROLLER
-   Transisi mulus & efek suara interaktif Web Audio API
+   Transisi klik singkat dan nada klik via Web Audio API
    ========================================================= */
 
 document.addEventListener('DOMContentLoaded', () => {
-  const cards = document.querySelectorAll('.feature-card');
+  // Sebelumnya memakai '.feature-card', padahal kelas di HTML adalah '.hub-card'
+  const cards = document.querySelectorAll('.hub-card');
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
 
-  // Audio synthesizer native (tanpa perlu file audio luar)
+  // Audio synthesizer native (tanpa file audio luar)
   let audioCtx = null;
   function playClickTone() {
     try {
@@ -36,18 +38,29 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  // Handle klik dengan jeda transisi halus
   cards.forEach(card => {
     card.addEventListener('click', (e) => {
-      e.preventDefault();
+      // Biarkan Ctrl/Cmd/Shift + klik tetap membuka tab atau jendela baru
+      if (e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+
       const targetUrl = card.getAttribute('href');
+      if (!targetUrl) return;
+
+      e.preventDefault();
+      if (card.classList.contains('is-leaving')) return; // cegah klik ganda
 
       playClickTone();
-      card.style.transform = 'scale(0.97)';
+      card.classList.add('is-leaving');
 
+      const delay = reduceMotion.matches ? 0 : 140;
       setTimeout(() => {
         window.location.href = targetUrl;
-      }, 140);
+      }, delay);
     });
+  });
+
+  // Saat kembali lewat tombol Back (bfcache), kartu kembali normal
+  window.addEventListener('pageshow', () => {
+    cards.forEach(card => card.classList.remove('is-leaving'));
   });
 });

@@ -1,0 +1,15 @@
+{
+  "vocab": [
+    { "kanji": "筋肉", "furigana": "きんにく", "arti": "Otot" },
+    { "kanji": "骨", "furigana": "ほね", "arti": "Tulang" },
+    { "kanji": "関節", "furigana": "かんせつ", "arti": "Sendi" },
+    { "kanji": "心臓", "furigana": "しんぞう", "arti": "Jantung" },
+    { "kanji": "血液", "furigana": "けつえき", "arti": "Darah" },
+    { "kanji": "血管", "furigana": "けっかん", "arti": "Pembuluh darah" },
+    { "kanji": "胃", "furigana": "い", "arti": "Lambung" }
+  ],
+  "dokkai": {
+    "title": "健康チェックと体調についての会話",
+    "text": "スタッフ：「山田さん、毎日の健康チェックをしましょう。まず血圧を測りますね。<span class=\"kaigo-target-kw\"><ruby>心臓<rt>しんぞう</rt></ruby></span>から全身へ<span class=\"kaigo-target-kw\"><ruby>血液<rt>けつえき</rt></ruby></span>がしっかり流れているか、<span class=\"kaigo-target-kw\"><ruby>血管<rt>けっかん</rt></ruby></span>の状態を確認します。」<br><br>山田さん：「はい、お願いします。最近、朝起きると手足の<span class=\"kaigo-target-kw\"><ruby>関節<rt>かんせつ</rt></ruby></span>が少し硬く感じるのよ。」<br><br>スタッフ：「体が冷えると硬くなりやすいですね。無理に動かさず、温めてから動かしましょう。<span class=\"kaigo-target-kw\"><ruby>骨<rt>ほね</rt></ruby></span>や<span class=\"kaigo-target-kw\"><ruby>筋肉<rt>きんにく</rt></ruby></span>に痛みはありませんか。」<br><br>山田さん：「特に強い痛みはないけれど、食後に少し<span class=\"kaigo-target-kw\"><ruby>胃<rt>い</rt></ruby></span>が重い感じがするわ。」<br><br>スタッフ：「わかりました。消化の良い温かい食事を用意しますね。血圧も問題ありませんでしたよ。」<br><br>山田さん：「教えてくれて安心したわ。ありがとう。」"
+  }
+}

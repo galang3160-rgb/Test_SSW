@@ -1,22 +1,19 @@
-[
-  { "kanji": "目", "furigana": "め", "arti": "Mata" },
-  { "kanji": "耳", "furigana": "みみ", "arti": "Telinga" },
-  { "kanji": "頬", "furigana": "ほほ", "arti": "Pipi" },
-  { "kanji": "唇", "furigana": "くちびる", "arti": "Bibir" },
-  { "kanji": "喉", "furigana": "のど", "arti": "Tenggorokan" },
-  { "kanji": "手", "furigana": "て", "arti": "Tangan" },
-  { "kanji": "指", "furigana": "ゆび", "arti": "Jari" },
-  { "kanji": "爪", "furigana": "つめ", "arti": "Kuku" },
-  { "kanji": "手の甲", "furigana": "てのこう", "arti": "Punggung tangan" },
-  { "kanji": "手首", "furigana": "てくび", "arti": "Pergelangan tangan" },
-  { "kanji": "手のひら", "furigana": "てのひら", "arti": "Telapak tangan" },
-  { "kanji": "親指", "furigana": "おやゆび", "arti": "Ibu jari" },
-  { "kanji": "人差し指", "furigana": "ひとさしゆび", "arti": "Jari telunjuk" },
-  { "kanji": "中指", "furigana": "なかゆび", "arti": "Jari tengah" },
-  { "kanji": "薬指", "furigana": "くすりゆび", "arti": "Jari manis" },
-  { "kanji": "小指", "furigana": "こゆび", "arti": "Jari kelingking" },
-  { "kanji": "太もも", "furigana": "ふともも", "arti": "Paha" },
-  { "kanji": "ふくらはぎ", "furigana": "ふくらはぎ", "arti": "Betis" },
-  { "kanji": "足首", "furigana": "あしくび", "arti": "Pergelangan kaki" },
-  { "kanji": "膝", "furigana": "ひざ", "arti": "Lutut" }
-]
+{
+  "vocab": [
+    { "kanji": "手", "furigana": "て", "arti": "Tangan" },
+    { "kanji": "指", "furigana": "ゆび", "arti": "Jari" },
+    { "kanji": "爪", "furigana": "つめ", "arti": "Kuku" },
+    { "kanji": "手の甲", "furigana": "てのこう", "arti": "Punggung tangan" },
+    { "kanji": "手首", "furigana": "てくび", "arti": "Pergelangan tangan" },
+    { "kanji": "手のひら", "furigana": "てのひら", "arti": "Telapak tangan" },
+    { "kanji": "親指", "furigana": "おやゆび", "arti": "Ibu jari" },
+    { "kanji": "人差し指", "furigana": "ひとさしゆび", "arti": "Jari telunjuk" },
+    { "kanji": "中指", "furigana": "なかゆび", "arti": "Jari tengah" },
+    { "kanji": "薬指", "furigana": "くすりゆび", "arti": "Jari manis" },
+    { "kanji": "小指", "furigana": "こゆび", "arti": "Jari kelingking" }
+  ],
+  "dokkai": {
+    "title": "手と指のケアについての会話",
+    "text": "スタッフ：「山田さん、お風呂のあとに<span class=\"kaigo-target-kw\"><ruby>手<rt>て</rt></ruby></span>のケアをしましょう。<span class=\"kaigo-target-kw\"><ruby>手首<rt>てくび</rt></ruby></span>を動かしても痛くありませんか。」<br><br>山田さん：「大丈夫ですよ。でも、乾燥していて<span class=\"kaigo-target-kw\"><ruby>手の甲<rt>てのこう</rt></ruby></span>が少しカサカサしています。」<br><br>スタッフ：「では、クリームを塗りましょう。<span class=\"kaigo-target-kw\"><ruby>手のひら<rt>てのひら</rt></ruby></span>を上に向けて、ゆっくり広げてくださいね。」<br><br>山田さん：「こうかしら。<span class=\"kaigo-target-kw\"><ruby>指<rt>ゆび</rt></ruby></span>も一本ずつ塗ってくれると嬉しいです。」<br><br>スタッフ：「もちろんです。まず<span class=\"kaigo-target-kw\"><ruby>親指<rt>おやゆび</rt></ruby></span>と<span class=\"kaigo-target-kw\"><ruby>人差し指<rt>ひとさしゆび</rt></ruby></span>、次に<span class=\"kaigo-target-kw\"><ruby>中指<rt>なかゆび</rt></ruby></span>と<span class=\"kaigo-target-kw\"><ruby>薬指<rt>くすりゆび</rt></ruby></span>、最後に<span class=\"kaigo-target-kw\"><ruby>小指<rt>こゆび</rt></ruby></span>までしっかり塗りますね。あ、<span class=\"kaigo-target-kw\"><ruby>爪<rt>つめ</rt></ruby></span>が少し伸びていますから、あとで短く切りましょう。」<br><br>山田さん：「気づいてくれてありがとう。いつも助かります。」"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "vocab": [
+    { "kanji": "自己紹介", "furigana": "じこしょうかい", "arti": "Perkenalan diri" },
+    { "kanji": "起床", "furigana": "きしょう", "arti": "Bangun tidur" },
+    { "kanji": "就寝", "furigana": "しゅうしん", "arti": "Tidur / istirahat malam" },
+    { "kanji": "訪問", "furigana": "ほうもん", "arti": "Kunjungan" },
+    { "kanji": "面会", "furigana": "めんかい", "arti": "Besuk / bertemu tamu" },
+    { "kanji": "戸", "furigana": "と", "arti": "Pintu geser / pintu" },
+    { "kanji": "窓", "furigana": "まど", "arti": "Jendela" },
+    { "kanji": "網戸", "furigana": "あみど", "arti": "Pintu kawat nyamuk / kasa nyamuk" },
+    { "kanji": "電気", "furigana": "でんき", "arti": "Lampu / listrik" },
+    { "kanji": "カーテン", "furigana": "かーてん", "arti": "Tirai / gorden" },
+    { "kanji": "テレビ", "furigana": "てれび", "arti": "Televisi" },
+    { "kanji": "携帯電話", "furigana": "けいたいでんわ", "arti": "Telepon genggam / HP" },
+    { "kanji": "タンス", "furigana": "たんす", "arti": "Lemari laci pakaian" },
+    { "kanji": "居室", "furigana": "きょしつ", "arti": "Kamar tidur / ruang huni" },
+    { "kanji": "ごみ箱", "furigana": "ごみばこ", "arti": "Tempat sampah" },
+    { "kanji": "洗濯機", "furigana": "せんたくき", "arti": "Mesin cuci" },
+    { "kanji": "乾燥機", "furigana": "かんそうき", "arti": "Mesin pengering" },
+    { "kanji": "ティッシュペーパー", "furigana": "てぃっしゅぺーぱー", "arti": "Tisu" },
+    { "kanji": "洗剤", "furigana": "せんざい", "arti": "Detergen" },
+    { "kanji": "水道", "furigana": "すいどう", "arti": "Air keran / ledeng" },
+    { "kanji": "ぞうきん", "furigana": "ぞうきん", "arti": "Kain lap pembersih" },
+    { "kanji": "バケツ", "furigana": "ばけつ", "arti": "Ember" },
+    { "kanji": "湯たんぽ", "furigana": "ゆたんぽ", "arti": "Bantal pemanas / botol kompres air panas" },
+    { "kanji": "新聞", "furigana": "しんぶん", "arti": "Koran" },
+    { "kanji": "写真", "furigana": "しゃしん", "arti": "Foto" },
+    { "kanji": "ペーパータオル", "furigana": "ぺーぱーたおる", "arti": "Tisu pengering tangan" }
+  ],
+  "dokkai": {
+    "title": "居室での日常会話と環境整備",
+    "text": "スタッフ：「失礼します。<span class=\"kaigo-target-kw\"><ruby>居室<rt>きょしつ</rt></ruby></span>の<span class=\"kaigo-target-kw\"><ruby>戸<rt>と</rt></ruby></span>を開けますね。山田さん、おはようございます。<span class=\"kaigo-target-kw\"><ruby>起床<rt>きしょう</rt></ruby></span>のお時間ですよ。」<br><br>山田さん：「おはようございます。よく眠れましたよ。」<br><br>スタッフ：「よかったです。<span class=\"kaigo-target-kw\"><ruby>カーテン<rt>かーてん</rt></ruby></span>を開けて<span class=\"kaigo-target-kw\"><ruby>電気<rt>でんき</rt></ruby></span>をつけますね。空気の入れ替えのため、<span class=\"kaigo-target-kw\"><ruby>網戸<rt>あみど</rt></ruby></span>にして<span class=\"kaigo-target-kw\"><ruby>窓<rt>まど</rt></ruby></span>を少し開けます。」<br><br>山田さん：「ありがとう。<span class=\"kaigo-target-kw\"><ruby>タンス<rt>たんす</rt></ruby></span>の上の<span class=\"kaigo-target-kw\"><ruby>携帯電話<rt>けいたいでんわ</rt></ruby></span>と<span class=\"kaigo-target-kw\"><ruby>新聞<rt>しんぶん</rt></ruby></span>を取ってもらえるかしら。飾ってある家族の<span class=\"kaigo-target-kw\"><ruby>写真<rt>しゃしん</rt></ruby></span>もきれいに見たいわ。」<br><br>スタッフ：「はい、どうぞ。今日はご家族の<span class=\"kaigo-target-kw\"><ruby>訪問<rt>ほうもん</rt></ruby></span>があって、午後から<span class=\"kaigo-target-kw\"><ruby>面会<rt>めんかい</rt></ruby></span>ですね。今のうちに部屋をきれいにしましょう。<span class=\"kaigo-target-kw\"><ruby>水道<rt>すいどう</rt></ruby></span>の水を入れた<span class=\"kaigo-target-kw\"><ruby>バケツ<rt>ばけつ</rt></ruby></span>と<span class=\"kaigo-target-kw\"><ruby>ぞうきん<rt>ぞうきん</rt></ruby></span>でテーブルを拭きますね。使った<span class=\"kaigo-target-kw\"><ruby>ティッシュペーパー<rt>てぃっしゅぺーぱー</rt></ruby></span>は<span class=\"kaigo-target-kw\"><ruby>ごみ箱<rt>ごみばこ</rt></ruby></span>へ捨てておきます。」<br><br>山田さん：「助かるわ。手洗いのあとに使う<span class=\"kaigo-target-kw\"><ruby>ペーパータオル<rt>ぺーぱーたおる</rt></ruby></span>も足しておいてくれる？」<br><br>スタッフ：「わかりました。汚れた服は<span class=\"kaigo-target-kw\"><ruby>洗剤<rt>せんざい</rt></ruby></span>を入れて<span class=\"kaigo-target-kw\"><ruby>洗濯機<rt>せんたくき</rt></ruby></span>で洗い、<span class=\"kaigo-target-kw\"><ruby>乾燥機<rt>かんそうき</rt></ruby></span>にかけておきますね。そういえば、今日から新しいスタッフが入ったので、あとで<span class=\"kaigo-target-kw\"><ruby>自己紹介<rt>じこしょうかい</rt></ruby></span>に伺います。」<br><br>山田さん：「新しい人にも会えるのね。それまでは<span class=\"kaigo-target-kw\"><ruby>テレビ<rt>てれび</rt></ruby></span>を見て待っているわ。」<br><br>スタッフ：「はい。足元が冷えるようでしたら<span class=\"kaigo-target-kw\"><ruby>湯たんぽ<rt>ゆたんぽ</rt></ruby></span>をお持ちしますね。夜の<span class=\"kaigo-target-kw\"><ruby>就寝<rt>しゅうしん</rt></ruby></span>まで、何かあればいつでもお呼びください。」"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "vocab": [
+    { "kanji": "テーブル", "furigana": "てーぶる", "arti": "Meja" },
+    { "kanji": "いす", "furigana": "いす", "arti": "Kursi" },
+    { "kanji": "茶碗", "furigana": "ちゃわん", "arti": "Mangkuk nasi" },
+    { "kanji": "すいのみ", "furigana": "すいのみ", "arti": "Cangkir paruh / cangkir minum berujung sedot" },
+    { "kanji": "お椀", "furigana": "おわん", "arti": "Mangkuk sup" },
+    { "kanji": "カップ", "furigana": "かっぷ", "arti": "Cangkir / mug" },
+    { "kanji": "コップ", "furigana": "こっぷ", "arti": "Gelas" },
+    { "kanji": "ゆのみ", "furigana": "ゆのみ", "arti": "Cangkir teh jepang" },
+    { "kanji": "皿", "furigana": "さら", "arti": "Piring" },
+    { "kanji": "箸", "furigana": "はし", "arti": "Sumpit" },
+    { "kanji": "箸置き", "furigana": "はしおき", "arti": "Tatakan sumpit" },
+    { "kanji": "スプーン", "furigana": "すぷーん", "arti": "Sendok" },
+    { "kanji": "フォーク", "furigana": "ふぉーく", "arti": "Garpu" }
+  ],
+  "dokkai": {
+    "title": "食堂での食事の準備についての会話",
+    "text": "スタッフ：「山田さん、食堂のこちらの<span class=\"kaigo-target-kw\"><ruby>いす<rt>いす</rt></ruby></span>に座ってください。<span class=\"kaigo-target-kw\"><ruby>テーブル<rt>てーぶる</rt></ruby></span>の上にごはんを用意しますね。」<br><br>山田さん：「ありがとう。今日のお昼ごはんは何かしら。」<br><br>スタッフ：「焼き魚と野菜の煮物ですよ。こちらの大きめの<span class=\"kaigo-target-kw\"><ruby>皿<rt>さら</rt></ruby></span>におかずが入っています。<span class=\"kaigo-target-kw\"><ruby>茶碗<rt>ちゃわん</rt></ruby></span>にごはん、<span class=\"kaigo-target-kw\"><ruby>お椀<rt>おわん</rt></ruby></span>には温かい味噌汁を入れました。」<br><br>山田さん：「おいしそうね。でも、最近手が少し震えて<span class=\"kaigo-target-kw\"><ruby>箸<rt>はし</rt></ruby></span>がうまく使えないのよ。」<br><br>スタッフ：「では、<span class=\"kaigo-target-kw\"><ruby>箸<rt>はし</rt></ruby></span>は<span class=\"kaigo-target-kw\"><ruby>箸置き<rt>はしおき</rt></ruby></span>に置いておきますね。代わりにこちらの<span class=\"kaigo-target-kw\"><ruby>スプーン<rt>すぷーん</rt></ruby></span>と<span class=\"kaigo-target-kw\"><ruby>フォーク<rt>ふぉーく</rt></ruby></span>を使いましょう。」<br><br>山田さん：「そうしてくれると助かるわ。お茶ももらえるかしら。」<br><br>スタッフ：「はい。<span class=\"kaigo-target-kw\"><ruby>ゆのみ<rt>ゆのみ</rt></ruby></span>に温かい緑茶が入っていますよ。お水は<span class=\"kaigo-target-kw\"><ruby>コップ<rt>こっぷ</rt></ruby></span>に入れておきますね。もし飲みにくければ、持ち手がある<span class=\"kaigo-target-kw\"><ruby>カップ<rt>かっぷ</rt></ruby></span>や<span class=\"kaigo-target-kw\"><ruby>すいのみ<rt>すいのみ</rt></ruby></span>も使えますよ。」<br><br>山田さん：「この<span class=\"kaigo-target-kw\"><ruby>ゆのみ<rt>ゆのみ</rt></ruby></span>で大丈夫よ。いつも気を使ってくれてありがとう。」"
+  }
+}

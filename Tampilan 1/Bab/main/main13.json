@@ -1,0 +1,32 @@
+{
+  "vocab": [
+    { "kanji": "父", "furigana": "ちち", "arti": "Ayah" },
+    { "kanji": "母", "furigana": "はは", "arti": "Ibu" },
+    { "kanji": "夫", "furigana": "おっと", "arti": "Suami" },
+    { "kanji": "妻", "furigana": "つま", "arti": "Istri" },
+    { "kanji": "息子", "furigana": "むすこ", "arti": "Anak laki-laki" },
+    { "kanji": "娘", "furigana": "むすめ", "arti": "Anak perempuan" },
+    { "kanji": "孫", "furigana": "まご", "arti": "Cucu" },
+    { "kanji": "兄", "furigana": "あに", "arti": "Kakak laki-laki" },
+    { "kanji": "弟", "furigana": "おとうと", "arti": "Adik laki-laki" },
+    { "kanji": "姉", "furigana": "あね", "arti": "Kakak perempuan" },
+    { "kanji": "妹", "furigana": "いもうと", "arti": "Adik perempuan" },
+    { "kanji": "医師", "furigana": "いし", "arti": "Dokter" },
+    { "kanji": "看護師", "furigana": "かんごし", "arti": "Perawat" },
+    { "kanji": "介護福祉士", "furigana": "かいごふくしし", "arti": "Careworker bersertifikat" },
+    { "kanji": "介護職員", "furigana": "かいごしょくいん", "arti": "Staf perawat lansia" },
+    { "kanji": "理学療法士（PT）", "furigana": "りがくりょうほうし（ぴーてぃー）", "arti": "Fisioterapis (PT)" },
+    { "kanji": "作業療法士（OT）", "furigana": "さぎょうりょうほうし（おーてぃー）", "arti": "Terapis okupasi (OT)" },
+    { "kanji": "言語聴覚士（ST）", "furigana": "げんごちょうかくし（えすてぃー）", "arti": "Terapis wicara (ST)" },
+    { "kanji": "ケアマネジャー（介護支援専門員）", "furigana": "けあまねじゃー（かいごしえんせんもんいん）", "arti": "Care manager" },
+    { "kanji": "栄養士", "furigana": "えいようし", "arti": "Ahli gizi" },
+    { "kanji": "相談員", "furigana": "そうだんいん", "arti": "Konselor / pekerja sosial" },
+    { "kanji": "利用者", "furigana": "りようしゃ", "arti": "Pengguna layanan" },
+    { "kanji": "患者", "furigana": "かんじゃ", "arti": "Pasien" },
+    { "kanji": "調理師", "furigana": "ちょうりし", "arti": "Juru masak / koki" }
+  ],
+  "dokkai": {
+    "title": "施設での生活と家族についての会話",
+    "text": "スタッフ：「山田さん、こんにちは。<span class=\"kaigo-target-kw\"><ruby>介護職員<rt>かいごしょくいん</rt></ruby></span>と<span class=\"kaigo-target-kw\"><ruby>介護福祉士<rt>かいごふくしし</rt></ruby></span>で今日のケアプランを共有しましたよ。お体の調子はいかがですか。」<br><br>山田さん：「順調ですよ。施設では<span class=\"kaigo-target-kw\"><ruby>利用者<rt>りようしゃ</rt></ruby></span>の私をみんなが支えてくれるから、病院にいた<span class=\"kaigo-target-kw\"><ruby>患者<rt>かんじゃ</rt></ruby></span>の頃よりとても元気に過ごせています。」<br><br>スタッフ：「そう言っていただけて嬉しいです。午前中は<span class=\"kaigo-target-kw\"><ruby>医師<rt>いし</rt></ruby></span>の回診と<span class=\"kaigo-target-kw\"><ruby>看護師<rt>かんごし</rt></ruby></span>の健康チェックがあります。午後は<span class=\"kaigo-target-kw\"><ruby>理学療法士（PT）<rt>りがくりょうほうし（ぴーてぃー）</rt></ruby></span>と歩行練習、<span class=\"kaigo-target-kw\"><ruby>作業療法士（OT）<rt>さぎょうりょうほうし（おーてぃー）</rt></ruby></span>と手のリハビリを予定していますよ。飲み込みの練習は<span class=\"kaigo-target-kw\"><ruby>言語聴覚士（ST）<rt>げんごちょうかくし（えすてぃー）</rt></ruby></span>が担当します。」<br><br>山田さん：「専門の先生方が多くて頼もしいわね。<span class=\"kaigo-target-kw\"><ruby>調理師<rt>ちょうりし</rt></ruby></span>さんが作るごはんも美味しくて、<span class=\"kaigo-target-kw\"><ruby>栄養士<rt>えいようし</rt></ruby></span>さんが考えてくれた献立も楽しみにしているの。」<br><br>スタッフ：「よかったです。ところで、今日の午後はお部屋に<span class=\"kaigo-target-kw\"><ruby>相談員<rt>そうだんいん</rt></ruby></span>と<span class=\"kaigo-target-kw\"><ruby>ケアマネジャー（介護支援専門員）<rt>けあまねじゃー（かいごしえんせんもんいん）</rt></ruby></span>が来て、ご家族と一緒にこれからの生活について相談しますね。」<br><br>山田さん：「家族がみんな来てくれるのかしら。昔は私の<span class=\"kaigo-target-kw\"><ruby>父<rt>ちち</rt></ruby></span>や<span class=\"kaigo-target-kw\"><ruby>母<rt>はは</rt></ruby></span>、それに<span class=\"kaigo-target-kw\"><ruby>兄<rt>あに</rt></ruby></span>や<span class=\"kaigo-target-kw\"><ruby>弟<rt>おとうと</rt></ruby></span>、<span class=\"kaigo-target-kw\"><ruby>姉<rt>あね</rt></ruby></span>や<span class=\"kaigo-target-kw\"><ruby>妹<rt>いもうと</rt></ruby></span>も一緒に賑やかに暮らしていたのよ。天国の<span class=\"kaigo-target-kw\"><ruby>夫<rt>おっと</rt></ruby></span>も、残された<span class=\"kaigo-target-kw\"><ruby>妻<rt>つま</rt></ruby></span>の私が元気にしているか見守ってくれていると思うわ。」<br><br>スタッフ：「温かいご家族ですね。今日はどなたが面会に来られますか。」<br><br>山田さん：「うちの<span class=\"kaigo-target-kw\"><ruby>息子<rt>むすこ</rt></ruby></span>と<span class=\"kaigo-target-kw\"><ruby>娘<rt>むすめ</rt></ruby></span>、それに可愛い<span class=\"kaigo-target-kw\"><ruby>孫<rt>まご</rt></ruby></span>も顔を見せてくれると言っていたわ。」<br><br>スタッフ：「それは楽しみですね。ご家族が到着されたらすぐにご案内しますね。」"
+  }
+}

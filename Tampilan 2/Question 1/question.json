@@ -1,362 +1,235 @@
 [
   {
     "id": 1,
-    "instruction": "（  ）に入れるのに最もよいものを、A・B・C・Dから一つ選んでください。",
-    "question": "体温を測るときは、体温計を（  ）にはさんでください。",
-    "options": [
-      "わきの下",
-      "ひじ",
-      "背中",
-      "おへそ"
-    ],
-    "correct": 0
+    "instruction": "問題 文中の（ ）に入れるのに最もよいものを一つ選んでください。",
+    "passage": "",
+    "question": "<ruby>体温<rt>たいおん</rt></ruby> を <ruby>測<rt>はか</rt></ruby>る とき は 、 <ruby>体温計<rt>たいおんけい</rt></ruby> を （ ） に はさんで ください 。",
+    "options": ["脇の下", "肘", "背中", "臍"],
+    "correct": 0,
+    "category": "バイタル測定",
+    "difficulty": "A2",
+    "translation": "Saat mengukur suhu tubuh, jepitlah termometer di bawah ketiak.",
+    "explanation": "Termometer aksila dijepit di ketiak (脇の下).",
+    "vocabulary": [
+      { "word": "脇の下", "meaning": "Bawah ketiak" },
+      { "word": "体温計", "meaning": "Termometer" }
+    ]
   },
   {
     "id": 2,
-    "instruction": "下線の言葉はひらがなでどう書きますか。A・B・C・Dから一つ選んでください。",
-    "question": "利用者の<u>膝</u>に痛みがないか確認します。",
-    "options": [
-      "ひじ",
-      "ひざ",
-      "かた",
-      "こし"
-    ],
-    "correct": 1
+    "instruction": "問題 下線の言葉と同じ部位を指す漢字を一つ選んでください。",
+    "passage": "",
+    "question": "<ruby>利用<rt>りよう</rt></ruby><ruby>者<rt>しゃ</rt></ruby> の <u>おでこ</u> を <ruby>触<rt>さわ</rt></ruby>って 、 <ruby>熱<rt>ねつ</rt></ruby> が ない か <ruby>確<rt>たし</rt></ruby>かめました 。",
+    "options": ["顎", "額", "首", "頬"],
+    "correct": 1,
+    "category": "身体部位",
+    "difficulty": "A2",
+    "translation": "Menyentuh dahi lansia untuk memastikan apakah ada demam.",
+    "explanation": "Istilah おでこ sama artinya dengan dahi (額).",
+    "vocabulary": [
+      { "word": "額", "meaning": "Dahi" },
+      { "word": "触る", "meaning": "Menyentuh" }
+    ]
   },
   {
     "id": 3,
-    "instruction": "（  ）に入れるのに最もよいものを、A・B・C・Dから一つ選んでください。",
-    "question": "食事のあとは、きれいに（  ）をみがきましょう。",
-    "options": [
-      "爪",
-      "歯",
-      "眉",
-      "耳"
-    ],
-    "correct": 1
+    "instruction": "問題 文中の（ ）に入る適切なものを一つ選んでください。",
+    "passage": "",
+    "question": "<ruby>食後<rt>しょくご</rt></ruby> は <ruby>清潔<rt>せいけつ</rt></ruby> を <ruby>保<rt>たも</rt></ruby>つ ため に 、 歯ブラシ で （ ） を みがき ましょう 。",
+    "options": ["眉毛", "臍", "歯", "睫毛"],
+    "correct": 2,
+    "category": "口腔ケア",
+    "difficulty": "A2",
+    "translation": "Setelah makan, gosoklah gigi dengan sikat gigi untuk menjaga kebersihan.",
+    "explanation": "Bagian yang dibersihkan dengan sikat gigi (歯ブラシ) adalah gigi (歯).",
+    "vocabulary": [
+      { "word": "歯", "meaning": "Gigi" }
+    ]
   },
   {
     "id": 4,
-    "instruction": "下線の言葉の漢字はどれですか。A・B・C・Dから一つ選んでください。",
-    "question": "ベッドから起き上がるとき、<u>こし</u>を痛めないように注意してください。",
-    "options": [
-      "腕",
-      "肩",
-      "腰",
-      "腹"
-    ],
-    "correct": 2
+    "instruction": "問題 正しい組み合わせになる言葉を一つ選んでください。",
+    "passage": "",
+    "question": "<ruby>朝<rt>あさ</rt></ruby> の <ruby>整容<rt>せいよう</rt></ruby> で 、 くし を <ruby>使<rt>つか</rt></ruby>って きれい に （ ） を ととのえ ました 。",
+    "options": ["肘", "鼻", "尻", "髪の毛"],
+    "correct": 3,
+    "category": "整容介助",
+    "difficulty": "A2",
+    "translation": "Saat perawatan diri pagi hari, merapikan rambut hingga rapi menggunakan sisir.",
+    "explanation": "Sisir (くし) digunakan untuk merapikan rambut (髪の毛).",
+    "vocabulary": [
+      { "word": "髪の毛", "meaning": "Rambut" },
+      { "word": "整容", "meaning": "Perawatan diri" }
+    ]
   },
   {
     "id": 5,
-    "instruction": "（  ）に入れるのに最もよいものを、A・B・C・Dから一つ選んでください。",
-    "question": "歩くときに転ばないよう、（  ）をしっかり上げて歩いてください。",
-    "options": [
-      "つま先",
-      "へそ",
-      "まつ毛",
-      "まゆ毛"
-    ],
-    "correct": 0
+    "instruction": "問題 空欄（ ）に入る最も適した言葉を選びなさい。",
+    "passage": "",
+    "question": "<ruby>深呼吸<rt>しんこきゅう</rt></ruby> を する とき は 、 （ ） を <ruby>大<rt>おお</rt></ruby>きく <ruby>広<rt>ひろ</rt></ruby>げて ください 。",
+    "options": ["腰", "胸", "尻", "臍"],
+    "correct": 1,
+    "category": "健康管理",
+    "difficulty": "A2",
+    "translation": "Saat bernapas dalam-dalam, kembangkan dada lebar-lebar.",
+    "explanation": "Saat menarik napas dalam (深呼吸), bagian dada (胸) dibusungkan.",
+    "vocabulary": [
+      { "word": "胸", "meaning": "Dada" }
+    ]
   },
   {
     "id": 6,
-    "instruction": "下線の言葉はひらがなでどう書きますか。A・B・C・Dから一つ選んでください。",
-    "question": "血圧を測るので、<u>腕</u>を出してください。",
-    "options": [
-      "あし",
-      "ゆび",
-      "うで",
-      "くび"
-    ],
-    "correct": 2
+    "instruction": "問題 （ ）に入れるのに最もよいものを一つ選んでください。",
+    "passage": "",
+    "question": "<ruby>食道<rt>しょくどう</rt></ruby> に <ruby>食<rt>た</rt></ruby>べ<ruby>物<rt>もの</rt></ruby> が <ruby>詰<rt>つ</rt></ruby>まらない よう 、 （ ） を <ruby>引<rt>ひ</rt></ruby>いて <ruby>食<rt>た</rt></ruby>べ ます 。",
+    "options": ["顎", "肩", "背中", "鼻"],
+    "correct": 0,
+    "category": "誤嚥予防",
+    "difficulty": "A2",
+    "translation": "Agar makanan tidak tersangkut di kerongkongan, makanlah dengan posisi menarik dagu ke bawah.",
+    "explanation": "Posisi standar mencegah tersedak adalah 顎を引く (menarik dagu).",
+    "vocabulary": [
+      { "word": "顎", "meaning": "Dagu" }
+    ]
   },
   {
     "id": 7,
-    "instruction": "（  ）に入れるのに最もよいものを、A・B・C・Dから一つ選んでください。",
-    "question": "入浴のあと、清潔なタオルで（  ）をていねいに拭きました。",
-    "options": [
-      "背中",
-      "喉",
-      "唇",
-      "歯"
-    ],
-    "correct": 0
+    "instruction": "問題 文中の空欄（ ）に入る部位はどれですか。",
+    "passage": "",
+    "question": "<ruby>乾燥<rt>かんそう</rt></ruby> を <ruby>防<rt>ふせ</rt></ruby>ぐ ため 、 リップクリーム を （ ） に <ruby>塗<rt>ぬ</rt></ruby>り ました 。",
+    "options": ["首", "肩", "口", "腕"],
+    "correct": 2,
+    "category": "整容介助",
+    "difficulty": "A2",
+    "translation": "Untuk mencegah kekeringan, mengoleskan pelembap bibir pada mulut/bibir.",
+    "explanation": "Lip balm dioleskan pada mulut/bibir (口).",
+    "vocabulary": [
+      { "word": "口", "meaning": "Mulut" }
+    ]
   },
   {
     "id": 8,
-    "instruction": "下線の言葉の漢字はどれですか。A・B・C・Dから一つ選んでください。",
-    "question": "長時間の介助で、<u>かた</u>がこってしまいました。",
-    "options": [
-      "胸",
-      "肩",
-      "首",
-      "頭"
-    ],
-    "correct": 1
+    "instruction": "問題 空欄（ ）に当てはまる言葉を一つ選んでください。",
+    "passage": "",
+    "question": "<ruby>目<rt>め</rt></ruby> に ゴミ や ホコリ が <ruby>入<rt>はい</rt></ruby>らない ように 、 （ ） が <ruby>守<rt>まも</rt></ruby>って います 。",
+    "options": ["肘", "臍", "歯", "睫毛"],
+    "correct": 3,
+    "category": "身体機能",
+    "difficulty": "A2",
+    "translation": "Bulu mata melindungi agar kotoran dan debu tidak masuk ke mata.",
+    "explanation": "Rambut halus pelindung mata dari debu adalah bulu mata (睫毛).",
+    "vocabulary": [
+      { "word": "睫毛", "meaning": "Bulu mata" }
+    ]
   },
   {
     "id": 9,
-    "instruction": "（  ）に入れるのに最もよいものを、A・B・C・Dから一つ選んでください。",
-    "question": "お茶を飲むときに（  ）につかえないよう、ゆっくり飲んでください。",
-    "options": [
-      "ひたい",
-      "のど",
-      "かかと",
-      "あご"
-    ],
-    "correct": 1
+    "instruction": "問題 文の意味に最も合う言葉を一つ選んでください。",
+    "passage": "",
+    "question": "<ruby>長<rt>なが</rt></ruby>い <ruby>時間<rt>じかん</rt></ruby> パソコン を <ruby>使<rt>つか</rt></ruby>った ので 、 （ ） が こって しまい ました 。",
+    "options": ["臍", "肩", "尻", "顎"],
+    "correct": 1,
+    "category": "身体状態",
+    "difficulty": "A2",
+    "translation": "Karena menggunakan komputer dalam waktu lama, bahu menjadi pegal/kaku.",
+    "explanation": "Bahu pegal/kaku = 肩がこる.",
+    "vocabulary": [
+      { "word": "肩", "meaning": "Bahu" }
+    ]
   },
   {
     "id": 10,
-    "instruction": "下線の言葉はひらがなでどう書きますか。A・B・C・Dから一つ選んでください。",
-    "question": "感染を防ぐために、短い長さに<u>爪</u>を切ります。",
-    "options": [
-      "ゆび",
-      "つめ",
-      "てのこう",
-      "てのひら"
-    ],
-    "correct": 1
+    "instruction": "問題 （ ）に入れるのに最もよいものを一つ選んでください。",
+    "passage": "",
+    "question": "<ruby>鼻水<rt>はなみず</rt></ruby> が 出て いる ので 、 ティッシュ で （ ） を かみ ました 。",
+    "options": ["首", "背中", "鼻", "腹"],
+    "correct": 2,
+    "category": "整容介助",
+    "difficulty": "A2",
+    "translation": "Karena ingus keluar, menyeka hidung dengan tisu.",
+    "explanation": "Ingus dikeluarkan dari hidung (鼻).",
+    "vocabulary": [
+      { "word": "鼻", "meaning": "Hidung" }
+    ]
   },
   {
     "id": 11,
-    "instruction": "（  ）に入れるのに最もよいものを、A・B・C・Dから一つ選んでください。",
-    "question": "靴を履くときは、（  ）をつぶさないように履きましょう。",
-    "options": [
-      "かかと",
-      "ほほ",
-      "肘",
-      "へそ"
-    ],
-    "correct": 0
+    "instruction": "問題 会話を読んで、質問に答えてください。",
+    "passage": "介護職<ruby>かいごしょく<rt></rt></ruby> ： 「 <ruby>佐藤<rt>さとう</rt></ruby>さん 、 トイレ へ <ruby>行<rt>い</rt></ruby>き ましょう 。 私 が （ ） を <ruby>支<rt>ささ</rt></ruby>え ます から 、 ゆっくり <ruby>立<rt>た</rt></ruby>ち<ruby>上<rt>あ</rt></ruby>がって ください ね 。 」 <br> <ruby>佐藤<rt>さとう</rt></ruby>さん ： 「 ありがとう 。 つかまる よ 。 」",
+    "question": "質問 ： 介護職 が <ruby>支<rt>ささ</rt></ruby>える 部分 は どこ です か 。",
+    "options": ["首", "腰", "眉毛", "顎"],
+    "correct": 1,
+    "category": "移動・移乗介助",
+    "difficulty": "A2",
+    "translation": "Staf: 'Pak Sato, ayo kita ke toilet. Saya akan menopang pinggang Anda, silakan berdiri pelan-pelan ya.' / Pak Sato: 'Terima kasih. Saya pegangan ya.' Pertanyaan: Bagian mana yang ditopang staf?",
+    "explanation": "Saat membantu berdiri, bagian tubuh yang ditopang untuk menjaga kestabilan adalah pinggang (腰).",
+    "vocabulary": [
+      { "word": "腰", "meaning": "Pinggang" },
+      { "word": "支える", "meaning": "Menopang / memegang" }
+    ]
   },
   {
     "id": 12,
-    "instruction": "下線の言葉の漢字はどれですか。A・B・C・Dから一つ選んでください。",
-    "question": "深呼吸をするときは、<u>むね</u>を大きく広げてください。",
-    "options": [
-      "胸",
-      "腰",
-      "腹",
-      "尻"
-    ],
-    "correct": 0
+    "instruction": "問題 会話を読んで、質問に答えてください。",
+    "passage": "<ruby>佐藤<rt>さとう</rt></ruby>さん ： 「 介護職<ruby>かいごしょく<rt></rt></ruby>さん 、 <ruby>車<rt>くるま</rt></ruby>いす に <ruby>座<rt>すわ</rt></ruby>って いる と 、 （ ） が <ruby>痛<rt>いた</rt></ruby>い ん です 。 」 <br> 介護職<ruby>かいごしょく<rt></rt></ruby> ： 「 そう です か 。 クッション の <ruby>位置<rt>いち</rt></ruby> を <ruby>直<rt>なお</rt></ruby>し ます ね 。 <ruby>奥<rt>おく</rt></ruby> まで <ruby>深<rt>ふか</rt></ruby>く <ruby>座<rt>すわ</rt></ruby>り<ruby>直<rt>なお</rt></ruby>し ましょう 。 」",
+    "question": "質問 ： <ruby>佐藤<rt>さとう</rt></ruby>さん は どこ が <ruby>痛<rt>いた</rt></ruby>い と <ruby>言<rt>い</rt></ruby>って い ます か 。",
+    "options": ["額", "肩", "胸", "尻"],
+    "correct": 3,
+    "category": "車いす介助",
+    "difficulty": "A2",
+    "translation": "Pak Sato: 'Staf, kalau duduk di kursi roda, bokong saya sakit.' / Staf: 'Begitu ya. Saya betulkan posisi bantalannya ya. Mari duduk kembali ke bagian dalam.' Pertanyaan: Di mana bagian yang dikatakan sakit oleh Pak Sato?",
+    "explanation": "Rasa sakit saat duduk di kursi roda berada pada bagian pantat/bokong (尻).",
+    "vocabulary": [
+      { "word": "尻", "meaning": "Pantat / bokong" },
+      { "word": "座り直す", "meaning": "Duduk kembali membetulkan posisi" }
+    ]
   },
   {
     "id": 13,
-    "instruction": "（  ）に入れるのに最もよいものを、A・B・C・Dから一つ選んでください。",
-    "question": "洗髪のとき、お湯が（  ）に入らないよう目元をタオルで覆います。",
-    "options": [
-      "目",
-      "手首",
-      "太もも",
-      "足首"
-    ],
-    "correct": 0
+    "instruction": "問題 会話を読んで、質問に答えてください。",
+    "passage": "介護職<ruby>かいごしょく<rt></rt></ruby> ： 「 <ruby>佐藤<rt>さとう</rt></ruby>さん 、 お<ruby>風呂<rt>ふろ</rt></ruby> から <ruby>上<rt>あ</rt></ruby>がり ました ね 。 タオル で （ ） を ふき ます から 、 <ruby>少<rt>すこ</rt></ruby>し <ruby>前<rt>まえ</rt></ruby> を <ruby>向<rt>む</rt></ruby>いて かがんで ください ね 。 」 <br> <ruby>佐藤<rt>さとう</rt></ruby>さん ： 「 はい 、 お<ruby>願<rt>ねが</rt></ruby>い し ます 。 」",
+    "question": "質問 ： 介護職 が タオル で ふく 場所 は どこ です か 。",
+    "options": ["背中", "顎", "鼻", "臍"],
+    "correct": 0,
+    "category": "入浴・清拭介助",
+    "difficulty": "A2",
+    "translation": "Staf: 'Pak Sato, sudah selesai mandinya ya. Saya akan menyeka punggung dengan handuk, silakan membungkuk sedikit ke depan ya.' / Pak Sato: 'Iya, tolong ya.' Pertanyaan: Di mana bagian yang diseka staf dengan handuk?",
+    "explanation": "Posisi membungkuk ke depan (かがむ) memudahkan staf menyeka punggung (背中) setelah mandi.",
+    "vocabulary": [
+      { "word": "背中", "meaning": "Punggung" },
+      { "word": "かがむ", "meaning": "Membungkuk" }
+    ]
   },
   {
     "id": 14,
-    "instruction": "下線の言葉はひらがなでどう書きますか。A・B・C・Dから一つ選んでください。",
-    "question": "マッサージをして、<u>太もも</u>の筋肉をほぐします。",
-    "options": [
-      "てのひら",
-      "ふくらはぎ",
-      "ふともも",
-      "あしのうら"
-    ],
-    "correct": 2
+    "instruction": "問題 会話を読んで、質問に答えてください。",
+    "passage": "介護職<ruby>かいごしょく<rt></rt></ruby> ： 「 <ruby>佐藤<rt>さとう</rt></ruby>さん 、 <ruby>血圧<rt>けつあつ</rt></ruby> を <ruby>測<rt>はか</rt></ruby>り ます ね 。 右 の （ ） を テーブル に のせて ください 。 」 <br> <ruby>佐藤<rt>さとう</rt></ruby>さん ： 「 はい 、 これ で いい です か 。 」 <br> 介護職<ruby>かいごしょく<rt></rt></ruby> ： 「 はい 、 ありがとうございます 。 」",
+    "question": "質問 ： テーブル に のせる 部位 は どこ です か 。",
+    "options": ["首", "背中", "腕", "腹"],
+    "correct": 2,
+    "category": "バイタル測定",
+    "difficulty": "A2",
+    "translation": "Staf: 'Pak Sato, kita ukur tekanan darah ya. Silakan letakkan lengan kanan di atas meja.' / Pak Sato: 'Ya, begini sudah cukup?' / Staf: 'Iya, terima kasih.' Pertanyaan: Bagian mana yang diletakkan di atas meja?",
+    "explanation": "Saat mengukur tensi, lengan (腕) diletakkan di atas meja setinggi jantung.",
+    "vocabulary": [
+      { "word": "腕", "meaning": "Lengan" },
+      { "word": "血圧", "meaning": "Tekanan darah" }
+    ]
   },
   {
     "id": 15,
-    "instruction": "（  ）に入れるのに最もよいものを、A・B・C・Dから一つ選んでください。",
-    "question": "手洗いのときは、指の間だけでなく（  ）もしっかり洗いましょう。",
-    "options": [
-      "手の甲",
-      "まつ毛",
-      "まゆ毛",
-      "あご"
-    ],
-    "correct": 0
-  },
-  {
-    "id": 16,
-    "instruction": "下線の言葉の漢字はどれですか。A・B・C・Dから一つ選んでください。",
-    "question": "熱があるかどうか、<u>あたま</u>を触って確かめました。",
-    "options": [
-      "顔",
-      "首",
-      "頭",
-      "耳"
-    ],
-    "correct": 2
-  },
-  {
-    "id": 17,
-    "instruction": "（  ）に入れるのに最もよいものを、A・B・C・Dから一つ選んでください。",
-    "question": "冬になると乾燥しやすいので、（  ）にリップクリームを塗ります。",
-    "options": [
-      "唇",
-      "膝",
-      "足首",
-      "爪"
-    ],
-    "correct": 0
-  },
-  {
-    "id": 18,
-    "instruction": "下線の言葉はひらがなでどう書きますか。A・B・C・Dから一つ選んでください。",
-    "question": "むくみがないか調べるために、<u>ふくらはぎ</u>を軽く押してみます。",
-    "options": [
-      "ふともも",
-      "ふくらはぎ",
-      "つまさき",
-      "あしくび"
-    ],
-    "correct": 1
-  },
-  {
-    "id": 19,
-    "instruction": "（  ）に入れるのに最もよいものを、A・B・C・Dから一つ選んでください。",
-    "question": "脈拍を測るときは、（  ）の内側に指をあてます。",
-    "options": [
-      "手首",
-      "鼻",
-      "髪の毛",
-      "へそ"
-    ],
-    "correct": 0
-  },
-  {
-    "id": 20,
-    "instruction": "下線の言葉の漢字はどれですか。A・B・C・Dから一つ選んでください。",
-    "question": "食べすぎたせいか、<u>はら</u>が少し痛むそうです。",
-    "options": [
-      "腹",
-      "背",
-      "腰",
-      "尻"
-    ],
-    "correct": 0
-  },
-  {
-    "id": 21,
-    "instruction": "（  ）に入れるのに最もよいものを、A・B・C・Dから一つ選んでください。",
-    "question": "洗顔のあと、蒸しタオルで（  ）全体を優しく拭きました。",
-    "options": [
-      "顔",
-      "足首",
-      "肘",
-      "中指"
-    ],
-    "correct": 0
-  },
-  {
-    "id": 22,
-    "instruction": "下線の言葉はひらがなでどう書きますか。A・B・C・Dから一つ選んでください。",
-    "question": "血中酸素濃度（SpO2）を測るため、<u>人差し指</u>にセンサーをつけます。",
-    "options": [
-      "おやゆび",
-      "ひとさしゆび",
-      "なかゆび",
-      "くすりゆび"
-    ],
-    "correct": 1
-  },
-  {
-    "id": 23,
-    "instruction": "（  ）に入れるのに最もよいものを、A・B・C・Dから一つ選んでください。",
-    "question": "靴下を履かせる前に、（  ）に傷や赤みがないか見ます。",
-    "options": [
-      "足の裏",
-      "耳",
-      "ほほ",
-      "ひたい"
-    ],
-    "correct": 0
-  },
-  {
-    "id": 24,
-    "instruction": "下線の言葉の漢字はどれですか。A・B・C・Dから一つ選んでください。",
-    "question": "補聴器をつけるため、利用者の<u>みみ</u>をきれいに拭きました。",
-    "options": [
-      "目",
-      "口",
-      "鼻",
-      "耳"
-    ],
-    "correct": 3
-  },
-  {
-    "id": 25,
-    "instruction": "（  ）に入れるのに最もよいものを、A・B・C・Dから一つ選んでください。",
-    "question": "車いすに座るときは、（  ）を奥まで深く腰かけてください。",
-    "options": [
-      "尻",
-      "手",
-      "眉",
-      "首"
-    ],
-    "correct": 0
-  },
-  {
-    "id": 26,
-    "instruction": "下線の言葉はひらがなでどう書きますか。A・B・C・Dから一つ選んでください。",
-    "question": "利用者の<u>首</u>に負担がかからないよう、枕の高さを調整します。",
-    "options": [
-      "かた",
-      "くび",
-      "うで",
-      "こし"
-    ],
-    "correct": 1
-  },
-  {
-    "id": 27,
-    "instruction": "（  ）に入れるのに最もよいものを、A・B・C・Dから一つ選んでください。",
-    "question": "朝の整容で、くしを使って（  ）をきれいにとかしました。",
-    "options": [
-      "髪の毛",
-      "足の裏",
-      "ひじ",
-      "小指"
-    ],
-    "correct": 0
-  },
-  {
-    "id": 28,
-    "instruction": "下線の言葉の漢字はどれですか。A・B・C・Dから一つ選んでください。",
-    "question": "利用者の<u>はな</u>から鼻水が出ているので、ティッシュを渡しました。",
-    "options": [
-      "歯",
-      "鼻",
-      "耳",
-      "顔"
-    ],
-    "correct": 1
-  },
-  {
-    "id": 29,
-    "instruction": "（  ）に入れるのに最もよいものを、A・B・C・Dから一つ選んでください。",
-    "question": "手の指の中で一番太くて短い指は（  ）です。",
-    "options": [
-      "小指",
-      "中指",
-      "親指",
-      "薬指"
-    ],
-    "correct": 2
-  },
-  {
-    "id": 30,
-    "instruction": "下線の言葉はひらがなでどう書きますか。A・B・C・Dから一つ選んでください。",
-    "question": "薬を塗るために、（  ）から手の先までまくってください。／利用者の<u>肘</u>を支えます。",
-    "options": [
-      "ひざ",
-      "ひじ",
-      "かかと",
-      "あご"
-    ],
-    "correct": 1
+    "instruction": "問題 会話を読んで、質問に答えてください。",
+    "passage": "<ruby>佐藤<rt>さとう</rt></ruby>さん ： 「 介護職<ruby>かいごしょく<rt></rt></ruby>さん 、 昨日の 夜 から （ ） が ゴロゴロ して 、 痛い ん です 。 」 <br> 介護職<ruby>かいごしょく<rt></rt></ruby> ： 「 大変 です ね 。 トイレ に 行き ます か 。 看護職<ruby>かんごしょく<rt></rt></ruby> にも <ruby>伝<rt>つた</rt></ruby>え ます ね 。 」",
+    "question": "質問 ： <ruby>佐藤<rt>さとう</rt></ruby>さん が 不調 を うったえて いる の は どこ です か 。",
+    "options": ["腹", "首", "肩", "背中"],
+    "correct": 0,
+    "category": "体調確認・観察",
+    "difficulty": "A2",
+    "translation": "Pak Sato: 'Staf, sejak tadi malam perut saya bunyi mules dan sakit.' / Staf: 'Wah tidak nyaman ya. Mau ke toilet? Saya sampaikan juga ke perawat ya.' Pertanyaan: Di mana bagian yang dikeluhkan sakit oleh Pak Sato?",
+    "explanation": "Bunyi bergejolak/mulas (ゴロゴロ) dan keluhan sakit pencernaan dirasakan pada bagian perut (腹).",
+    "vocabulary": [
+      { "word": "腹", "meaning": "Perut" },
+      { "word": "ゴロゴロ", "meaning": "Mules berbunyi" }
+    ]
   }
 ]

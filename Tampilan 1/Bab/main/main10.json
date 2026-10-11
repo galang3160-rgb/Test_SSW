@@ -1,0 +1,32 @@
+{
+  "vocab": [
+    { "kanji": "上着", "furigana": "うわぎ", "arti": "Pakaian luar / jaket / jas" },
+    { "kanji": "シャツ", "furigana": "しゃつ", "arti": "Kemeja" },
+    { "kanji": "セーター", "furigana": "せーたー", "arti": "Sweter" },
+    { "kanji": "パジャマ", "furigana": "ぱじゃま", "arti": "Piyama" },
+    { "kanji": "肌着（丸首シャツ）", "furigana": "はだぎ（まるくびしゃつ）", "arti": "Pakaian dalam (kaos oblong)" },
+    { "kanji": "浴衣", "furigana": "ゆかた", "arti": "Yukata" },
+    { "kanji": "パンツ", "furigana": "ぱんつ", "arti": "Celana dalam" },
+    { "kanji": "靴", "furigana": "くつ", "arti": "Sepatu" },
+    { "kanji": "靴下", "furigana": "くつした", "arti": "Kaus kaki" },
+    { "kanji": "ズボン", "furigana": "ずぼん", "arti": "Celana panjang" },
+    { "kanji": "スカート", "furigana": "すかーと", "arti": "Rok" },
+    { "kanji": "上ばき", "furigana": "うわばき", "arti": "Sepatu dalam ruangan" },
+    { "kanji": "スリッパ", "furigana": "すりっぱ", "arti": "Sandal rumah" },
+    { "kanji": "帽子", "furigana": "ぼうし", "arti": "Topi" },
+    { "kanji": "マフラー", "furigana": "まふらー", "arti": "Syal" },
+    { "kanji": "手袋", "furigana": "てぶくろ", "arti": "Sarung tangan" },
+    { "kanji": "ベルト", "furigana": "べると", "arti": "Ikat pinggang" },
+    { "kanji": "ゴム", "furigana": "ごむ", "arti": "Karet" },
+    { "kanji": "ひも", "furigana": "ひも", "arti": "Tali" },
+    { "kanji": "えり", "furigana": "えり", "arti": "Kerah" },
+    { "kanji": "そで", "furigana": "そで", "arti": "Lengan baju" },
+    { "kanji": "そで口", "furigana": "そでぐち", "arti": "Ujung lengan baju" },
+    { "kanji": "ボタン", "furigana": "ぼたん", "arti": "Kancing" },
+    { "kanji": "ファスナー", "furigana": "ふぁすなー", "arti": "Ritsleting" }
+  ],
+  "dokkai": {
+    "title": "着替えと外出の準備についての会話",
+    "text": "スタッフ：「山田さん、朝の着替えをしましょう。まず<span class=\"kaigo-target-kw\"><ruby>パジャマ<rt>ぱじゃま</rt></ruby></span>を脱ぎますね。<span class=\"kaigo-target-kw\"><ruby>ゴム<rt>ごむ</rt></ruby></span>が入った新しい<span class=\"kaigo-target-kw\"><ruby>パンツ<rt>ぱんつ</rt></ruby></span>と、清潔な<span class=\"kaigo-target-kw\"><ruby>肌着（丸首シャツ）<rt>はだぎ（まるくびしゃつ）</rt></ruby></span>に着替えましょう。」<br><br>山田さん：「ありがとう。今日はお散歩に行くから、動きやすい<span class=\"kaigo-target-kw\"><ruby>ズボン<rt>ずぼん</rt></ruby></span>と<span class=\"kaigo-target-kw\"><ruby>シャツ<rt>しゃつ</rt></ruby></span>を着たいわ。<span class=\"kaigo-target-kw\"><ruby>スカート<rt>すかーと</rt></ruby></span>や<span class=\"kaigo-target-kw\"><ruby>浴衣<rt>ゆかた</rt></ruby></span>はまた今度にするね。」<br><br>スタッフ：「かしこまりました。<span class=\"kaigo-target-kw\"><ruby>シャツ<rt>しゃつ</rt></ruby></span>の<span class=\"kaigo-target-kw\"><ruby>そで<rt>そで</rt></ruby></span>に腕を通しますね。<span class=\"kaigo-target-kw\"><ruby>えり<rt>えり</rt></ruby></span>を整えて、前の<span class=\"kaigo-target-kw\"><ruby>ボタン<rt>ぼたん</rt></ruby></span>をとめましょう。<span class=\"kaigo-target-kw\"><ruby>そで口<rt>そでぐち</rt></ruby></span>がきつくないか確認してくださいね。」<br><br>山田さん：「ちょうどいいわ。<span class=\"kaigo-target-kw\"><ruby>ズボン<rt>ずぼん</rt></ruby></span>の<span class=\"kaigo-target-kw\"><ruby>ひも<rt>ひも</rt></ruby></span>と<span class=\"kaigo-target-kw\"><ruby>ベルト<rt>べると</rt></ruby></span>も締めてもらえるかしら。」<br><br>スタッフ：「はい、お任せください。外は少し肌寒いので、上に<span class=\"kaigo-target-kw\"><ruby>セーター<rt>せーたー</rt></ruby></span>を着て、こちらの<span class=\"kaigo-target-kw\"><ruby>上着<rt>うわぎ</rt></ruby></span>も羽織りましょう。<span class=\"kaigo-target-kw\"><ruby>ファスナー<rt>ふぁすなー</rt></ruby></span>を上まで上げますね。」<br><br>山田さん：「温かくて助かるわ。部屋では<span class=\"kaigo-target-kw\"><ruby>スリッパ<rt>すりっぱ</rt></ruby></span>や<span class=\"kaigo-target-kw\"><ruby>上ばき<rt>うわばき</rt></ruby></span>を履いているけれど、外へ出るときは何を履けばいいかしら。」<br><br>スタッフ：「暖かい<span class=\"kaigo-target-kw\"><ruby>靴下<rt>くつした</rt></ruby></span>を履いてから、外用の歩きやすい<span class=\"kaigo-target-kw\"><ruby>靴<rt>くつ</rt></ruby></span>を履きましょう。風も冷たいですから、首に<span class=\"kaigo-target-kw\"><ruby>マフラー<rt>まふらー</rt></ruby></span>を巻いて、<span class=\"kaigo-target-kw\"><ruby>手袋<rt>てぶくろ</rt></ruby></span>も着けてくださいね。日差しよけに<span class=\"kaigo-target-kw\"><ruby>帽子<rt>ぼうし</rt></ruby></span>もかぶりましょう。」<br><br>山田さん：「しっかり準備してくれたから、安心して外を歩けるわ。ありがとう。」"
+  }
+}

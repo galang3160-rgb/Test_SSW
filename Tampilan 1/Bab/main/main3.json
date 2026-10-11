@@ -1,0 +1,16 @@
+{
+  "vocab": [
+    { "kanji": "太もも", "furigana": "ふともも", "arti": "Paha" },
+    { "kanji": "ふくらはぎ", "furigana": "ふくらはぎ", "arti": "Betis" },
+    { "kanji": "足首", "furigana": "あしくび", "arti": "Pergelangan kaki" },
+    { "kanji": "足の付け根", "furigana": "あしのつけね", "arti": "Pangkal paha" },
+    { "kanji": "膝", "furigana": "ひざ", "arti": "Lutut" },
+    { "kanji": "足の裏", "furigana": "あしのうら", "arti": "Telapak kaki" },
+    { "kanji": "つま先", "furigana": "つまさき", "arti": "Ujung kaki" },
+    { "kanji": "かかと", "furigana": "かかと", "arti": "Tumit" }
+  ],
+  "dokkai": {
+    "title": "足の観察とケアについての会話",
+    "text": "スタッフ：「山田さん、次は足の様子を見ますね。<span class=\"kaigo-target-kw\"><ruby>足の付け根<rt>あしのつけね</rt></ruby></span>から<span class=\"kaigo-target-kw\"><ruby>太もも<rt>ふともも</rt></ruby></span>にかけて、痛いところはありませんか。」<br><br>山田さん：「そこは大丈夫ですが、歩くときに少し<span class=\"kaigo-target-kw\"><ruby>膝<rt>ひざ</rt></ruby></span>が痛むのよ。」<br><br>スタッフ：「無理に曲げないで、足を伸ばしていてくださいね。<span class=\"kaigo-target-kw\"><ruby>ふくらはぎ<rt>ふくらはぎ</rt></ruby></span>が少しむくんでいるので、やさしくマッサージします。<span class=\"kaigo-target-kw\"><ruby>足首<rt>あしくび</rt></ruby></span>をゆっくり回せますか。」<br><br>山田さん：「はい、このくらいなら回せます。温かくて気持ちがいいわ。」<br><br>スタッフ：「よかったです。靴擦れがないか、<span class=\"kaigo-target-kw\"><ruby>かかと<rt>かかと</rt></ruby></span>と<span class=\"kaigo-target-kw\"><ruby>つま先<rt>つまさき</rt></ruby></span>も確認しますね。<span class=\"kaigo-target-kw\"><ruby>足の裏<rt>あしのうら</rt></ruby></span>もしっかり拭いておきます。」<br><br>山田さん：「いつも細かいところまで見てくれてありがとう。」"
+  }
+}

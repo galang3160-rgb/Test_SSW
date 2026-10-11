@@ -6,274 +6,35 @@
   <title>Kosakata SSW Kaigo — Nihonggo Gakkou</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Zen+Kaku+Gothic+New:wght@700;900&family=Zen+Maru+Gothic:wght@700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Zen+Kaku+Gothic+New:wght@700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <style>
-    /* Styling List Pilihan Bab */
-    .module-feed {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-      gap: 16px;
-      width: 100%;
-      max-width: 1000px;
-      margin: 20px auto 40px;
-      padding: 0 16px;
-    }
-    .module-card-btn {
-      background: var(--surface, #ffffff);
-      border: 1.5px solid var(--border, rgba(16, 185, 129, 0.22));
-      border-radius: 18px;
-      padding: 18px 20px;
-      text-decoration: none;
-      color: var(--ink, #112217);
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      cursor: pointer;
-      box-shadow: 0 4px 14px rgba(17, 34, 23, 0.04);
-      transition: all 0.2s ease;
-    }
-    .module-card-btn:hover {
-      border-color: var(--green-primary, #10B981);
-      transform: translateY(-2px);
-      box-shadow: 0 8px 20px rgba(16, 185, 129, 0.12);
-    }
-    .mod-badge {
-      font-size: 0.75rem;
-      font-weight: 800;
-      color: var(--green-primary, #10B981);
-      margin-bottom: 4px;
-      display: block;
-    }
-    .mod-name {
-      font-size: 1.05rem;
-      font-weight: 800;
-    }
-    .mod-arrow {
-      width: 32px;
-      height: 32px;
-      border-radius: 50%;
-      background: rgba(16, 185, 129, 0.08);
-      color: var(--green-primary, #10B981);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-weight: 800;
-    }
-  </style>
 </head>
-<body class="learning-body">
-  <canvas id="mouseTrail"></canvas>
+<body class="home-body theme-blue">
 
-  <!-- ================= VIEW 1: PILIHAN BAB (MENU UTAMA) ================= -->
-  <main class="page-container" id="view-menu">
-    <header class="hero-section" style="text-align: center; padding: 40px 16px 20px;">
-      <div class="hero-badge" style="display:inline-block; padding: 6px 14px; border-radius: 999px; background: rgba(16,185,129,0.1); color: #047857; font-weight: 800; font-size: 0.85rem; margin-bottom: 12px;">
-        介護のことば · SSW KAIGO
-      </div>
-      <h1 class="hero-title" style="font-size: 2.2rem; font-weight: 900; margin-bottom: 8px;">Kosakata SSW Kaigo</h1>
-      <p class="hero-subtitle" style="color: #5E7166; font-size: 0.95rem;">Pilih bab untuk mulai belajar dan menghafal kosakata.</p>
+  <main class="page-container">
+    <header class="hero-header">
+      <div class="badge-tag">介護のことば · SSW KAIGO</div>
+      <h1 class="hero-title">Kosakata SSW Kaigo</h1>
+      <p class="hero-desc">Pilih kategori dan modul pembelajaran untuk mulai melatih dan menguji penguasaan istilah keperawatan.</p>
       
-      <div class="stats-ribbon" style="display: flex; gap: 10px; justify-content: center; margin-top: 16px;">
-        <div class="stat-pill" style="background:#fff; border:1px solid rgba(16,185,129,0.2); padding:6px 16px; border-radius:999px; font-weight:700; font-size:0.85rem;">
-          <span class="stat-text">25 Bab Tersedia</span>
-        </div>
+      <!-- Tombol Pemilihan Kategori -->
+      <div class="category-switcher" role="tablist" aria-label="Kategori Kaigo">
+        <button type="button" class="tab-btn active" data-type="blue" role="tab" aria-selected="true">Kaigo Biru</button>
+        <button type="button" class="tab-btn" data-type="pink" role="tab" aria-selected="false">Kaigo Pink</button>
+      </div>
+
+      <div class="status-pill">
+        <span id="moduleCountText">25 Modul Kaigo Biru Tersedia</span>
       </div>
     </header>
 
-    <!-- Grid 25 Bab Otomatis -->
-    <section class="module-feed" id="moduleFeed"></section>
+    <!-- Grid Kartu Modul -->
+    <section class="module-grid" id="moduleGrid"></section>
 
-    <footer class="clean-footer" style="text-align: center; padding: 24px; color: #5E7166; font-size: 0.85rem; font-weight: 600;">
+    <footer class="main-footer">
       <span>Nihonggo Gakkou · SSW Kaigo Preparation</span>
     </footer>
   </main>
-
-  <!-- ================= VIEW 2: FLASHCARD, QUIZ & DOKKAI ================= -->
-  <div class="app-layout" id="view-learning" hidden>
-    
-    <!-- Topbar -->
-    <header class="fixed-topbar">
-      <div class="topbar-capsule">
-        <div class="topbar-left">
-          <button id="btnBackToMenu" class="nav-back-circle" title="Kembali ke Menu Bab">←</button>
-          <div class="logo">
-            <span class="logo-word" id="headerBabTitle">Bab <b>1</b></span>
-          </div>
-        </div>
-        <div class="topbar-center">
-          <div class="search-box">
-            <span class="search-icon">🔍</span>
-            <input type="text" id="searchInput" class="search-input" placeholder="Cari kosakata...">
-            <button id="btnClearSearch" class="btn-clear-search" hidden>✕</button>
-          </div>
-        </div>
-        <div class="topbar-right">
-          <button id="btnAudioToggle" class="audio-toggle-btn" title="Suara">
-            <span class="icon-unmuted">🔊</span>
-            <span class="icon-muted" style="display:none;">🔇</span>
-          </button>
-        </div>
-      </div>
-    </header>
-
-    <!-- Main Stage -->
-    <main class="main-stage">
-      <div id="dataNotice" class="data-notice" hidden></div>
-
-      <!-- Mode 1: Flashcard / Carousel -->
-      <section id="mode-carousel" class="study-view">
-        <div class="card-controls-toolbar">
-          <div class="toggle-pill-wrapper">
-            <button id="btnModeKanjiFront" class="mode-toggle-btn active">
-              <span class="toggle-icon">日</span> Kanji Depan
-            </button>
-            <button id="btnModeArtiFront" class="mode-toggle-btn">
-              <span class="toggle-icon">ID</span> Arti Depan
-            </button>
-          </div>
-          <div class="card-size-selector">
-            <span class="size-label">Ukuran:</span>
-            <div class="size-btn-group">
-              <button class="btn-size" data-size="compact">S</button>
-              <button class="btn-size active" data-size="normal">M</button>
-              <button class="btn-size" data-size="large">L</button>
-            </div>
-          </div>
-        </div>
-
-        <div id="flashcardStage" class="flashcard-horizontal-stage size-normal">
-          <button id="btnCarouselPrev" class="nav-arrow-btn desktop-arrow">‹</button>
-          <div class="carousel-container" id="carouselContainer"></div>
-          <button id="btnCarouselNext" class="nav-arrow-btn desktop-arrow">›</button>
-        </div>
-
-        <div class="flashcard-bottom-nav">
-          <button id="btnMobileCarouselPrev" class="nav-arrow-btn mobile-arrow">‹</button>
-          <div class="carousel-counter" id="carouselCounter">0 / 0</div>
-          <button id="btnMobileCarouselNext" class="nav-arrow-btn mobile-arrow">›</button>
-        </div>
-      </section>
-
-      <!-- Mode 2 & 3: Header Quiz -->
-      <div id="quiz-global-header" class="quiz-status-bar" hidden>
-        <div class="quiz-info-row">
-          <span class="quiz-title-tag" id="quizTitle">Pilihan Ganda</span>
-          <div class="quiz-meta-group">
-            <span class="meta-pill" id="quizCounter">Soal 1 / 10</span>
-            <span class="meta-pill" id="quizScore">Benar 0</span>
-          </div>
-        </div>
-        <div class="quiz-progress-track">
-          <div class="quiz-progress-fill" id="quizProgressFill"></div>
-        </div>
-      </div>
-
-      <!-- Pilihan Ganda -->
-      <section id="mode-mc" class="study-view mc-view-container" hidden>
-        <div class="mc-vertical-flow">
-          <div class="vocab-main-card">
-            <div class="font-zoom-controls">
-              <button id="btnZoomOut" class="btn-zoom">−</button>
-              <button id="btnZoomIn" class="btn-zoom">+</button>
-            </div>
-            <div class="vocab-display-wrap">
-              <div class="vocab-text japanese-font" id="mcQuestionText">-</div>
-              <div class="vocab-sub-furigana japanese-font" id="mcQuestionSub"></div>
-            </div>
-          </div>
-          <div class="mc-options-card">
-            <div class="options-vertical-list" id="mcOptions"></div>
-            <div id="mcFeedback" class="feedback-text"></div>
-            <button id="btnMcNext" class="btn-action-primary" disabled>Lanjut</button>
-          </div>
-        </div>
-      </section>
-
-      <!-- Mengetik -->
-      <section id="mode-typing" class="study-view typing-view-container" hidden>
-        <div class="typing-centered-card">
-          <div class="typing-vocab-box">
-            <div class="vocab-text japanese-font" id="typingQuestionText">-</div>
-            <div class="vocab-sub-furigana japanese-font" id="typingQuestionSub"></div>
-          </div>
-          <div class="typing-form-wrap">
-            <input type="text" id="typingInput" class="input-typing-field" placeholder="Ketik arti bahasa Indonesia..." autocomplete="off">
-            <button id="btnTypingCheck" class="btn-action-primary btn-check">Cek</button>
-          </div>
-          <div id="typingFeedback" class="feedback-text"></div>
-          <button id="btnTypingNext" class="btn-action-primary btn-next-typing" disabled>Lanjut</button>
-        </div>
-      </section>
-
-      <!-- Mode 4: Dokkai Panjang SSW Kaigo (Zoom + Pan / Drag Geser Kanan-Kiri) -->
-      <section id="mode-dokkai" class="study-view dokkai-view-container" hidden>
-        <div class="dokkai-card">
-          <div class="dokkai-header">
-            <div class="dokkai-meta">
-              <span class="dokkai-badge">介護記録 · 読解練習</span>
-              <h2 class="dokkai-title" id="dokkaiTitle">読解練習</h2>
-            </div>
-            
-            <div class="dokkai-toolbar">
-              <span class="dokkai-hint-badge">Garis Bawah Hijau = Tanpa Furigana</span>
-              <div class="dokkai-zoom-group">
-                <button id="btnDokkaiZoomOut" class="btn-zoom" title="Perkecil">−</button>
-                <span id="dokkaiZoomLevel" class="dokkai-zoom-level">100%</span>
-                <button id="btnDokkaiZoomIn" class="btn-zoom" title="Perbesar">+</button>
-                <button id="btnDokkaiZoomReset" class="btn-zoom-reset" title="Kembalikan Normal">Reset</button>
-              </div>
-            </div>
-          </div>
-
-          <!-- Viewport yang dapat digeser saat dizoom -->
-          <div class="dokkai-viewport" id="dokkaiViewport">
-            <div class="dokkai-canvas" id="dokkaiCanvas">
-              <article class="dokkai-article japanese-font" id="dokkaiContent"></article>
-            </div>
-          </div>
-
-          <div class="dokkai-scroll-hint">
-            <span>💡 Klik &amp; geser (drag) ke kanan/kiri/atas/bawah untuk menjelajahi teks saat diperbesar.</span>
-          </div>
-        </div>
-      </section>
-
-      <!-- Hasil Kuis -->
-      <section id="mode-result" class="study-view" hidden>
-        <div class="result-box">
-          <div class="result-ring" id="resultRing">
-            <span id="resultPct">0%</span>
-          </div>
-          <h2 class="result-title">Selesai!</h2>
-          <p class="result-score" id="resultScore">Skor: 0 / 0</p>
-          <div class="result-actions">
-            <button id="btnRetryQuiz" class="btn-action-primary">Ulangi</button>
-            <button id="btnResultCards" class="btn-action-secondary">Kembali ke Kartu</button>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <!-- Bottom Dock Bar -->
-    <nav class="bottom-dock">
-      <div class="bottom-capsule-nav">
-        <button class="dock-item active" data-mode="carousel">
-          <span>🃏</span> <span class="dock-label">Flashcard</span>
-        </button>
-        <button class="dock-item" data-mode="mc">
-          <span>📝</span> <span class="dock-label">Pilihan Ganda</span>
-        </button>
-        <button class="dock-item" data-mode="typing">
-          <span>⌨️</span> <span class="dock-label">Mengetik</span>
-        </button>
-        <button class="dock-item" data-mode="dokkai">
-          <span>📖</span> <span class="dock-label">Dokkai</span>
-        </button>
-      </div>
-    </nav>
-
-  </div>
 
   <script src="script.js"></script>
 </body>

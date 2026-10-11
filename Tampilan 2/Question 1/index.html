@@ -2,27 +2,30 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>nakamagakkou/jft-prep - CBT Test</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>nakamagakkou/jft-prep - JFT-Basic CBT & Practice</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <!-- Top Dark Header -->
-  <header class="top-nav">
+  <header class="top-nav" role="banner">
     <div class="top-nav-left">
-      <div class="q-label" id="topQuestionIndicator">Question: 1 / 30</div>
+      <div class="q-label" id="topQuestionIndicator" aria-live="polite">Question: 1 / 25</div>
       <div class="section-label">
         <span>Section:</span>
-        <strong id="sectionName">Script & Vocabulary</strong>
+        <strong id="sectionName">Script &amp; Vocabulary (介護・語彙)</strong>
       </div>
     </div>
 
     <div class="top-nav-center">
-      <div class="timer-box">
-        <span class="timer-label">Time Remaining</span>
+      <div class="timer-box" id="timerBoxWrapper" role="timer" aria-live="off">
+        <span class="timer-label" id="timerModeLabel">Time Remaining</span>
         <div class="timer-display">
-          <svg class="timer-icon" viewBox="0 0 24 24" fill="currentColor">
+          <svg class="timer-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
             <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.5-13H11v6l5.2 3.1.8-1.3-4.5-2.7V7z"/>
           </svg>
           <span id="timerText">60:00</span>
@@ -31,98 +34,154 @@
     </div>
 
     <div class="top-nav-right">
-      <button id="finishBtn" class="btn-finish" type="button">Finish</button>
+      <button id="modeSwitchBtn" class="btn-top-mode" type="button" aria-label="Ganti mode ujian dan latihan">Mode: Exam</button>
+      <button id="finishBtn" class="btn-finish" type="button" aria-label="Selesaikan ujian">Finish</button>
     </div>
   </header>
 
   <!-- Green Sub-header -->
-  <div class="sub-bar">
-    <span class="test-title">Test: JFT-Basic A2 Evaluation</span>
+  <div class="sub-bar" role="region" aria-label="Status Sesi Ujian">
+    <div class="sub-bar-left">
+      <span class="test-title" id="testTitleText">Test: JFT-Basic A2 Simulation</span>
+      <span class="mode-badge" id="currentModeBadge">EXAM MODE</span>
+    </div>
     <span class="site-tag">nakamagakkou/jft-prep</span>
+  </div>
+
+  <!-- Notification Banner -->
+  <div id="sessionBanner" class="session-banner hidden" role="alert">
+    <span id="sessionBannerMsg">Ada sesi ujian yang belum selesai tersimpan di browser ini.</span>
+    <div class="banner-actions">
+      <button id="bannerResumeBtn" class="btn-banner primary" type="button">Lanjutkan</button>
+      <button id="bannerResetBtn" class="btn-banner secondary" type="button">Mulai Baru</button>
+    </div>
   </div>
 
   <!-- Main Body Layout -->
   <div class="exam-body">
-    <!-- Desktop Left Sidebar: 1-30 -->
-    <aside class="sidebar-palette desktop-only">
-      <div class="palette-grid" id="desktopPaletteGrid">
+    <!-- Desktop Left Sidebar -->
+    <aside class="sidebar-palette desktop-only" aria-label="Navigasi Nomor Soal">
+      <div class="palette-header-label">No. Soal</div>
+      <div class="palette-grid" id="desktopPaletteGrid" role="group">
         <!-- Rendered via JS -->
       </div>
     </aside>
 
     <!-- Content Workspace -->
-    <main class="content-workspace">
+    <main class="content-workspace" id="mainWorkspace" tabindex="-1">
       <!-- Instruction Strip -->
       <div class="instruction-bar" id="instructionText">
-        （  ）に入れるのに最もよいものを、A・B・C・Dから一つ選んでください。
+        問題 文中の（ ）に入れるのに最もよいものを一つ選んでください。
       </div>
 
       <!-- Question Card Area -->
-      <section class="question-container">
-        <div class="watermark-bg">nakamagakkou/jft-prep</div>
+      <section class="question-container" aria-label="Lembar Soal">
+        <div class="watermark-bg" aria-hidden="true">nakamagakkou/jft-prep</div>
 
-        <!-- Question Text -->
+        <!-- Meta info -->
+        <div class="question-meta-row" id="questionMetaRow">
+          <span class="meta-tag category" id="questionCategoryTag">介護・語彙</span>
+          <span class="meta-tag difficulty" id="questionDifficultyTag">A2</span>
+          <div class="legend-spotlight desktop-only">
+            <span class="spot-legend-chip chip-vocab">Kata</span>
+            <span class="spot-legend-chip chip-particle">Partikel</span>
+          </div>
+          <button id="bookmarkBtn" class="btn-bookmark" type="button" title="Simpan ke favorit/ragu latihan" aria-label="Tandai favorit">★ Favorit</button>
+        </div>
+
+        <!-- Audio Player Block -->
+        <div id="audioPlayerBlock" class="audio-player-block hidden">
+          <div class="audio-controls">
+            <button id="btnPlayAudio" class="btn-audio" type="button" aria-label="Putar audio soal">
+              <svg class="audio-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+              <span>Play Audio</span>
+            </button>
+            <span class="audio-status" id="audioStatusText">Siap diputar</span>
+          </div>
+          <audio id="questionAudioEl" preload="none"></audio>
+        </div>
+
+        <!-- Passage Container (Cerita / Percakapan Terpisah) -->
+        <div class="passage-box hidden" id="passageBox">
+          <div class="passage-badge">会話・場面 (Konteks / Percakapan)</div>
+          <div class="passage-content" id="passageContent"></div>
+        </div>
+
+        <!-- Specific Question Container -->
         <div class="question-text-box">
+          <div class="question-badge">質問 (Pertanyaan)</div>
           <div class="question-text" id="questionText">読み込み中...</div>
         </div>
 
         <!-- Options Container -->
-        <div class="options-group" id="optionsContainer">
+        <div class="options-group" id="optionsContainer" role="radiogroup" aria-label="Pilihan Jawaban">
           <!-- Rendered via JS -->
         </div>
 
-        <div class="watermark-footer">nakamagakkou/jft-prep</div>
+        <!-- Explanation Block -->
+        <div id="explanationContainer" class="explanation-box hidden" aria-live="polite">
+          <div class="exp-header">
+            <strong>解説 (Pembahasan &amp; Terjemahan)</strong>
+            <span class="exp-status-pill" id="expStatusPill">Benar</span>
+          </div>
+          <div class="exp-body" id="expBodyContent"></div>
+        </div>
+
+        <div class="watermark-footer" aria-hidden="true">nakamagakkou/jft-prep</div>
       </section>
     </main>
   </div>
 
   <!-- Bottom Navigation Bar -->
-  <footer class="bottom-bar">
+  <footer class="bottom-bar" role="contentinfo">
     <div class="bottom-left">
-      <!-- Tombol HP untuk membuka status nomor yang terisi -->
-      <button id="mobilePaletteToggle" class="btn-action btn-mobile-palette mobile-only" type="button">
-        <svg class="grid-icon" viewBox="0 0 24 24" fill="currentColor">
+      <button id="mobilePaletteToggle" class="btn-action btn-mobile-palette mobile-only" type="button" aria-haspopup="dialog">
+        <svg class="grid-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
           <path d="M4 4h4v4H4V4zm6 0h4v4h-4V4zm6 0h4v4h-4V4zM4 10h4v4H4v-4zm6 0h4v4h-4v-4zm6 0h4v4h-4v-4zM4 16h4v4H4v-4zm6 0h4v4h-4v-4zm6 0h4v4h-4v-4z"/>
         </svg>
-        <span id="mobileProgressLabel">No. 1 (0/30)</span>
+        <span id="mobileProgressLabel">No. 1 (0/25)</span>
       </button>
 
-      <!-- Auto advance toggle -->
-      <label class="switch-container desktop-only">
+      <label class="switch-container" title="Pindah otomatis ke soal berikutnya setelah memilih opsi">
         <input type="checkbox" id="autoAdvanceToggle" checked>
         <span class="slider"></span>
         <span class="switch-label">Auto-Next</span>
       </label>
+
+      <label class="switch-container" title="Aktifkan sorot fokus kata & partikel saat kursor mouse diarahkan">
+        <input type="checkbox" id="spotlightToggle" checked>
+        <span class="slider"></span>
+        <span class="switch-label">Grammar-Focus</span>
+      </label>
     </div>
 
     <div class="bottom-right">
-      <button id="flagBtn" class="btn-action btn-flag" type="button" title="後で見直す">
-        <svg class="flag-icon" viewBox="0 0 24 24" fill="currentColor">
+      <button id="flagBtn" class="btn-action btn-flag" type="button" title="Tandai untuk ditinjau nanti (Flag)">
+        <svg class="flag-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
           <path d="M14.4 6L14 4H5v17h2v-7h5.6l.4 2h7V6h-5.6z"/>
         </svg>
         <span class="action-btn-text">Flag</span>
       </button>
 
-      <button id="backBtn" class="btn-action btn-nav" type="button">&lt; Back</button>
-      <button id="nextBtn" class="btn-action btn-nav btn-next" type="button">Next &gt;</button>
+      <button id="backBtn" class="btn-action btn-nav" type="button" aria-label="Soal sebelumnya">&lt; Back</button>
+      <button id="nextBtn" class="btn-action btn-nav btn-next" type="button" aria-label="Soal berikutnya">Next &gt;</button>
     </div>
   </footer>
 
-  <!-- Drawer Bottom Sheet untuk Nomor di Layar HP -->
-  <div id="mobileDrawerOverlay" class="drawer-overlay hidden">
+  <!-- Drawer Bottom Sheet untuk Layar HP -->
+  <div id="mobileDrawerOverlay" class="drawer-overlay hidden" role="dialog" aria-modal="true" aria-labelledby="drawerTitle">
     <div class="drawer-sheet">
       <div class="drawer-header">
         <div class="drawer-title-group">
-          <h4>Daftar Nomor Soal</h4>
-          <span class="drawer-subtitle" id="drawerStatsText">0/30 Terisi</span>
+          <h4 id="drawerTitle">Daftar Nomor Soal</h4>
+          <span class="drawer-subtitle" id="drawerStatsText">0/25 Terisi</span>
         </div>
-        <button id="closeDrawerBtn" class="btn-close-drawer" type="button">&times;</button>
+        <button id="closeDrawerBtn" class="btn-close-drawer" type="button" aria-label="Tutup daftar nomor">&times;</button>
       </div>
 
-      <!-- Keterangan Legend -->
       <div class="drawer-legend">
         <div class="legend-item"><span class="dot answered"></span> Terisi</div>
-        <div class="legend-item"><span class="dot flagged"></span> Ragu</div>
+        <div class="legend-item"><span class="dot flagged"></span> Ragu / Flag</div>
         <div class="legend-item"><span class="dot empty"></span> Kosong</div>
       </div>
 
@@ -133,41 +192,54 @@
   </div>
 
   <!-- Modal Konfirmasi Selesai -->
-  <div id="finishModal" class="modal-overlay hidden">
+  <div id="finishModal" class="modal-overlay hidden" role="dialog" aria-modal="true" aria-labelledby="finishModalTitle">
     <div class="modal-card">
-      <h3 class="modal-title">セクション終了の確認</h3>
-      <p class="modal-desc">テストを終了して採点結果を表示しますか？</p>
+      <h3 class="modal-title" id="finishModalTitle">セクション終了の確認</h3>
+      <p class="modal-desc">Apakah Anda yakin ingin mengakhiri sesi dan melihat evaluasi hasil nilai?</p>
       
       <div class="modal-stats">
         <div class="stat-item">
-          <span class="stat-label">解答済み</span>
+          <span class="stat-label">解答済み (Terjawab)</span>
           <span class="stat-value answered" id="modalAnsweredCount">0</span>
         </div>
         <div class="stat-item">
-          <span class="stat-label">未解答</span>
+          <span class="stat-label">未解答 (Kosong)</span>
           <span class="stat-value unanswered" id="modalUnansweredCount">0</span>
         </div>
         <div class="stat-item">
-          <span class="stat-label">フラグ</span>
+          <span class="stat-label">フラグ (Ragu)</span>
           <span class="stat-value flagged" id="modalFlaggedCount">0</span>
         </div>
       </div>
 
       <div class="modal-actions">
-        <button id="modalCancelBtn" class="btn-modal btn-modal-secondary" type="button">戻る</button>
-        <button id="modalConfirmBtn" class="btn-modal btn-modal-primary" type="button">終了して採点</button>
+        <button id="modalCancelBtn" class="btn-modal btn-modal-secondary" type="button">Kembali ke Soal</button>
+        <button id="modalConfirmBtn" class="btn-modal btn-modal-primary" type="button">Selesai &amp; Nilai</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Konfirmasi Ganti Mode -->
+  <div id="modeConfirmModal" class="modal-overlay hidden" role="dialog" aria-modal="true" aria-labelledby="modeModalTitle">
+    <div class="modal-card">
+      <h3 class="modal-title" id="modeModalTitle">Ganti Mode Pembelajaran</h3>
+      <p class="modal-desc" id="modeConfirmDesc">Mengganti mode akan mereset lembar jawaban saat ini. Lanjutkan?</p>
+      <div class="modal-actions">
+        <button id="modeCancelBtn" class="btn-modal btn-modal-secondary" type="button">Batal</button>
+        <button id="modeProceedBtn" class="btn-modal btn-modal-primary" type="button">Ya, Ganti Mode</button>
       </div>
     </div>
   </div>
 
   <!-- Modal Hasil & Nilai Akhir -->
-  <div id="resultModal" class="modal-overlay hidden">
+  <div id="resultModal" class="modal-overlay hidden" role="dialog" aria-modal="true" aria-labelledby="resultModalTitle">
     <div class="modal-card result-card">
-      <h3 class="modal-title">試験結果 (Result)</h3>
+      <h3 class="modal-title" id="resultModalTitle">試験結果 (Simulated Result)</h3>
+      <p class="result-notice">*Nilai ini adalah simulasi latihan lokal, bukan sertifikasi resmi JFT-Basic.</p>
       
       <div class="score-circle">
         <span id="scoreTotalVal">0</span>
-        <small id="scoreMaxVal">/ 60 点</small>
+        <small id="scoreMaxVal">/ 50 点</small>
       </div>
 
       <p id="resultFeedback" class="result-feedback"></p>
@@ -191,13 +263,21 @@
         </div>
       </div>
 
+      <!-- Kategori Breakdown -->
+      <div class="category-analysis-box" id="categoryAnalysisBox">
+        <div class="breakdown-title">Analisis per Kategori Materi</div>
+        <div class="cat-list" id="categoryProgressList"></div>
+      </div>
+
       <div class="result-breakdown-box">
-        <div class="breakdown-title">Daftar Hasil Nomor (1-30)</div>
+        <div class="breakdown-title">Daftar Hasil Nomor (Klik nomor untuk meninjau pembahasan)</div>
         <div class="result-grid" id="resultGridList"></div>
       </div>
 
-      <div class="modal-actions">
-        <button id="btnRestart" class="btn-modal btn-modal-primary" type="button">もう一度解く</button>
+      <div class="modal-actions modal-actions-stacked">
+        <button id="btnReviewAll" class="btn-modal btn-modal-secondary" type="button">Tinjau Pembahasan Soal</button>
+        <button id="btnRetryWrong" class="btn-modal btn-modal-warning" type="button">Ulangi Soal yang Salah</button>
+        <button id="btnRestart" class="btn-modal btn-modal-primary" type="button">Mulai Ujian Baru</button>
       </div>
     </div>
   </div>

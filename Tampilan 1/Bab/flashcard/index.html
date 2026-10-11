@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Belajar SSW Kaigo — Nihonggo Gakkou</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Shippori+Mincho:wght@600;700;800&family=Noto+Serif+JP:wght@600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="fc-body">
+
+  <div class="fc-app-container">
+    <!-- Topbar Simetris: Kiri (Back), Tengah (Bab), Kanan (Search) -->
+    <header class="fc-topbar">
+      <div class="fc-bar-content">
+        <div class="fc-bar-side fc-bar-left">
+          <a href="../../index.html" class="fc-icon-btn btn-press" title="Kembali ke Menu Utama" aria-label="Kembali">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="19" y1="12" x2="5" y2="12"></line>
+              <polyline points="12 19 5 12 12 5"></polyline>
+            </svg>
+          </a>
+        </div>
+
+        <div class="fc-bar-center">
+          <span class="fc-badge-tag">SSW KAIGO</span>
+          <h1 class="fc-chapter-name" id="chapterHeading">Bab 1</h1>
+        </div>
+
+        <div class="fc-bar-side fc-bar-right">
+          <button id="btnSearchTrigger" class="fc-icon-btn btn-press" aria-label="Buka Pencarian" title="Cari kosakata">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Notifikasi Data -->
+    <div id="dataNotice" class="fc-notice" hidden></div>
+
+    <!-- Main Stage -->
+    <main class="fc-main-stage">
+      
+      <!-- MODE 1: FLASHCARD -->
+      <section id="view-flashcard" class="study-pane active">
+        <div class="fc-toolbar">
+          <div class="fc-pill-toggle">
+            <button id="btnKanjiFirst" class="fc-toggle-item btn-press active">Kanji Depan</button>
+            <button id="btnArtiFirst" class="fc-toggle-item btn-press">Arti Depan</button>
+          </div>
+          <div class="fc-toolbar-actions">
+            <button id="btnShuffle" class="fc-icon-btn-small btn-press" title="Acak Urutan Kartu" aria-label="Acak Kartu">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="16 3 21 3 21 8"></polyline>
+                <line x1="4" y1="20" x2="21" y2="3"></line>
+                <polyline points="21 16 21 21 16 21"></polyline>
+                <line x1="15" y1="15" x2="21" y2="21"></line>
+                <line x1="4" y1="4" x2="9" y2="9"></line>
+              </svg>
+            </button>
+            <div class="fc-counter-badge" id="cardCounter">0 / 0</div>
+          </div>
+        </div>
+
+        <div class="fc-card-stage">
+          <div class="fc-card" id="flashcard" tabindex="0" role="button" aria-label="Tekan spasi atau klik untuk membalik kartu">
+            <!-- Sisi Depan -->
+            <div class="fc-card-face fc-face-front">
+              <div class="fc-face-header">
+                <span class="fc-face-pill" id="frontLabel">KANJI</span>
+                <span class="fc-flip-badge">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.2"/>
+                  </svg>
+                  <span>Balik</span>
+                </span>
+              </div>
+
+              <div class="fc-card-content">
+                <div class="fc-text-primary japanese-serif" id="frontText">-</div>
+              </div>
+
+              <div class="fc-face-footer">
+                <span class="fc-tap-cue">Ketuk kartu atau tekan spasi</span>
+              </div>
+            </div>
+
+            <!-- Sisi Belakang -->
+            <div class="fc-card-face fc-face-back">
+              <div class="fc-face-header">
+                <span class="fc-face-pill fc-pill-alt" id="backLabel">CARA BACA &amp; ARTI</span>
+                <span class="fc-flip-badge">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.2"/>
+                  </svg>
+                  <span>Balik</span>
+                </span>
+              </div>
+
+              <div class="fc-card-content fc-back-centered-body">
+                <div class="fc-sub-reading japanese-serif" id="backSubReading"></div>
+                <div class="fc-main-translation" id="backTranslation">-</div>
+              </div>
+
+              <div class="fc-face-footer">
+                <span class="fc-tap-cue">Ketuk kartu atau tekan spasi</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="fc-bottom-nav">
+          <button id="btnPrev" class="fc-nav-btn btn-press" aria-label="Sebelumnya" title="Sebelumnya (←)">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="15 18 9 12 15 6"></polyline>
+            </svg>
+          </button>
+          <button id="btnNext" class="fc-nav-btn btn-press" aria-label="Selanjutnya" title="Selanjutnya (→)">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </button>
+        </div>
+      </section>
+
+      <!-- MODE 2: PILIHAN GANDA -->
+      <section id="view-mc" class="study-pane">
+        <div class="quiz-top-info">
+          <div class="quiz-info-pill">
+            <span class="quiz-info-dot"></span>
+            <span id="mcCounter">Soal 1 / 10</span>
+          </div>
+          <div class="quiz-score-pill">
+            <span class="score-label">Skor</span>
+            <span class="score-val" id="mcScore">0</span>
+          </div>
+        </div>
+
+        <div class="quiz-number-tracker-wrap">
+          <div class="quiz-number-tracker" id="mcTracker"></div>
+        </div>
+
+        <div class="quiz-card-box">
+          <div class="quiz-vocab-japanese japanese-serif" id="mcQuestionText">-</div>
+          <div class="quiz-vocab-sub japanese-serif" id="mcQuestionSub"></div>
+        </div>
+
+        <div class="options-container" id="mcOptions"></div>
+        <div class="feedback-text" id="mcFeedback"></div>
+        <button id="btnMcNext" class="btn-wide-action btn-press" disabled>Lanjut</button>
+      </section>
+
+      <!-- MODE 3: MENGETIK -->
+      <section id="view-typing" class="study-pane">
+        <div class="quiz-top-info">
+          <div class="quiz-info-pill">
+            <span class="quiz-info-dot"></span>
+            <span id="typingCounter">Soal 1 / 10</span>
+          </div>
+          <div class="quiz-score-pill">
+            <span class="score-label">Skor</span>
+            <span class="score-val" id="typingScore">0</span>
+          </div>
+        </div>
+
+        <div class="quiz-number-tracker-wrap">
+          <div class="quiz-number-tracker" id="typingTracker"></div>
+        </div>
+
+        <div class="quiz-card-box">
+          <div class="quiz-vocab-japanese japanese-serif" id="typingQuestionText">-</div>
+          <div class="quiz-vocab-sub japanese-serif" id="typingQuestionSub"></div>
+        </div>
+
+        <div class="typing-input-wrap">
+          <input type="text" id="typingInput" class="typing-field" placeholder="Ketik arti bahasa Indonesia..." autocomplete="off">
+          <button id="btnTypingCheck" class="btn-action-small btn-press">Cek</button>
+        </div>
+        <div class="feedback-text" id="typingFeedback"></div>
+        <button id="btnTypingNext" class="btn-wide-action btn-press" disabled>Lanjut</button>
+      </section>
+
+      <!-- MODE 4: DOKKAI -->
+      <section id="view-dokkai" class="study-pane">
+        <div class="dokkai-wrapper">
+          <div class="dokkai-top">
+            <h2 class="dokkai-heading" id="dokkaiTitle">介護記録 · 読解</h2>
+            <div class="dokkai-zoom-tools">
+              <button id="btnDokkaiOut" class="fc-zoom-btn btn-press" title="Kecilkan Teks">−</button>
+              <span id="dokkaiZoomVal" class="fc-zoom-val">100%</span>
+              <button id="btnDokkaiIn" class="fc-zoom-btn btn-press" title="Perbesar Teks">+</button>
+            </div>
+          </div>
+          <div class="dokkai-scrollbox">
+            <article class="dokkai-text japanese-serif" id="dokkaiContent"></article>
+          </div>
+        </div>
+      </section>
+
+      <!-- VIEW HASIL KUIS -->
+      <section id="view-result" class="study-pane">
+        <div class="result-card">
+          <div class="result-circle" id="resultRing">
+            <span id="resultPercent">0%</span>
+          </div>
+          <h2 class="result-title">Selesai</h2>
+          <p class="result-subtitle" id="resultScoreText">Skor: 0 / 0</p>
+          <div class="result-btn-row">
+            <button id="btnRetryQuiz" class="btn-wide-action btn-press">Ulangi</button>
+            <button id="btnBackToCards" class="btn-secondary-action btn-press">Kembali ke Kartu</button>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Bottom Dock Menu Mode Belajar -->
+    <nav class="fc-dock">
+      <div class="fc-dock-capsule">
+        <button class="dock-btn active btn-press" data-mode="flashcard" title="Flashcard">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+            <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+          </svg>
+          <span class="dock-label">Flashcard</span>
+        </button>
+
+        <button class="dock-btn btn-press" data-mode="mc" title="Pilihan Ganda">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"></circle>
+            <polyline points="12 6 12 12 16 14"></polyline>
+          </svg>
+          <span class="dock-label">Pilihan Ganda</span>
+        </button>
+
+        <button class="dock-btn btn-press" data-mode="typing" title="Mengetik">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="4" width="20" height="16" rx="2" ry="2"></rect>
+            <line x1="6" y1="8" x2="6.01" y2="8"></line>
+            <line x1="10" y1="8" x2="10.01" y2="8"></line>
+            <line x1="14" y1="8" x2="14.01" y2="8"></line>
+            <line x1="18" y1="8" x2="18.01" y2="8"></line>
+            <line x1="8" y1="16" x2="16" y2="16"></line>
+          </svg>
+          <span class="dock-label">Mengetik</span>
+        </button>
+
+        <button class="dock-btn btn-press" data-mode="dokkai" title="Dokkai">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+          </svg>
+          <span class="dock-label">Dokkai</span>
+        </button>
+      </div>
+    </nav>
+  </div>
+
+  <!-- MODAL PENCARIAN MODERN & BERSIH -->
+  <div id="searchModal" class="fc-search-modal" hidden>
+    <div class="fc-modal-backdrop" id="searchBackdrop"></div>
+    <div class="fc-modal-dialog">
+      <div class="fc-modal-search-box">
+        <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <input type="text" id="navbarSearchInput" placeholder="Cari kanji / furigana / arti..." autocomplete="off" spellcheck="false">
+        <button id="btnClearSearch" class="btn-clear-modal" hidden aria-label="Hapus">&times;</button>
+        <button id="btnCloseSearch" class="btn-close-modal" aria-label="Tutup">Tutup</button>
+      </div>
+      <div id="searchDropdown" class="modal-search-results"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

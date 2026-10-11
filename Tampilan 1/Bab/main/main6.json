@@ -1,0 +1,15 @@
+{
+  "vocab": [
+    { "kanji": "車いす", "furigana": "くるまいす", "arti": "Kursi roda" },
+    { "kanji": "杖", "furigana": "つえ", "arti": "Tongkat" },
+    { "kanji": "歩行器", "furigana": "ほこうき", "arti": "Alat bantu jalan" },
+    { "kanji": "ストレッチャー", "furigana": "すとれっちゃー", "arti": "Brankar" },
+    { "kanji": "移動用リフト", "furigana": "いどうようりふと", "arti": "Lift transfer" },
+    { "kanji": "スライディングボード", "furigana": "すらいでぃんぐぼーど", "arti": "Papan geser" },
+    { "kanji": "スライディングシート", "furigana": "すらいでぃんぐしーと", "arti": "Alas geser" }
+  ],
+  "dokkai": {
+    "title": "移動と福祉用具についての会話",
+    "text": "スタッフ：「山田さん、食堂へ行きましょう。今日は<span class=\"kaigo-target-kw\"><ruby>歩行器<rt>ほこうき</rt></ruby></span>を使いますか、それとも<span class=\"kaigo-target-kw\"><ruby>杖<rt>つえ</rt></ruby></span>にしますか。」<br><br>山田さん：「少し足が疲れているから、<span class=\"kaigo-target-kw\"><ruby>車いす<rt>くるまいす</rt></ruby></span>で行きたいわ。」<br><br>スタッフ：「わかりました。<span class=\"kaigo-target-kw\"><ruby>スライディングシート<rt>すらいでぃんぐしーと</rt></ruby></span>で体を少し動かしてから、ベッドの横に<span class=\"kaigo-target-kw\"><ruby>スライディングボード<rt>すらいでぃんぐぼーど</rt></ruby></span>を置きますね。」<br><br>山田さん：「ありがとう。これがあると滑るように座れるから楽ね。」<br><br>スタッフ：「ええ、安全に移れますよ。もし体がもっと重く感じるときは、無理をしないで<span class=\"kaigo-target-kw\"><ruby>移動用リフト<rt>いどうようりふと</rt></ruby></span>を使いましょうね。」<br><br>山田さん：「そうね。検査のときに乗った<span class=\"kaigo-target-kw\"><ruby>ストレッチャー<rt>すとれっちゃー</rt></ruby></span>みたいに、道具があると安心するわ。」<br><br>スタッフ：「いつでも体を一番に考えてサポートしますね。では、出発しましょう。」"
+  }
+}
