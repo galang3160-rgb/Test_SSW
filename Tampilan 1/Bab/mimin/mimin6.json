@@ -1,0 +1,32 @@
+{
+  "vocab": [
+    { "kanji": "あげもの", "furigana": "あげもの", "arti": "gorengan" },
+    { "kanji": "いためもの", "furigana": "いためもの", "arti": "tumis" },
+    { "kanji": "おやつ", "furigana": "おやつ", "arti": "camilan" },
+    { "kanji": "粥／お粥", "furigana": "かゆ／おかゆ", "arti": "bubur" },
+    { "kanji": "カレーライス", "furigana": "かれーらいす", "arti": "nasi kari" },
+    { "kanji": "献立", "furigana": "こんだて", "arti": "daftar makanan" },
+    { "kanji": "献立表", "furigana": "こんだてひょう", "arti": "tabel daftar makanan" },
+    { "kanji": "主食", "furigana": "しゅしょく", "arti": "makanan pokok" },
+    { "kanji": "汁物", "furigana": "しるもの", "arti": "sup" },
+    { "kanji": "ゼリー", "furigana": "ぜりー", "arti": "jeli" },
+    { "kanji": "たまご焼き", "furigana": "たまごやき", "arti": "telur goreng" },
+    { "kanji": "漬物", "furigana": "つけもの", "arti": "acar" },
+    { "kanji": "天ぷら", "furigana": "てんぷら", "arti": "tempura" },
+    { "kanji": "豆腐", "furigana": "とうふ", "arti": "tahu" },
+    { "kanji": "丼", "furigana": "どんぶり", "arti": "mangkuk" },
+    { "kanji": "煮付け", "furigana": "につけ", "arti": "rebus berbumbu, semur" },
+    { "kanji": "煮物", "furigana": "にもの", "arti": "rebusan" },
+    { "kanji": "ハンバーグ", "furigana": "はんばーぐ", "arti": "daging hamburger" },
+    { "kanji": "副食", "furigana": "ふくしょく", "arti": "lauk" },
+    { "kanji": "プリン", "furigana": "ぷりん", "arti": "puding" },
+    { "kanji": "麦茶", "furigana": "むぎちゃ", "arti": "teh gandum" },
+    { "kanji": "メニュー", "furigana": "めにゅー", "arti": "menu" },
+    { "kanji": "焼き魚", "furigana": "やきざかな", "arti": "ikan bakar" },
+    { "kanji": "ヨーグルト", "furigana": "よーぐると", "arti": "yoghurt" }
+  ],
+  "dokkai": {
+    "title": "昼食の献立案内",
+    "text": "スタッフ：「高橋さん、今日の<span class=\"kaigo-target-kw\"><ruby>献立表<rt>こんだてひょう</rt></ruby></span>の<span class=\"kaigo-target-kw\"><ruby>メニュー<rt>めにゅー</rt></ruby></span>をご案内しますね。<span class=\"kaigo-target-kw\"><ruby>主食<rt>しゅしょく</rt></ruby></span>は消化に良い<span class=\"kaigo-target-kw\"><ruby>粥／お粥<rt>かゆ／おかゆ</rt></ruby></span>、具が乗った<span class=\"kaigo-target-kw\"><ruby>丼<rt>どんぶり</rt></ruby></span>、定番の<span class=\"kaigo-target-kw\"><ruby>カレーライス<rt>かれーらいす</rt></ruby></span>から選べますよ。」<br><br>高橋さん：「美味しそうだね。<span class=\"kaigo-target-kw\"><ruby>副食<rt>ふくしょく</rt></ruby></span>のおかずには何があるかい？」<br><br>スタッフ：「今日の<span class=\"kaigo-target-kw\"><ruby>献立<rt>こんだて</rt></ruby></span>は、柔らかい<span class=\"kaigo-target-kw\"><ruby>ハンバーグ<rt>はんばーぐ</rt></ruby></span>、魚の<span class=\"kaigo-target-kw\"><ruby>煮付け<rt>につけ</rt></ruby></span>や<span class=\"kaigo-target-kw\"><ruby>焼き魚<rt>やきざかな</rt></ruby></span>、サクサクの<span class=\"kaigo-target-kw\"><ruby>あげもの<rt>あげもの</rt></ruby></span>（<span class=\"kaigo-target-kw\"><ruby>天ぷら<rt>てんぷら</rt></ruby></span>）です。小鉢には野菜の<span class=\"kaigo-target-kw\"><ruby>いためもの<rt>いためもの</rt></ruby></span>や<span class=\"kaigo-target-kw\"><ruby>煮物<rt>にもの</rt></ruby></span>、<span class=\"kaigo-target-kw\"><ruby>たまご焼き<rt>たまごやき</rt></ruby></span>、滑らかな<span class=\"kaigo-target-kw\"><ruby>豆腐<rt>とうふ</rt></ruby></span>、お口直しの<span class=\"kaigo-target-kw\"><ruby>漬物<rt>つけもの</rt></ruby></span>、温かい<span class=\"kaigo-target-kw\"><ruby>汁物<rt>しるもの</rt></ruby></span>もつきます。」<br><br>高橋さん：「品数が多くて楽しみだな。食後のデザートや<span class=\"kaigo-target-kw\"><ruby>おやつ<rt>おやつ</rt></ruby></span>もあるかい？」<br><br>スタッフ：「はい、口当たりの良い<span class=\"kaigo-target-kw\"><ruby>ゼリー<rt>ぜりー</rt></ruby></span>、甘い<span class=\"kaigo-target-kw\"><ruby>プリン<rt>ぷりん</rt></ruby></span>、健康的な<span class=\"kaigo-target-kw\"><ruby>ヨーグルト<rt>よーぐると</rt></ruby></span>がございます。お食事と一緒に冷たい<span class=\"kaigo-target-kw\"><ruby>麦茶<rt>むぎちゃ</rt></ruby></span>もどうぞ。」"
+  }
+}

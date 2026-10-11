@@ -1,0 +1,27 @@
+{
+  "vocab": [
+    { "kanji": "温度", "furigana": "おんど", "arti": "suhu" },
+    { "kanji": "（お湯を）かける", "furigana": "（おゆを）かける", "arti": "menuangkan (air hangat)" },
+    { "kanji": "（汗を）かく", "furigana": "（あせを）かく", "arti": "berkeringat" },
+    { "kanji": "シャンプー", "furigana": "しゃんぷー", "arti": "sampo" },
+    { "kanji": "消毒", "furigana": "しょうどく", "arti": "disinfeksi" },
+    { "kanji": "消毒液", "furigana": "しょうどくえき", "arti": "larutan antiseptik" },
+    { "kanji": "清潔保持", "furigana": "せいけつほじ", "arti": "menjaga kebersihan tubuh" },
+    { "kanji": "清拭", "furigana": "せいしき", "arti": "mandi seka" },
+    { "kanji": "洗髪", "furigana": "せんぱつ", "arti": "keramas" },
+    { "kanji": "洗面", "furigana": "せんめん", "arti": "cuci muka" },
+    { "kanji": "洗面器", "furigana": "せんめんき", "arti": "baskom" },
+    { "kanji": "脱衣室", "furigana": "だついしつ", "arti": "ruang ganti pakaian" },
+    { "kanji": "入浴", "furigana": "にゅうよく", "arti": "mandi" },
+    { "kanji": "ぬるい", "furigana": "ぬるい", "arti": "suam-suam kuku" },
+    { "kanji": "拭く", "furigana": "ふく", "arti": "menyeka" },
+    { "kanji": "浴室", "furigana": "よくしつ", "arti": "kamar mandi" },
+    { "kanji": "浴槽", "furigana": "よくそう", "arti": "bak mandi" },
+    { "kanji": "リンス", "furigana": "りんす", "arti": "kondisioner" },
+    { "kanji": "確認", "furigana": "かくにん", "arti": "memeriksa, memastikan" }
+  ],
+  "dokkai": {
+    "title": "入浴と清潔保持の介助",
+    "text": "スタッフ：「中村さん、こんにちは。お体の<span class=\"kaigo-target-kw\"><ruby>清潔保持<rt>せいけつほじ</rt></ruby></span>のため、<span class=\"kaigo-target-kw\"><ruby>入浴<rt>にゅうよく</rt></ruby></span>のお手伝いをしますね。まずは<span class=\"kaigo-target-kw\"><ruby>脱衣室<rt>だついしつ</rt></ruby></span>で服を脱ぎましょう。もしお体の調子が悪ければ、ベッド上での<span class=\"kaigo-target-kw\"><ruby>清拭<rt>せいしき</rt></ruby></span>に変更することもできますよ。」<br><br>中村さん：「最近たくさん<span class=\"kaigo-target-kw\"><ruby>（汗を）かく<rt>（あせを）かく</rt></ruby></span>から、お風呂に入ってさっぱりしたいよ。」<br><br>スタッフ：「では<span class=\"kaigo-target-kw\"><ruby>浴室<rt>よくしつ</rt></ruby></span>へ行きましょう。入る前に<span class=\"kaigo-target-kw\"><ruby>洗面器<rt>せんめんき</rt></ruby></span>を<span class=\"kaigo-target-kw\"><ruby>消毒液<rt>しょうどくえき</rt></ruby></span>で<span class=\"kaigo-target-kw\"><ruby>消毒<rt>しょうどく</rt></ruby></span>しておきました。シャワーのお湯の<span class=\"kaigo-target-kw\"><ruby>温度<rt>おんど</rt></ruby></span>を<span class=\"kaigo-target-kw\"><ruby>確認<rt>かくにん</rt></ruby></span>しますね。足元からゆっくりお湯を<span class=\"kaigo-target-kw\"><ruby>（お湯を）かける<rt>（おゆを）かける</rt></ruby></span>ので熱くないか教えてください。」<br><br>中村さん：「ちょうどいい湯加減だよ。」<br><br>スタッフ：「よかったです。お顔の<span class=\"kaigo-target-kw\"><ruby>洗面<rt>せんめん</rt></ruby></span>をしてから、頭の<span class=\"kaigo-target-kw\"><ruby>洗髪<rt>せんぱつ</rt></ruby></span>をしましょう。<span class=\"kaigo-target-kw\"><ruby>シャンプー<rt>しゃんぷー</rt></ruby></span>でしっかり洗ったあと、髪を滑らかにする<span class=\"kaigo-target-kw\"><ruby>リンス<rt>りんす</rt></ruby></span>もつけますね。体が温まったら<span class=\"kaigo-target-kw\"><ruby>浴槽<rt>よくそう</rt></ruby></span>につかりましょう。のぼせないように少し<span class=\"kaigo-target-kw\"><ruby>ぬるい<rt>ぬるい</rt></ruby></span>お湯にしてあります。」<br><br>中村さん：「温まってとても気持ちがよかったよ。」<br><br>スタッフ：「お風呂から上がったら湯冷めしないよう、乾いたタオルでお体をしっかり<span class=\"kaigo-target-kw\"><ruby>拭く<rt>ふく</rt></ruby></span>ようにしましょうね。」"
+  }
+}

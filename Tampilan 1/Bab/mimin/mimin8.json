@@ -1,0 +1,36 @@
+{
+  "vocab": [
+    { "kanji": "衣類", "furigana": "いるい", "arti": "pakaian" },
+    { "kanji": "入れ歯", "furigana": "いれば", "arti": "gigi tiruan" },
+    { "kanji": "うがい", "furigana": "うがい", "arti": "berkumur" },
+    { "kanji": "上着", "furigana": "うわぎ", "arti": "baju atasan" },
+    { "kanji": "着替え", "furigana": "きがえ", "arti": "berganti pakaian" },
+    { "kanji": "義歯", "furigana": "ぎし", "arti": "gigi palsu, gigi buatan" },
+    { "kanji": "起床", "furigana": "きしょう", "arti": "bangun tidur" },
+    { "kanji": "くし", "furigana": "くし", "arti": "sisir" },
+    { "kanji": "更衣", "furigana": "こうい", "arti": "berganti pakaian" },
+    { "kanji": "口腔ケア", "furigana": "こうくうけあ", "arti": "perawatan rongga mulut" },
+    { "kanji": "下着", "furigana": "したぎ", "arti": "pakaian dalam" },
+    { "kanji": "スカート", "furigana": "すかーと", "arti": "rok" },
+    { "kanji": "爪きり", "furigana": "つめきり", "arti": "gunting kuku" },
+    { "kanji": "（髪を）とかす", "furigana": "（かみを）とかす", "arti": "menyisir (rambut)" },
+    { "kanji": "ドライヤー", "furigana": "どらいやー", "arti": "pengering rambut" },
+    { "kanji": "ねまき", "furigana": "ねまき", "arti": "pakaian tidur" },
+    { "kanji": "歯医者", "furigana": "はいしゃ", "arti": "dokter gigi" },
+    { "kanji": "歯ブラシ", "furigana": "はぶらし", "arti": "sikat gigi" },
+    { "kanji": "歯磨き", "furigana": "はみがき", "arti": "pasta gigi" },
+    { "kanji": "パンツ", "furigana": "ぱんつ", "arti": "celana dalam" },
+    { "kanji": "ひげ剃り", "furigana": "ひげそり", "arti": "pisau cukur" },
+    { "kanji": "みじたく", "furigana": "みじたく", "arti": "merapikan diri" },
+    { "kanji": "（口を）ゆすぐ", "furigana": "（くちを）ゆすぐ", "arti": "membilas (mulut)" },
+    { "kanji": "診察", "furigana": "しんさつ", "arti": "pemeriksaan medis" },
+    { "kanji": "左側", "furigana": "ひだりがわ", "arti": "sisi kiri" },
+    { "kanji": "右側", "furigana": "みぎがわ", "arti": "sisi kanan" },
+    { "kanji": "診る", "furigana": "みる", "arti": "memeriksa" },
+    { "kanji": "夜中", "furigana": "よなか", "arti": "tengah malam" }
+  ],
+  "dokkai": {
+    "title": "起床後の身だしなみと口腔ケア",
+    "text": "スタッフ：「佐藤さん、おはようございます。<span class=\"kaigo-target-kw\"><ruby>夜中<rt>よなか</rt></ruby></span>はよく眠れましたか。<span class=\"kaigo-target-kw\"><ruby>起床<rt>きしょう</rt></ruby></span>のお時間ですので、朝の<span class=\"kaigo-target-kw\"><ruby>みじたく<rt>みじたく</rt></ruby></span>を始めましょう。まずは<span class=\"kaigo-target-kw\"><ruby>ねまき<rt>ねまき</rt></ruby></span>から日中の<span class=\"kaigo-target-kw\"><ruby>衣類<rt>いるい</rt></ruby></span>へ<span class=\"kaigo-target-kw\"><ruby>更衣<rt>こうい</rt></ruby></span>（<span class=\"kaigo-target-kw\"><ruby>着替え<rt>きがえ</rt></ruby></span>）をしましょうか。<span class=\"kaigo-target-kw\"><ruby>下着<rt>したぎ</rt></ruby></span>の<span class=\"kaigo-target-kw\"><ruby>パンツ<rt>ぱんつ</rt></ruby></span>と温かい<span class=\"kaigo-target-kw\"><ruby>上着<rt>うわぎ</rt></ruby></span>、お気に入りの<span class=\"kaigo-target-kw\"><ruby>スカート<rt>すかーと</rt></ruby></span>をご用意しました。」<br><br>佐藤さん：「ありがとう。洗面所で顔を洗って、伸びた爪を<span class=\"kaigo-target-kw\"><ruby>爪きり<rt>つめきり</rt></ruby></span>で切りたいわ。」<br><br>スタッフ：「はい。<span class=\"kaigo-target-kw\"><ruby>くし<rt>くし</rt></ruby></span>で髪を<span class=\"kaigo-target-kw\"><ruby>（髪を）とかす<rt>（かみを）とかす</rt></ruby></span>お手伝いもしますね。濡れた髪は<span class=\"kaigo-target-kw\"><ruby>ドライヤー<rt>どらいやー</rt></ruby></span>で乾かしましょう。男性の方には<span class=\"kaigo-target-kw\"><ruby>ひげ剃り<rt>ひげそり</rt></ruby></span>も行いますが、佐藤さんは朝の<span class=\"kaigo-target-kw\"><ruby>口腔ケア<rt>こうくうけあ</rt></ruby></span>をしましょう。<span class=\"kaigo-target-kw\"><ruby>歯ブラシ<rt>はぶらし</rt></ruby></span>に<span class=\"kaigo-target-kw\"><ruby>歯磨き<rt>はみがき</rt></ruby></span>粉をつけて磨き、お水でしっかり<span class=\"kaigo-target-kw\"><ruby>うがい<rt>うがい</rt></ruby></span>をして<span class=\"kaigo-target-kw\"><ruby>（口を）ゆすぐ<rt>（くちを）ゆすぐ</rt></ruby></span>ようにしてください。<span class=\"kaigo-target-kw\"><ruby>入れ歯<rt>いれば</rt></ruby></span>（<span class=\"kaigo-target-kw\"><ruby>義歯<rt>ぎし</rt></ruby></span>）もきれいに洗っておきますね。」<br><br>佐藤さん：「最近、お口の<span class=\"kaigo-target-kw\"><ruby>右側<rt>みぎがわ</rt></ruby></span>の歯茎が少し痛むの。<span class=\"kaigo-target-kw\"><ruby>左側<rt>ひだりがわ</rt></ruby></span>は平気なんだけど。」<br><br>スタッフ：「それは気になりますね。看護師がお口の中を<span class=\"kaigo-target-kw\"><ruby>診る<rt>みる</rt></ruby></span>ように手配し、痛みが続くようなら<span class=\"kaigo-target-kw\"><ruby>歯医者<rt>はいしゃ</rt></ruby></span>さんの往診で<span class=\"kaigo-target-kw\"><ruby>診察<rt>しんさつ</rt></ruby></span>を受けられるよう相談しておきますね。」"
+  }
+}

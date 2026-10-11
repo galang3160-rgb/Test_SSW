@@ -1,0 +1,26 @@
+{
+  "vocab": [
+    { "kanji": "長そで", "furigana": "ながそで", "arti": "Lengan panjang" },
+    { "kanji": "半そで", "furigana": "はんそで", "arti": "Lengan pendek" },
+    { "kanji": "カーディガン", "furigana": "かーでぃがん", "arti": "Kardigan" },
+    { "kanji": "ジャケット", "furigana": "じゃけっと", "arti": "Jaket" },
+    { "kanji": "着心地", "furigana": "きごこち", "arti": "Kenyamanan saat dipakai" },
+    { "kanji": "手浴", "furigana": "しゅよく", "arti": "Membasuh tangan / rendam tangan" },
+    { "kanji": "足浴", "furigana": "そくよく", "arti": "Membasuh kaki / rendam kaki" },
+    { "kanji": "清拭", "furigana": "せいしき", "arti": "Mandi seka / mengelap tubuh" },
+    { "kanji": "報告", "furigana": "ほうこく", "arti": "Laporan" },
+    { "kanji": "連絡", "furigana": "れんらく", "arti": "Komunikasi / menghubungi" },
+    { "kanji": "相談", "furigana": "そうだん", "arti": "Konsultasi" },
+    { "kanji": "確認", "furigana": "かくにん", "arti": "Konfirmasi / pemeriksaan" },
+    { "kanji": "指導", "furigana": "しどう", "arti": "Bimbingan / arahan" },
+    { "kanji": "助言", "furigana": "じょげん", "arti": "Nasihat / saran" },
+    { "kanji": "申し送り", "furigana": "もうしおくり", "arti": "Operan tugas / serah terima tugas" },
+    { "kanji": "記録", "furigana": "きろく", "arti": "Pencatatan / rekam data" },
+    { "kanji": "同意", "furigana": "どうい", "arti": "Persetujuan" },
+    { "kanji": "説明", "furigana": "せつめい", "arti": "Penjelasan" }
+  ],
+  "dokkai": {
+    "title": "清潔ケアと着替え、スタッフ間の情報共有",
+    "text": "スタッフ：「野村さん、こんにちは。体調の<span class=\"kaigo-target-kw\"><ruby>確認<rt>かくにん</rt></ruby></span>を終えましたので、お体のケアについて<span class=\"kaigo-target-kw\"><ruby>説明<rt>せつめい</rt></ruby></span>しますね。今日はお風呂に入る代わりに、お部屋で<span class=\"kaigo-target-kw\"><ruby>清拭<rt>せいしき</rt></ruby></span>をして体を拭きましょう。手足も温めたいので、<span class=\"kaigo-target-kw\"><ruby>手浴<rt>しゅよく</rt></ruby></span>と<span class=\"kaigo-target-kw\"><ruby>足浴<rt>そくよく</rt></ruby></span>もご用意できますが、いかがでしょうか。」<br><br>野村さん：「ありがとう。足先が冷えていたから嬉しいわ。その内容で<span class=\"kaigo-target-kw\"><ruby>同意<rt>どうい</rt></ruby></span>するわね。」<br><br>スタッフ：「よかったです。ケアが終わったら服を着替えましょう。今日は少し肌寒いので、<span class=\"kaigo-target-kw\"><ruby>半そで<rt>はんそで</rt></ruby></span>より<span class=\"kaigo-target-kw\"><ruby>長そで<rt>ながそで</rt></ruby></span>のシャツを着ませんか。上にはおる<span class=\"kaigo-target-kw\"><ruby>カーディガン<rt>かーでぃがん</rt></ruby></span>や<span class=\"kaigo-target-kw\"><ruby>ジャケット<rt>じゃけっと</rt></ruby></span>も出しておきますね。」<br><br>野村さん：「このカーディガンは軽くて<span class=\"kaigo-target-kw\"><ruby>着心地<rt>きごこち</rt></ruby></span>がとても良いのよ。これにするわ。」<br><br>（ケア終了後、ステーションにて）<br><br>スタッフ：「先輩、野村さんのケアについて<span class=\"kaigo-target-kw\"><ruby>報告<rt>ほうこく</rt></ruby></span>があります。清拭と足浴を終えて着替えも完了しました。ただ、足浴の際に皮膚の乾燥が少し気になりました。」<br><br>先輩スタッフ：「分かりました。看護師へも<span class=\"kaigo-target-kw\"><ruby>連絡<rt>れんらく</rt></ruby></span>を入れて、保湿剤の処方について<span class=\"kaigo-target-kw\"><ruby>相談<rt>そうだん</rt></ruby></span>しておきましょう。夜勤スタッフへの<span class=\"kaigo-target-kw\"><ruby>申し送り<rt>もうしおくり</rt></ruby></span>にも忘れずに含めてくださいね。」<br><br>スタッフ：「はい。保湿の手順について<span class=\"kaigo-target-kw\"><ruby>助言<rt>じょげん</rt></ruby></span>をいただきありがとうございます。先輩からの<span class=\"kaigo-target-kw\"><ruby>指導<rt>しどう</rt></ruby></span>をしっかり介護<span class=\"kaigo-target-kw\"><ruby>記録<rt>きろく</rt></ruby></span>にも残しておきます。」"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "vocab": [
+    { "kanji": "疥癬", "furigana": "かいせん", "arti": "skabies" },
+    { "kanji": "風邪", "furigana": "かぜ", "arti": "masuk angin / pilek" },
+    { "kanji": "高血圧症", "furigana": "こうけつあつしょう", "arti": "hipertensi" },
+    { "kanji": "食中毒", "furigana": "しょくちゅうどく", "arti": "keracunan makanan" },
+    { "kanji": "認知症", "furigana": "にんちしょう", "arti": "demensia" },
+    { "kanji": "熱中症", "furigana": "ねっちゅうしょう", "arti": "pitam panas / heatstroke" },
+    { "kanji": "肺炎", "furigana": "はいえん", "arti": "pneumonia" },
+    { "kanji": "白内障", "furigana": "はくないしょう", "arti": "katarak" },
+    { "kanji": "アレルギー", "furigana": "あれるぎー", "arti": "alergi" },
+    { "kanji": "痛い", "furigana": "いたい", "arti": "sakit, nyeri" },
+    { "kanji": "嘔吐", "furigana": "おうと", "arti": "muntah" },
+    { "kanji": "片麻痺", "furigana": "かたまひ", "arti": "hemiplegia" },
+    { "kanji": "かゆい", "furigana": "かゆい", "arti": "gatal" },
+    { "kanji": "傷", "furigana": "きず", "arti": "luka" },
+    { "kanji": "苦しい", "furigana": "くるしい", "arti": "menderita / sesak" },
+    { "kanji": "下痢", "furigana": "げり", "arti": "diare" },
+    { "kanji": "拘縮", "furigana": "こうしゅく", "arti": "kontraktur" },
+    { "kanji": "骨折", "furigana": "こっせつ", "arti": "fraktur" },
+    { "kanji": "しびれる", "furigana": "しびれる", "arti": "mati rasa / kesemutan" },
+    { "kanji": "出血", "furigana": "しゅっけつ", "arti": "berdarah" },
+    { "kanji": "症状", "furigana": "しょうじょう", "arti": "gejala" },
+    { "kanji": "褥瘡", "furigana": "じょくそう", "arti": "dekubitus" },
+    { "kanji": "咳", "furigana": "せき", "arti": "batuk" },
+    { "kanji": "脱水", "furigana": "だっすい", "arti": "dehidrasi" },
+    { "kanji": "吐き気", "furigana": "はきけ", "arti": "mual" },
+    { "kanji": "発熱", "furigana": "はつねつ", "arti": "demam" },
+    { "kanji": "発汗", "furigana": "はっかん", "arti": "keringat" },
+    { "kanji": "はれる", "furigana": "はれる", "arti": "radang / bengkak" },
+    { "kanji": "便秘", "furigana": "べんぴ", "arti": "konstipasi" },
+    { "kanji": "発作", "furigana": "ほっさ", "arti": "kejang / serangan tiba-tiba" },
+    { "kanji": "むくむ", "furigana": "むくむ", "arti": "bengkak / edema" },
+    { "kanji": "めまい", "furigana": "めまい", "arti": "pusing" }
+  ],
+  "dokkai": {
+    "title": "病気と症状の観察・確認",
+    "text": "スタッフ：「鈴木さん、お加減はいかがですか。何か気になる<span class=\"kaigo-target-kw\"><ruby>症状<rt>しょうじょう</rt></ruby></span>はありますか。」<br><br>鈴木さん：「今朝から頭がフラフラして<span class=\"kaigo-target-kw\"><ruby>めまい<rt>めまい</rt></ruby></span>がするのよ。お腹もシクシクと<span class=\"kaigo-target-kw\"><ruby>痛い<rt>いたい</rt></ruby></span>し、胃がムカムカして強い<span class=\"kaigo-target-kw\"><ruby>吐き気<rt>はきけ</rt></ruby></span>があるの。」<br><br>スタッフ：「それは大変ですね。もしかしたら昨晩の<span class=\"kaigo-target-kw\"><ruby>食中毒<rt>しょくちゅうどく</rt></ruby></span>や、何かのお薬の<span class=\"kaigo-target-kw\"><ruby>アレルギー<rt>あれるぎー</rt></ruby></span>反応かもしれません。<span class=\"kaigo-target-kw\"><ruby>下痢<rt>げり</rt></ruby></span>や<span class=\"kaigo-target-kw\"><ruby>嘔吐<rt>おうと</rt></ruby></span>はありましたか。」<br><br>鈴木さん：「トイレで下痢が一度あったわ。ここ数日は<span class=\"kaigo-target-kw\"><ruby>便秘<rt>べんぴ</rt></ruby></span>だったから急で驚いたの。それに、体じゅうが熱くて汗が止まらないのよ。」<br><br>スタッフ：「ひどい<span class=\"kaigo-target-kw\"><ruby>発汗<rt>はっかん</rt></ruby></span>ですね。検温をしてみましょう。38度を超えています、明らかな<span class=\"kaigo-target-kw\"><ruby>発熱<rt>はつねつ</rt></ruby></span>です。のども赤く、<span class=\"kaigo-target-kw\"><ruby>咳<rt>せき</rt></ruby></span>も出ているので、単なる<span class=\"kaigo-target-kw\"><ruby>風邪<rt>かぜ</rt></ruby></span>か、あるいは高齢者に多い<span class=\"kaigo-target-kw\"><ruby>肺炎<rt>はいえん</rt></ruby></span>の初期症状の可能性もありますね。息が<span class=\"kaigo-target-kw\"><ruby>苦しい<rt>くるしい</rt></ruby></span>感じはしませんか。」<br><br>鈴木さん：「息苦しさはないけれど、熱のせいで喉がとても渇くわ。」<br><br>スタッフ：「高熱と汗で<span class=\"kaigo-target-kw\"><ruby>脱水<rt>だっすい</rt></ruby></span>や室内の暑さによる<span class=\"kaigo-target-kw\"><ruby>熱中症<rt>ねっちゅうしょう</rt></ruby></span>を起こしやすい状態です。少しずつ水分を補給しましょう。鈴木さんは普段から<span class=\"kaigo-target-kw\"><ruby>高血圧症<rt>こうけつあつしょう</rt></ruby></span>をお持ちですし、急な血圧の変化や心臓の<span class=\"kaigo-target-kw\"><ruby>発作<rt>ほっさ</rt></ruby></span>にも注意が必要です。」<br><br>鈴木さん：「右半身の<span class=\"kaigo-target-kw\"><ruby>片麻痺<rt>かたまひ</rt></ruby></span>があるから、ふらついたときにベッドの柵に手足をぶつけてしまってね。手首に小さな<span class=\"kaigo-target-kw\"><ruby>傷<rt>きず</rt></ruby></span>ができて、少し<span class=\"kaigo-target-kw\"><ruby>出血<rt>しゅっけつ</rt></ruby></span>したの。」<br><br>スタッフ：「消毒してガーゼを当てますね。<span class=\"kaigo-target-kw\"><ruby>骨折<rt>こっせつ</rt></ruby></span>していなくて良かったです。腕や足が赤く<span class=\"kaigo-target-kw\"><ruby>はれる<rt>はれる</rt></ruby></span>様子や、全体がパンパンに<span class=\"kaigo-target-kw\"><ruby>むくむ<rt>むくむ</rt></ruby></span>感じ、指先がピリピリと<span class=\"kaigo-target-kw\"><ruby>しびれる<rt>しびれる</rt></ruby></span>感覚はありませんか。」<br><br>鈴木さん：「しびれはないけれど、麻痺側の関節が固まって<span class=\"kaigo-target-kw\"><ruby>拘縮<rt>こうしゅく</rt></ruby></span>しているから、動かすのが怖かったのよ。あと、皮膚が全体的に<span class=\"kaigo-target-kw\"><ruby>かゆい<rt>かゆい</rt></ruby></span>の。」<br><br>スタッフ：「赤みやかゆみは感染力の強い<span class=\"kaigo-target-kw\"><ruby>疥癬<rt>かいせん</rt></ruby></span>の疑いがないか、看護師に見てもらいましょう。同じ姿勢で寝ていてお尻に<span class=\"kaigo-target-kw\"><ruby>褥瘡<rt>じょくそう</rt></ruby></span>ができていないかも一緒に観察します。鈴木さんは目も<span class=\"kaigo-target-kw\"><ruby>白内障<rt>はくないしょう</rt></ruby></span>で見えづらく、物忘れなどの<span class=\"kaigo-target-kw\"><ruby>認知症<rt>にんちしょう</rt></ruby></span>の不安もあるとお聞きしています。すぐに医師の診察を手配しますので、横になって休んでいてくださいね。」"
+  }
+}

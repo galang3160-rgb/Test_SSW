@@ -1,0 +1,34 @@
+{
+  "vocab": [
+    { "kanji": "移乗", "furigana": "いじょう", "arti": "beralih" },
+    { "kanji": "移動", "furigana": "いどう", "arti": "berpindah" },
+    { "kanji": "移動用リフト", "furigana": "いどうようりふと", "arti": "alat pemindah" },
+    { "kanji": "起き上がる", "furigana": "おきあがる", "arti": "bangkit" },
+    { "kanji": "（ブレーキを）かける", "furigana": "（ぶれーきを）かける", "arti": "mengerem" },
+    { "kanji": "臥床", "furigana": "がしょう", "arti": "berbaring" },
+    { "kanji": "車いす", "furigana": "くるまいす", "arti": "kursi roda" },
+    { "kanji": "声かけ", "furigana": "こえかけ", "arti": "sapaan" },
+    { "kanji": "支える", "furigana": "ささえる", "arti": "mendukung" },
+    { "kanji": "シルバーカー／高齢者用手押し車", "furigana": "しるばーかー／こうれいしゃようておしぐるま", "arti": "troli lansia (kereta dorong untuk lansia)" },
+    { "kanji": "すべる", "furigana": "すべる", "arti": "tergelincir" },
+    { "kanji": "スライディングシート", "furigana": "すらいでぃんぐしーと", "arti": "kursi geser" },
+    { "kanji": "杖", "furigana": "つえ", "arti": "tongkat" },
+    { "kanji": "（杖を）つく", "furigana": "（つえを）つく", "arti": "memakai (tongkat)" },
+    { "kanji": "つかまる", "furigana": "つかまる", "arti": "berpegangan" },
+    { "kanji": "手すり", "furigana": "てすり", "arti": "susuran" },
+    { "kanji": "握る", "furigana": "にぎる", "arti": "mencengkeram" },
+    { "kanji": "寝返り", "furigana": "ねがえり", "arti": "membalik badan saat tidur" },
+    { "kanji": "白杖", "furigana": "はくじょう", "arti": "tongkat putih" },
+    { "kanji": "ブレーキ", "furigana": "ぶれーき", "arti": "rem" },
+    { "kanji": "歩行器", "furigana": "ほこうき", "arti": "alat bantu jalan" },
+    { "kanji": "前屈み", "furigana": "まえかがみ", "arti": "membungkuk" },
+    { "kanji": "誘導", "furigana": "ゆうどう", "arti": "panduan" },
+    { "kanji": "床", "furigana": "ゆか", "arti": "lantai" },
+    { "kanji": "離床", "furigana": "りしょう", "arti": "beranjak dari tempat tidur" },
+    { "kanji": "介護職", "furigana": "かいごしょく", "arti": "staf perawat lansia" }
+  ],
+  "dokkai": {
+    "title": "移動と移乗の介助",
+    "text": "スタッフ：「高橋さん、<span class=\"kaigo-target-kw\"><ruby>介護職<rt>かいごしょく</rt></ruby></span>の私がお手伝いします。<span class=\"kaigo-target-kw\"><ruby>臥床<rt>がしょう</rt></ruby></span>から<span class=\"kaigo-target-kw\"><ruby>離床<rt>りしょう</rt></ruby></span>しましょう。<span class=\"kaigo-target-kw\"><ruby>寝返り<rt>ねがえり</rt></ruby></span>をして、<span class=\"kaigo-target-kw\"><ruby>スライディングシート<rt>すらいでぃんぐしーと</rt></ruby></span>や<span class=\"kaigo-target-kw\"><ruby>移動用リフト<rt>いどうようりふと</rt></ruby></span>を使って<span class=\"kaigo-target-kw\"><ruby>起き上がる<rt>おきあがる</rt></ruby></span>のをサポートしますね。<span class=\"kaigo-target-kw\"><ruby>声かけ<rt>こえかけ</rt></ruby></span>に合わせて動きましょう。」<br><br>高橋さん：「ベッドの<span class=\"kaigo-target-kw\"><ruby>手すり<rt>てすり</rt></ruby></span>を<span class=\"kaigo-target-kw\"><ruby>握る<rt>にぎる</rt></ruby></span>よ。<span class=\"kaigo-target-kw\"><ruby>床<rt>ゆか</rt></ruby></span>で足が<span class=\"kaigo-target-kw\"><ruby>すべる<rt>すべる</rt></ruby></span>ことはないかい？」<br><br>スタッフ：「大丈夫です。体を<span class=\"kaigo-target-kw\"><ruby>前屈み<rt>まえかがみ</rt></ruby></span>にして立ち、私が体を<span class=\"kaigo-target-kw\"><ruby>支える<rt>ささえる</rt></ruby></span>ので<span class=\"kaigo-target-kw\"><ruby>車いす<rt>くるまいす</rt></ruby></span>へ<span class=\"kaigo-target-kw\"><ruby>移乗<rt>いじょう</rt></ruby></span>しましょう。<span class=\"kaigo-target-kw\"><ruby>ブレーキ<rt>ぶれーき</rt></ruby></span>はしっかり<span class=\"kaigo-target-kw\"><ruby>（ブレーキを）かける<rt>（ぶれーきを）かける</rt></ruby></span>状態で固定しています。」<br><br>高橋さん：「食堂への<span class=\"kaigo-target-kw\"><ruby>移動<rt>いどう</rt></ruby></span>は、<span class=\"kaigo-target-kw\"><ruby>歩行器<rt>ほこうき</rt></ruby></span>か<span class=\"kaigo-target-kw\"><ruby>シルバーカー／高齢者用手押し車<rt>しるばーかー／こうれいしゃようておしぐるま</rt></ruby></span>に<span class=\"kaigo-target-kw\"><ruby>つかまる<rt>つかまる</rt></ruby></span>か、<span class=\"kaigo-target-kw\"><ruby>杖<rt>つえ</rt></ruby></span>を<span class=\"kaigo-target-kw\"><ruby>（杖を）つく<rt>（つえを）つく</rt></ruby></span>のがいいかな。目が不自由なら<span class=\"kaigo-target-kw\"><ruby>白杖<rt>はくじょう</rt></ruby></span>も使うね。」<br><br>スタッフ：「今日はシルバーカーで行きましょう。食堂までしっかり<span class=\"kaigo-target-kw\"><ruby>誘導<rt>ゆうどう</rt></ruby></span>しますね。」"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "vocab": [
+    { "kanji": "温める", "furigana": "あたためる", "arti": "menghangatkan" },
+    { "kanji": "エプロン", "furigana": "えぷろん", "arti": "celemek" },
+    { "kanji": "嚥下", "furigana": "えんげ", "arti": "deglutisi" },
+    { "kanji": "きざむ", "furigana": "きざむ", "arti": "memotong" },
+    { "kanji": "誤嚥", "furigana": "ごえん", "arti": "aspirasi" },
+    { "kanji": "こぼす", "furigana": "こぼす", "arti": "menumpahkan" },
+    { "kanji": "（食器を）下げる", "furigana": "（しょっきを）さげる", "arti": "membereskan (peralatan makan)" },
+    { "kanji": "冷ます", "furigana": "さます", "arti": "mendingin" },
+    { "kanji": "食品", "furigana": "しょくひん", "arti": "makanan" },
+    { "kanji": "食欲", "furigana": "しょくよく", "arti": "nafsu makan" },
+    { "kanji": "水分補給", "furigana": "すいぶんほきゅう", "arti": "asupan cairan" },
+    { "kanji": "咳込む", "furigana": "せきこむ", "arti": "batuk" },
+    { "kanji": "とろみ（粉）", "furigana": "とろみ（こ）", "arti": "kekentalan" },
+    { "kanji": "（とろみを）つける", "furigana": "（とろみを）つける", "arti": "mengentalkan" },
+    { "kanji": "飲み込む", "furigana": "のみこむ", "arti": "menelan" },
+    { "kanji": "一口大", "furigana": "ひとくちだい", "arti": "ukuran satu gigitan" },
+    { "kanji": "むせる", "furigana": "むせる", "arti": "tersedak" },
+    { "kanji": "量", "furigana": "りょう", "arti": "jumlah" },
+    { "kanji": "リーダー", "furigana": "りーだー", "arti": "kepala tim" },
+    { "kanji": "記録", "furigana": "きろく", "arti": "catatan" }
+  ],
+  "dokkai": {
+    "title": "食事の介助と記録",
+    "text": "スタッフ：「高橋さん、お食事にしましょう。<span class=\"kaigo-target-kw\"><ruby>エプロン<rt>えぷろん</rt></ruby></span>を着けて服を汚さないようにしますね。<span class=\"kaigo-target-kw\"><ruby>食欲<rt>しょくよく</rt></ruby></span>はいかがですか。<span class=\"kaigo-target-kw\"><ruby>食品<rt>しょくひん</rt></ruby></span>は冷たいものがあれば<span class=\"kaigo-target-kw\"><ruby>温める<rt>あたためる</rt></ruby></span>ことも、熱ければ少し<span class=\"kaigo-target-kw\"><ruby>冷ます<rt>さます</rt></ruby></span>こともできますよ。おかずはお口に合わせて<span class=\"kaigo-target-kw\"><ruby>一口大<rt>ひとくちだい</rt></ruby></span>に<span class=\"kaigo-target-kw\"><ruby>きざむ<rt>きざむ</rt></ruby></span>ようにしています。」<br><br>高橋さん：「ありがとう。汁を<span class=\"kaigo-target-kw\"><ruby>こぼす<rt>こぼす</rt></ruby></span>のが心配なんだが、大丈夫かな。」<br><br>スタッフ：「汁物には<span class=\"kaigo-target-kw\"><ruby>とろみ（粉）<rt>とろみ（こ）</rt></ruby></span>で適度にとろみを<span class=\"kaigo-target-kw\"><ruby>（とろみを）つける<rt>（とろみを）つける</rt></ruby></span>工夫をしています。<span class=\"kaigo-target-kw\"><ruby>誤嚥<rt>ごえん</rt></ruby></span>を防ぎ、スムーズに<span class=\"kaigo-target-kw\"><ruby>嚥下<rt>えんげ</rt></ruby></span>して<span class=\"kaigo-target-kw\"><ruby>飲み込む<rt>のみこむ</rt></ruby></span>ことができますよ。<span class=\"kaigo-target-kw\"><ruby>むせる<rt>むせる</rt></ruby></span>ことや激しく<span class=\"kaigo-target-kw\"><ruby>咳込む<rt>せきこむ</rt></ruby></span>心配も減りますので、ゆっくり召し上がってくださいね。」<br><br>高橋さん：「全部美味しく食べられたよ。お茶ももらえるかい？」<br><br>スタッフ：「はい、<span class=\"kaigo-target-kw\"><ruby>水分補給<rt>すいぶんほきゅう</rt></ruby></span>用のお茶をどうぞ。食べ終わった<span class=\"kaigo-target-kw\"><ruby>（食器を）下げる<rt>（しょっきを）さげる</rt></ruby></span>作業はこちらで行いますね。」<br><br>（ステーションにて）<br><br>スタッフ：「<span class=\"kaigo-target-kw\"><ruby>リーダー<rt>りーだー</rt></ruby></span>、高橋さんの食事介助を終えました。食べた食事の<span class=\"kaigo-target-kw\"><ruby>量<rt>りょう</rt></ruby></span>を介護<span class=\"kaigo-target-kw\"><ruby>記録<rt>きろく</rt></ruby></span>に記入しておきます。」"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "vocab": [
+    { "kanji": "カラオケ", "furigana": "からおけ", "arti": "Karaoke" },
+    { "kanji": "トランプ", "furigana": "とらんぷ", "arti": "Kartu remi" },
+    { "kanji": "百人一首", "furigana": "ひゃくにんいっしゅ", "arti": "Permainan kartu puisi klasik (Hyakunin Isshu)" },
+    { "kanji": "麻雀", "furigana": "まーじゃん", "arti": "Mahyong" },
+    { "kanji": "習字", "furigana": "しゅうじ", "arti": "Kaligrafi Jepang" },
+    { "kanji": "記録ファイル", "furigana": "きろくふぁいる", "arti": "Berkas rekam medis / catatan" },
+    { "kanji": "棚", "furigana": "たな", "arti": "Rak / lemari" },
+    { "kanji": "鍵", "furigana": "かぎ", "arti": "Kunci" },
+    { "kanji": "名札（ネームプレート）", "furigana": "なふだ（ねーむぷれーと）", "arti": "Papan nama / tanda pengenal" },
+    { "kanji": "AED", "furigana": "えーいーでぃー", "arti": "AED (alat pacu jantung otomatis)" },
+    { "kanji": "シフト", "furigana": "しふと", "arti": "Jadwal kerja / giliran kerja (shift)" },
+    { "kanji": "日勤", "furigana": "にっきん", "arti": "Dinas pagi / shift siang" },
+    { "kanji": "夜勤", "furigana": "やきん", "arti": "Dinas malam / shift malam" },
+    { "kanji": "遅番", "furigana": "おそばん", "arti": "Shift sore / dinas siang-malam" },
+    { "kanji": "早番", "furigana": "はやばん", "arti": "Shift pagi-awal" },
+    { "kanji": "有給休暇", "furigana": "ゆうきゅうきゅうか", "arti": "Cuti berbayar" },
+    { "kanji": "公休", "furigana": "こうきゅう", "arti": "Hari libur resmi" },
+    { "kanji": "遅刻", "furigana": "ちこく", "arti": "Terlambat / datang terlambat" },
+    { "kanji": "早退", "furigana": "そうたい", "arti": "Pulang lebih awal" },
+    { "kanji": "欠勤", "furigana": "けっきん", "arti": "Absen / tidak masuk kerja" },
+    { "kanji": "病欠", "furigana": "びょうけつ", "arti": "Izin sakit" },
+    { "kanji": "申請書", "furigana": "しんせいしょ", "arti": "Surat permohonan / formulir pengajuan" },
+    { "kanji": "脳血管疾患", "furigana": "のうけっかんしっかん", "arti": "Penyakit serebrovaskular (stroke, dll.)" },
+    { "kanji": "心疾患", "furigana": "しんしっかん", "arti": "Penyakit jantung" },
+    { "kanji": "認知症", "furigana": "にんちしょう", "arti": "Demensia" },
+    { "kanji": "病原体", "furigana": "びょうげんたい", "arti": "Patogen / kuman penyakit" },
+    { "kanji": "感染症", "furigana": "かんせんしょう", "arti": "Penyakit infeksi / menular" },
+    { "kanji": "視覚障害", "furigana": "しかくしょうがい", "arti": "Disabilitas visual / gangguan penglihatan" },
+    { "kanji": "聴覚障害", "furigana": "ちょうかくしょうがい", "arti": "Disabilitas pendengaran / gangguan pendengaran" },
+    { "kanji": "内部障害", "furigana": "ないぶしょうがい", "arti": "Disabilitas organ dalam" },
+    { "kanji": "肢体不自由", "furigana": "したいふじゆう", "arti": "Disabilitas fisik / kelumpuhan anggota gerak" },
+    { "kanji": "知的障害", "furigana": "ちてきしょうがい", "arti": "Disabilitas intelektual" },
+    { "kanji": "精神障害", "furigana": "せいしんしょうがい", "arti": "Disabilitas mental / gangguan kejiwaan" }
+  ],
+  "dokkai": {
+    "title": "スタッフルームでの業務確認とレクリエーション支援",
+    "text": "スタッフA：「おはようございます。今日の<span class=\"kaigo-target-kw\"><ruby>シフト<rt>しふと</rt></ruby></span>を確認しましょう。私は<span class=\"kaigo-target-kw\"><ruby>早番<rt>はやばん</rt></ruby></span>で、先輩は<span class=\"kaigo-target-kw\"><ruby>日勤<rt>にっきん</rt></ruby></span>ですね。<span class=\"kaigo-target-kw\"><ruby>遅番<rt>おそばん</rt></ruby></span>と<span class=\"kaigo-target-kw\"><ruby>夜勤<rt>やきん</rt></ruby></span>の担当者ももうすぐ来ます。<span class=\"kaigo-target-kw\"><ruby>名札（ネームプレート）<rt>なふだ（ねーむぷれーと）</rt></ruby></span>をつけて、<span class=\"kaigo-target-kw\"><ruby>棚<rt>たな</rt></ruby></span>の<span class=\"kaigo-target-kw\"><ruby>鍵<rt>かぎ</rt></ruby></span>を開けて準備を始めましょう。」<br><br>スタッフB：「おはよう。緊急時のために<span class=\"kaigo-target-kw\"><ruby>AED<rt>えーいーでぃー</rt></ruby></span>の作動チェックと、棚にある<span class=\"kaigo-target-kw\"><ruby>記録ファイル<rt>きろくふぁいる</rt></ruby></span>の整理もお願いね。そういえば、来月の<span class=\"kaigo-target-kw\"><ruby>有給休暇<rt>ゆうきゅうきゅうか</rt></ruby></span>や<span class=\"kaigo-target-kw\"><ruby>公休<rt>こうきゅう</rt></ruby></span>の予定が決まったら、早めに<span class=\"kaigo-target-kw\"><ruby>申請書<rt>しんせいしょ</rt></ruby></span>を出しておいてね。<span class=\"kaigo-target-kw\"><ruby>遅刻<rt>ちこく</rt></ruby></span>や<span class=\"kaigo-target-kw\"><ruby>早退<rt>そうたい</rt></ruby></span>、体調不良による<span class=\"kaigo-target-kw\"><ruby>欠勤<rt>けっきん</rt></ruby></span>や<span class=\"kaigo-target-kw\"><ruby>病欠<rt>びょうけつ</rt></ruby></span>の際も速やかに連絡ルールを守りましょう。」<br><br>スタッフA：「承知しました。今日の午後のレクリエーション担当ですが、利用者のみなさんの状態に合わせた配慮が必要ですね。」<br><br>スタッフB：「そうですね。<span class=\"kaigo-target-kw\"><ruby>脳血管疾患<rt>のうけっかんしっかん</rt></ruby></span>の後遺症による<span class=\"kaigo-target-kw\"><ruby>肢体不自由<rt>したいふじゆう</rt></ruby></span>の方や、<span class=\"kaigo-target-kw\"><ruby>心疾患<rt>しんしっかん</rt></ruby></span>や呼吸器などの<span class=\"kaigo-target-kw\"><ruby>内部障害<rt>ないぶしょうがい</rt></ruby></span>がある方には、体に負担がかからない活動が適しています。<span class=\"kaigo-target-kw\"><ruby>視覚障害<rt>しかくしょうがい</rt></ruby></span>や<span class=\"kaigo-target-kw\"><ruby>聴覚障害<rt>ちょうかくしょうがい</rt></ruby></span>、<span class=\"kaigo-target-kw\"><ruby>知的障害<rt>ちてきしょうがい</rt></ruby></span>や<span class=\"kaigo-target-kw\"><ruby>精神障害<rt>せいしんしょうがい</rt></ruby></span>、そして<span class=\"kaigo-target-kw\"><ruby>認知症<rt>にんちしょう</rt></ruby></span>をお持ちの方それぞれに合わせてサポートを変える必要がありますよ。」<br><br>スタッフA：「今日のレクは、手先を動かせる<span class=\"kaigo-target-kw\"><ruby>トランプ<rt>とらんぷ</rt></ruby></span>や<span class=\"kaigo-target-kw\"><ruby>麻雀<rt>まーじゃん</rt></ruby></span>、伝統的な<span class=\"kaigo-target-kw\"><ruby>百人一首<rt>ひゃくにんいっしゅ</rt></ruby></span>、落ち着いて集中できる<span class=\"kaigo-target-kw\"><ruby>習字<rt>しゅうじ</rt></ruby></span>、そして声を出して楽しめる<span class=\"kaigo-target-kw\"><ruby>カラオケ<rt>からおけ</rt></ruby></span>をご用意しています。」<br><br>スタッフB：「いい組み合わせですね。集団で活動するときは<span class=\"kaigo-target-kw\"><ruby>病原体<rt>びょうげんたい</rt></ruby></span>の持ち込みを防ぎ、手洗いや換気をして<span class=\"kaigo-target-kw\"><ruby>感染症<rt>かんせんしょう</rt></ruby></span>をしっかり予防しながら楽しく過ごしてもらいましょう。」"
+  }
+}

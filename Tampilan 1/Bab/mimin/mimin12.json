@@ -1,0 +1,31 @@
+{
+  "vocab": [
+    { "kanji": "担当者", "furigana": "たんとうしゃ", "arti": "staf penanggung jawab" },
+    { "kanji": "調理員", "furigana": "ちょうりいん", "arti": "juru masak" },
+    { "kanji": "転倒", "furigana": "てんとう", "arti": "terjatuh" },
+    { "kanji": "ナースコール", "furigana": "なーすこーる", "arti": "alat pemanggil perawat" },
+    { "kanji": "日勤", "furigana": "にっきん", "arti": "shift siang" },
+    { "kanji": "濡れる", "furigana": "ぬれる", "arti": "basah" },
+    { "kanji": "吐く", "furigana": "はく", "arti": "muntah" },
+    { "kanji": "外す", "furigana": "はずす", "arti": "melepas" },
+    { "kanji": "非常口", "furigana": "ひじょうぐち", "arti": "pintu darurat" },
+    { "kanji": "非常ベル", "furigana": "ひじょうべる", "arti": "alarm darurat" },
+    { "kanji": "119番", "furigana": "ひゃくじゅうきゅうばん", "arti": "panggilan 119" },
+    { "kanji": "服薬", "furigana": "ふくやく", "arti": "minum obat" },
+    { "kanji": "変更", "furigana": "へんこう", "arti": "perubahan" },
+    { "kanji": "報告", "furigana": "ほうこく", "arti": "laporan" },
+    { "kanji": "ホール", "furigana": "ほーる", "arti": "aula" },
+    { "kanji": "まつり", "furigana": "まつり", "arti": "festival" },
+    { "kanji": "ミーティング", "furigana": "みーてぃんぐ", "arti": "pertemuan" },
+    { "kanji": "見守り", "furigana": "みまもり", "arti": "mengawasi" },
+    { "kanji": "面会", "furigana": "めんかい", "arti": "besuk" },
+    { "kanji": "申し送り", "furigana": "もうしおくり", "arti": "serah-terima" },
+    { "kanji": "夜勤", "furigana": "やきん", "arti": "shift malam" },
+    { "kanji": "流行", "furigana": "りゅうこう", "arti": "mewabah, epidemik" },
+    { "kanji": "利用者", "furigana": "りようしゃ", "arti": "pengguna" }
+  ],
+  "dokkai": {
+    "title": "ステーション業務と安全・感染対策",
+    "text": "スタッフA：「お疲れ様です。<span class=\"kaigo-target-kw\"><ruby>日勤<rt>にっきん</rt></ruby></span>から<span class=\"kaigo-target-kw\"><ruby>夜勤<rt>やきん</rt></ruby></span>への<span class=\"kaigo-target-kw\"><ruby>申し送り<rt>もうしおくり</rt></ruby></span>と朝の<span class=\"kaigo-target-kw\"><ruby>ミーティング<rt>みーてぃんぐ</rt></ruby></span>を始めます。本日のフロア<span class=\"kaigo-target-kw\"><ruby>担当者<rt>たんとうしゃ</rt></ruby></span>からの<span class=\"kaigo-target-kw\"><ruby>報告<rt>ほうこく</rt></ruby></span>ですが、感染症の<span class=\"kaigo-target-kw\"><ruby>流行<rt>りゅうこう</rt></ruby></span>予防のため、ご家族の<span class=\"kaigo-target-kw\"><ruby>面会<rt>めんかい</rt></ruby></span>ルールに一部<span class=\"kaigo-target-kw\"><ruby>変更<rt>へんこう</rt></ruby></span>がありました。」<br><br>スタッフB：「分かりました。<span class=\"kaigo-target-kw\"><ruby>調理員<rt>ちょうりいん</rt></ruby></span>さんとも連携し、<span class=\"kaigo-target-kw\"><ruby>ホール<rt>ほーる</rt></ruby></span>で予定している季節の<span class=\"kaigo-target-kw\"><ruby>まつり<rt>まつり</rt></ruby></span>イベントでも衛生管理を徹底しましょう。<span class=\"kaigo-target-kw\"><ruby>利用者<rt>りようしゃ</rt></ruby></span>の体調変化には特に注意が必要ですね。」<br><br>スタッフA：「はい。先ほどある利用者様が気分不良で胃のものを<span class=\"kaigo-target-kw\"><ruby>吐く<rt>はく</rt></ruby></span>症状があり、服が<span class=\"kaigo-target-kw\"><ruby>濡れる<rt>ぬれる</rt></ruby></span>状態でしたので、着替えと食後の<span class=\"kaigo-target-kw\"><ruby>服薬<rt>ふくやく</rt></ruby></span>の確認を行いました。歩行時のふらつきによる<span class=\"kaigo-target-kw\"><ruby>転倒<rt>てんとう</rt></ruby></span>を防ぐため、ベッドサイドでの手厚い<span class=\"kaigo-target-kw\"><ruby>見守り<rt>みまもり</rt></ruby></span>を継続しています。」<br><br>スタッフB：「用事の際は無理に立ち上がらず<span class=\"kaigo-target-kw\"><ruby>ナースコール<rt>なーすこーる</rt></ruby></span>を押していただくようお伝えください。車いすのベルトを誤って<span class=\"kaigo-target-kw\"><ruby>外す<rt>はずす</rt></ruby></span>ことがないかも見ておきます。緊急時の<span class=\"kaigo-target-kw\"><ruby>非常口<rt>ひじょうぐち</rt></ruby></span>の確認や、<span class=\"kaigo-target-kw\"><ruby>非常ベル<rt>ひじょうべる</rt></ruby></span>・救急時の<span class=\"kaigo-target-kw\"><ruby>119番<rt>ひゃくじゅうきゅうばん</rt></ruby></span>通報の手順も夜勤帯で再確認しておきましょう。」"
+  }
+}

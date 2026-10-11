@@ -6,15 +6,16 @@
   <title>Belajar SSW Kaigo — Nihonggo Gakkou</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Shippori+Mincho:wght@600;700;800&family=Noto+Serif+JP:wght@600;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800;900&family=Zen+Kaku+Gothic+New:wght@600;700;900&family=Noto+Sans+JP:wght@600;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
-<body class="fc-body">
+<body class="fc-body theme-blue">
 
   <div class="fc-app-container">
-    <!-- Topbar Simetris: Kiri (Back), Tengah (Bab), Kanan (Search) -->
+    <!-- Topbar Kaigo Modern -->
     <header class="fc-topbar">
       <div class="fc-bar-content">
+        <!-- Sisi Kiri: Tombol Back -->
         <div class="fc-bar-side fc-bar-left">
           <a href="../../index.html" class="fc-icon-btn btn-press" title="Kembali ke Menu Utama" aria-label="Kembali">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
@@ -24,14 +25,36 @@
           </a>
         </div>
 
+        <!-- Tengah: Switcher Kategori & Selector Bab Interaktif -->
         <div class="fc-bar-center">
-          <span class="fc-badge-tag">SSW KAIGO</span>
-          <h1 class="fc-chapter-name" id="chapterHeading">Bab 1</h1>
+          <div class="header-nav-cluster">
+            <!-- Toggle Kategori Modern -->
+            <div class="category-pill-wrap" role="group" aria-label="Pilih Kategori">
+              <button type="button" id="tabCatBlue" class="category-chip-btn active btn-press" data-type="blue">
+                <span class="chip-glow-dot"></span>
+                <span>Kaigo Biru</span>
+              </button>
+              <button type="button" id="tabCatPink" class="category-chip-btn btn-press" data-type="pink">
+                <span class="chip-glow-dot"></span>
+                <span>Kaigo Pink</span>
+              </button>
+            </div>
+
+            <!-- Trigger Panel Bab Interaktif -->
+            <button type="button" id="btnChapterTrigger" class="chapter-trigger-card btn-press" aria-expanded="false" aria-haspopup="dialog" title="Pilih Bab Pembelajaran">
+              <span class="chapter-prefix">BAB</span>
+              <span class="chapter-active-num" id="currentChapterLabel">1</span>
+              <svg class="chevron-indicator" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+          </div>
         </div>
 
+        <!-- Sisi Kanan: Tombol Search -->
         <div class="fc-bar-side fc-bar-right">
           <button id="btnSearchTrigger" class="fc-icon-btn btn-press" aria-label="Buka Pencarian" title="Cari kosakata">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
               <circle cx="11" cy="11" r="8"></circle>
               <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
             </svg>
@@ -48,14 +71,36 @@
       
       <!-- MODE 1: FLASHCARD -->
       <section id="view-flashcard" class="study-pane active">
-        <div class="fc-toolbar">
+        <!-- Toolbar Baris 1: Pilihan Mode Normal/Tanpa Kanji & Sisi Depan -->
+        <div class="fc-toolbar-primary">
           <div class="fc-pill-toggle">
-            <button id="btnKanjiFirst" class="fc-toggle-item btn-press active">Kanji Depan</button>
-            <button id="btnArtiFirst" class="fc-toggle-item btn-press">Arti Depan</button>
+            <button id="btnModeNormal" class="fc-toggle-item btn-press active" type="button">Normal</button>
+            <button id="btnModeNoKanji" class="fc-toggle-item btn-press" type="button">Tanpa Kanji</button>
           </div>
-          <div class="fc-toolbar-actions">
+          <div class="fc-pill-toggle">
+            <button id="btnKanjiFirst" class="fc-toggle-item btn-press active" type="button">Jepang Depan</button>
+            <button id="btnArtiFirst" class="fc-toggle-item btn-press" type="button">Arti Depan</button>
+          </div>
+        </div>
+
+        <!-- Toolbar Baris 2: Ukuran Font Belakang, Toggle Furigana, Shuffle, Counter -->
+        <div class="fc-toolbar-secondary">
+          <div class="fc-action-group">
+            <button id="btnToggleFurigana" class="fc-pill-btn btn-press active" type="button" title="Tampilkan/Sembunyikan Furigana">
+              <span>Furigana: ON</span>
+            </button>
+            
+            <!-- Pengaturan Ukuran Teks (Khusus Sisi Belakang) -->
+            <div class="font-size-stepper" title="Ukuran Font Sisi Belakang">
+              <button id="btnFontDec" class="stepper-btn btn-press" title="Kecilkan Teks Belakang" aria-label="Kecilkan Teks">A−</button>
+              <button id="btnFontReset" class="stepper-btn-label btn-press" title="Reset Ukuran" aria-label="Reset Ukuran">100%</button>
+              <button id="btnFontInc" class="stepper-btn btn-press" title="Perbesar Teks Belakang" aria-label="Perbesar Teks">A+</button>
+            </div>
+          </div>
+
+          <div class="fc-action-group">
             <button id="btnShuffle" class="fc-icon-btn-small btn-press" title="Acak Urutan Kartu" aria-label="Acak Kartu">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
                 <polyline points="16 3 21 3 21 8"></polyline>
                 <line x1="4" y1="20" x2="21" y2="3"></line>
                 <polyline points="21 16 21 21 16 21"></polyline>
@@ -67,22 +112,24 @@
           </div>
         </div>
 
+        <!-- Kartu 3D -->
         <div class="fc-card-stage">
           <div class="fc-card" id="flashcard" tabindex="0" role="button" aria-label="Tekan spasi atau klik untuk membalik kartu">
             <!-- Sisi Depan -->
             <div class="fc-card-face fc-face-front">
               <div class="fc-face-header">
-                <span class="fc-face-pill" id="frontLabel">KANJI</span>
+                <span class="fc-face-pill" id="frontLabel">KOSAKATA</span>
                 <span class="fc-flip-badge">
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
                     <path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.2"/>
                   </svg>
                   <span>Balik</span>
                 </span>
               </div>
 
-              <div class="fc-card-content">
-                <div class="fc-text-primary japanese-serif" id="frontText">-</div>
+              <div class="fc-card-content fc-center-stage">
+                <div class="fc-ruby-reading jp-font" id="frontFurigana"></div>
+                <div class="fc-text-front jp-font" id="frontText">-</div>
               </div>
 
               <div class="fc-face-footer">
@@ -93,18 +140,18 @@
             <!-- Sisi Belakang -->
             <div class="fc-card-face fc-face-back">
               <div class="fc-face-header">
-                <span class="fc-face-pill fc-pill-alt" id="backLabel">CARA BACA &amp; ARTI</span>
+                <span class="fc-face-pill fc-pill-alt" id="backLabel">ARTI</span>
                 <span class="fc-flip-badge">
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
                     <path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.2"/>
                   </svg>
                   <span>Balik</span>
                 </span>
               </div>
 
-              <div class="fc-card-content fc-back-centered-body">
-                <div class="fc-sub-reading japanese-serif" id="backSubReading"></div>
-                <div class="fc-main-translation" id="backTranslation">-</div>
+              <div class="fc-card-content fc-center-stage">
+                <div class="fc-back-reading jp-font" id="backFurigana"></div>
+                <div class="fc-back-main" id="backMainText">-</div>
               </div>
 
               <div class="fc-face-footer">
@@ -114,6 +161,7 @@
           </div>
         </div>
 
+        <!-- Tombol Navigasi Bawah Kartu -->
         <div class="fc-bottom-nav">
           <button id="btnPrev" class="fc-nav-btn btn-press" aria-label="Sebelumnya" title="Sebelumnya (←)">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
@@ -146,8 +194,8 @@
         </div>
 
         <div class="quiz-card-box">
-          <div class="quiz-vocab-japanese japanese-serif" id="mcQuestionText">-</div>
-          <div class="quiz-vocab-sub japanese-serif" id="mcQuestionSub"></div>
+          <div class="quiz-vocab-japanese jp-font" id="mcQuestionText">-</div>
+          <div class="quiz-vocab-sub jp-font" id="mcQuestionSub"></div>
         </div>
 
         <div class="options-container" id="mcOptions"></div>
@@ -173,8 +221,8 @@
         </div>
 
         <div class="quiz-card-box">
-          <div class="quiz-vocab-japanese japanese-serif" id="typingQuestionText">-</div>
-          <div class="quiz-vocab-sub japanese-serif" id="typingQuestionSub"></div>
+          <div class="quiz-vocab-japanese jp-font" id="typingQuestionText">-</div>
+          <div class="quiz-vocab-sub jp-font" id="typingQuestionSub"></div>
         </div>
 
         <div class="typing-input-wrap">
@@ -189,7 +237,10 @@
       <section id="view-dokkai" class="study-pane">
         <div class="dokkai-wrapper">
           <div class="dokkai-top">
-            <h2 class="dokkai-heading" id="dokkaiTitle">介護記録 · 読解</h2>
+            <div class="dokkai-heading-wrap">
+              <span class="dokkai-badge">DOKKAI</span>
+              <h2 class="dokkai-heading" id="dokkaiTitle">会話</h2>
+            </div>
             <div class="dokkai-zoom-tools">
               <button id="btnDokkaiOut" class="fc-zoom-btn btn-press" title="Kecilkan Teks">−</button>
               <span id="dokkaiZoomVal" class="fc-zoom-val">100%</span>
@@ -197,7 +248,7 @@
             </div>
           </div>
           <div class="dokkai-scrollbox">
-            <article class="dokkai-text japanese-serif" id="dokkaiContent"></article>
+            <article class="dokkai-text jp-font" id="dokkaiContent"></article>
           </div>
         </div>
       </section>
@@ -219,7 +270,7 @@
 
     </main>
 
-    <!-- Bottom Dock Menu Mode Belajar -->
+    <!-- Bottom Dock Menu -->
     <nav class="fc-dock">
       <div class="fc-dock-capsule">
         <button class="dock-btn active btn-press" data-mode="flashcard" title="Flashcard">
@@ -261,7 +312,32 @@
     </nav>
   </div>
 
-  <!-- MODAL PENCARIAN MODERN & BERSIH -->
+  <!-- PANEL / DRAWER NAVIGATOR BAB MODERN (MODAL & BOTTOM SHEET) -->
+  <div id="chapterDrawer" class="chapter-drawer" hidden aria-modal="true" role="dialog">
+    <div class="chapter-drawer-backdrop" id="chapterDrawerBackdrop"></div>
+    <div class="chapter-drawer-card">
+      <div class="drawer-header">
+        <div class="drawer-header-info">
+          <div class="drawer-badge" id="drawerCategoryBadge">Kaigo Biru</div>
+          <h3 class="drawer-title">Pilih Modul Bab</h3>
+        </div>
+        <button type="button" id="btnCloseChapterDrawer" class="btn-close-drawer btn-press" aria-label="Tutup Panel Bab">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+
+      <div class="drawer-body">
+        <div class="chapter-grid-container" id="chapterGridContainer">
+          <!-- Item Bab di-render otomatis melalui JavaScript -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL PENCARIAN -->
   <div id="searchModal" class="fc-search-modal" hidden>
     <div class="fc-modal-backdrop" id="searchBackdrop"></div>
     <div class="fc-modal-dialog">

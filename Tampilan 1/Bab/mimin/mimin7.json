@@ -1,0 +1,30 @@
+{
+  "vocab": [
+    { "kanji": "（ズボンを）上げる", "furigana": "（ずぼんを）あげる", "arti": "memakai (celana)" },
+    { "kanji": "足元", "furigana": "あしもと", "arti": "kaki" },
+    { "kanji": "陰部", "furigana": "いんぶ", "arti": "area genital" },
+    { "kanji": "おむつ", "furigana": "おむつ", "arti": "popok" },
+    { "kanji": "浣腸", "furigana": "かんちょう", "arti": "enema" },
+    { "kanji": "着替える", "furigana": "きがえる", "arti": "berganti pakaian" },
+    { "kanji": "（ズボンを）下げる", "furigana": "（ずぼんを）さげる", "arti": "menurunkan celana" },
+    { "kanji": "失禁", "furigana": "しっきん", "arti": "inkontinensia" },
+    { "kanji": "羞恥心", "furigana": "しゅうちしん", "arti": "rasa malu" },
+    { "kanji": "使い捨て手袋", "furigana": "つかいすててぶくろ", "arti": "sarung tangan sekali pakai" },
+    { "kanji": "尿", "furigana": "にょう", "arti": "urine" },
+    { "kanji": "尿器", "furigana": "にょうき", "arti": "perkemihan" },
+    { "kanji": "尿意", "furigana": "にょうい", "arti": "keinginan berkemih" },
+    { "kanji": "排泄", "furigana": "はいせつ", "arti": "ekskresi" },
+    { "kanji": "便", "furigana": "べん", "arti": "feses" },
+    { "kanji": "便意", "furigana": "べんい", "arti": "keinginan defekasi" },
+    { "kanji": "便座", "furigana": "べんざ", "arti": "toilet duduk" },
+    { "kanji": "ポータブルトイレ", "furigana": "ぽーたぶるといれ", "arti": "toilet portabel" },
+    { "kanji": "看護師", "furigana": "かんごし", "arti": "perawat" },
+    { "kanji": "職員", "furigana": "しょくいん", "arti": "staf" },
+    { "kanji": "パジャマ", "furigana": "ぱじゃま", "arti": "piyama" },
+    { "kanji": "呼び出しボタン", "furigana": "よびだしぼたん", "arti": "tombol panggil" }
+  ],
+  "dokkai": {
+    "title": "排泄の介助と配慮",
+    "text": "職員：「林さん、<span class=\"kaigo-target-kw\"><ruby>呼び出しボタン<rt>よびだしぼたん</rt></ruby></span>が鳴りましたが、どうされましたか。<span class=\"kaigo-target-kw\"><ruby>尿意<rt>にょうい</rt></ruby></span>や<span class=\"kaigo-target-kw\"><ruby>便意<rt>べんい</rt></ruby></span>はありますか。」<br><br>林さん：「少しおしっこに行きたくなったの。でも間に合わなくて<span class=\"kaigo-target-kw\"><ruby>失禁<rt>しっきん</rt></ruby></span>してしまったかもしれないわ。」<br><br>職員：「大丈夫ですよ。<span class=\"kaigo-target-kw\"><ruby>羞恥心<rt>しゅうちしん</rt></ruby></span>に配慮してカーテンを閉めますね。<span class=\"kaigo-target-kw\"><ruby>職員<rt>しょくいん</rt></ruby></span>が<span class=\"kaigo-target-kw\"><ruby>使い捨て手袋<rt>つかいすててぶくろ</rt></ruby></span>をつけて確認します。<span class=\"kaigo-target-kw\"><ruby>足元<rt>あしもと</rt></ruby></span>に気をつけてベッドサイドの<span class=\"kaigo-target-kw\"><ruby>ポータブルトイレ<rt>ぽーたぶるといれ</rt></ruby></span>へ移りましょう。<span class=\"kaigo-target-kw\"><ruby>（ズボンを）下げる<rt>（ずぼんを）さげる</rt></ruby></span>のをお手伝いしますので、ゆっくり<span class=\"kaigo-target-kw\"><ruby>便座<rt>べんざ</rt></ruby></span>に座ってください。」<br><br>林さん：「ありがとう。<span class=\"kaigo-target-kw\"><ruby>尿器<rt>にょうき</rt></ruby></span>より座る方がしっかり<span class=\"kaigo-target-kw\"><ruby>排泄<rt>はいせつ</rt></ruby></span>できるわ。」<br><br>職員：「すっきりしましたね。<span class=\"kaigo-target-kw\"><ruby>尿<rt>にょう</rt></ruby></span>だけでなく<span class=\"kaigo-target-kw\"><ruby>便<rt>べん</rt></ruby></span>の出が悪ければ、<span class=\"kaigo-target-kw\"><ruby>看護師<rt>かんごし</rt></ruby></span>と相談して<span class=\"kaigo-target-kw\"><ruby>浣腸<rt>かんちょう</rt></ruby></span>も検討できますからね。体を拭いて清潔を保つため<span class=\"kaigo-target-kw\"><ruby>陰部<rt>いんぶ</rt></ruby></span>をきれいに洗浄し、濡れた<span class=\"kaigo-target-kw\"><ruby>おむつ<rt>おむつ</rt></ruby></span>を交換します。新しい<span class=\"kaigo-target-kw\"><ruby>パジャマ<rt>ぱじゃま</rt></ruby></span>に<span class=\"kaigo-target-kw\"><ruby>着替える<rt>きがえる</rt></ruby></span>ため、ズボンを<span class=\"kaigo-target-kw\"><ruby>（ズボンを）上げる<rt>（ずぼんを）あげる</rt></ruby></span>のを手伝いますね。」<br><br>林さん：「さっぱりして気持ちが良くなったわ。ありがとう。」"
+  }
+}

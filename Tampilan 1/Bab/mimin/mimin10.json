@@ -1,0 +1,27 @@
+{
+  "vocab": [
+    { "kanji": "おしぼり", "furigana": "おしぼり", "arti": "lap tangan basah" },
+    { "kanji": "カーテン", "furigana": "かーてん", "arti": "tirai" },
+    { "kanji": "家事", "furigana": "かじ", "arti": "pekerjaan rumah" },
+    { "kanji": "片付ける", "furigana": "かたづける", "arti": "membereskan" },
+    { "kanji": "乾かす", "furigana": "かわかす", "arti": "mengeringkan" },
+    { "kanji": "乾く", "furigana": "かわく", "arti": "mengering" },
+    { "kanji": "換気", "furigana": "かんき", "arti": "pergantian udara" },
+    { "kanji": "シーツ", "furigana": "しーつ", "arti": "lembaran" },
+    { "kanji": "洗濯物", "furigana": "せんたくもの", "arti": "cucian" },
+    { "kanji": "掃除機", "furigana": "そうじき", "arti": "penyedot debu" },
+    { "kanji": "たたむ", "furigana": "たたむ", "arti": "melipat" },
+    { "kanji": "調理", "furigana": "ちょうり", "arti": "memasak" },
+    { "kanji": "掃く", "furigana": "はく", "arti": "menyapu" },
+    { "kanji": "布団", "furigana": "ふとん", "arti": "kasur" },
+    { "kanji": "ほうき", "furigana": "ほうき", "arti": "sapu" },
+    { "kanji": "干す", "furigana": "ほす", "arti": "menjemur" },
+    { "kanji": "枕", "furigana": "まくら", "arti": "bantal" },
+    { "kanji": "毛布", "furigana": "もうふ", "arti": "selimut" },
+    { "kanji": "モップ", "furigana": "もっぷ", "arti": "alat pel" }
+  ],
+  "dokkai": {
+    "title": "居室の清掃と家事援助",
+    "text": "スタッフ：「吉田さん、こんにちは。お部屋の<span class=\"kaigo-target-kw\"><ruby>家事<rt>かじ</rt></ruby></span>のお手伝いに来ましたよ。まず<span class=\"kaigo-target-kw\"><ruby>カーテン<rt>かーてん</rt></ruby></span>を開けて窓を開け、しっかりお部屋の<span class=\"kaigo-target-kw\"><ruby>換気<rt>かんき</rt></ruby></span>をしましょうね。」<br><br>吉田さん：「ありがとう。ベッドまわりを少し<span class=\"kaigo-target-kw\"><ruby>片付ける<rt>かたづける</rt></ruby></span>のを手伝ってくれるかい？」<br><br>スタッフ：「はい。ベッドの上の<span class=\"kaigo-target-kw\"><ruby>枕<rt>まくら</rt></ruby></span>と温かい<span class=\"kaigo-target-kw\"><ruby>毛布<rt>もうふ</rt></ruby></span>を整えて、<span class=\"kaigo-target-kw\"><ruby>布団<rt>ふとん</rt></ruby></span>の日干しもしましょう。汚れた<span class=\"kaigo-target-kw\"><ruby>シーツ<rt>しーつ</rt></ruby></span>は取り替えて洗っておきますね。床のゴミは<span class=\"kaigo-target-kw\"><ruby>ほうき<rt>ほうき</rt></ruby></span>で<span class=\"kaigo-target-kw\"><ruby>掃く<rt>はく</rt></ruby></span>ようにして、細かいほこりは<span class=\"kaigo-target-kw\"><ruby>掃除機<rt>そうじき</rt></ruby></span>で吸い取ります。仕上げに<span class=\"kaigo-target-kw\"><ruby>モップ<rt>もっぷ</rt></ruby></span>で床をきれいに拭いておきますね。」<br><br>吉田さん：「部屋がすっきりして気持ちがいいね。昨日の<span class=\"kaigo-target-kw\"><ruby>洗濯物<rt>せんたくもの</rt></ruby></span>もお願いできるかい？」<br><br>スタッフ：「もちろんです。ベランダに<span class=\"kaigo-target-kw\"><ruby>干す<rt>ほす</rt></ruby></span>作業をしておいた服がしっかり<span class=\"kaigo-target-kw\"><ruby>乾く<rt>かわく</rt></ruby></span>のを確認しましたので、きれいに取り込んで<span class=\"kaigo-target-kw\"><ruby>たたむ<rt>たたむ</rt></ruby></span>作業をしますね。生乾きの服は乾燥機でしっかり<span class=\"kaigo-target-kw\"><ruby>乾かす<rt>かわかす</rt></ruby></span>ようにします。お掃除の後は手の除菌用に温かい<span class=\"kaigo-target-kw\"><ruby>おしぼり<rt>おしぼり</rt></ruby></span>をお渡しして、お昼ごはんの<span class=\"kaigo-target-kw\"><ruby>調理<rt>ちょうり</rt></ruby></span>の準備を始めますね。」"
+  }
+}

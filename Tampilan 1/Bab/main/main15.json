@@ -1,0 +1,40 @@
+{
+  "vocab": [
+    { "kanji": "あおむけ（仰臥位）", "furigana": "あおむけ（ぎょうがい）", "arti": "Telentang (posisi supinasi)" },
+    { "kanji": "うつぶせ（腹臥位）", "furigana": "うつぶせ（ふくがい）", "arti": "Tengkurap (posisi pronasi)" },
+    { "kanji": "横向き（側臥位）", "furigana": "よこむき（そくがい）", "arti": "Miring (posisi lateral)" },
+    { "kanji": "座位", "furigana": "ざい", "arti": "Posisi duduk" },
+    { "kanji": "端座位", "furigana": "たんざい", "arti": "Posisi duduk di tepi tempat tidur" },
+    { "kanji": "半座位", "furigana": "はんざい", "arti": "Posisi setengah duduk (semi-Fowler)" },
+    { "kanji": "体位", "furigana": "たいい", "arti": "Posisi tubuh" },
+    { "kanji": "重心", "furigana": "じゅうしん", "arti": "Titik berat / pusat gravitasi" },
+    { "kanji": "立位", "furigana": "りつい", "arti": "Posisi berdiri" },
+    { "kanji": "患側", "furigana": "かんそく", "arti": "Sisi yang sakit / terkena dampak" },
+    { "kanji": "健側", "furigana": "けんそく", "arti": "Sisi yang sehat / normal" },
+    { "kanji": "麻痺", "furigana": "まひ", "arti": "Kelumpuhan / paralisis" },
+    { "kanji": "移乗", "furigana": "いじょう", "arti": "Transfer / berpindah posisi" },
+    { "kanji": "姿勢", "furigana": "しせい", "arti": "Postur tubuh / sikap badan" },
+    { "kanji": "ごはん", "furigana": "ごはん", "arti": "Nasi" },
+    { "kanji": "パン", "furigana": "ぱん", "arti": "Roti" },
+    { "kanji": "うどん", "furigana": "うどん", "arti": "Udon" },
+    { "kanji": "そば", "furigana": "そば", "arti": "Soba" },
+    { "kanji": "煮魚", "furigana": "にざかな", "arti": "Ikan rebus / semur ikan" },
+    { "kanji": "焼き魚", "furigana": "やきざかな", "arti": "Ikan bakar / panggang" },
+    { "kanji": "煮物", "furigana": "にもの", "arti": "Masakan rebus / sayur rebus" },
+    { "kanji": "おひたし", "furigana": "おひたし", "arti": "Sayuran rebus berbumbu dashi" },
+    { "kanji": "刻み食", "furigana": "きざみしょく", "arti": "Makanan cincang halus" },
+    { "kanji": "ミキサー食", "furigana": "みきさーしょく", "arti": "Makanan blender / puree" },
+    { "kanji": "とろみ食", "furigana": "とろみしょく", "arti": "Makanan bertekstur kental" },
+    { "kanji": "ソフト食", "furigana": "そふとしょく", "arti": "Makanan lunak / lembut" },
+    { "kanji": "介護用スプーン", "furigana": "かいごようすぷーん", "arti": "Sendok khusus lansia" },
+    { "kanji": "介護用フォーク", "furigana": "かいごようふぉーく", "arti": "Garpu khusus lansia" },
+    { "kanji": "介護用食器", "furigana": "かいごようしょっき", "arti": "Alat makan khusus lansia" },
+    { "kanji": "差込便器", "furigana": "さしこみべんき", "arti": "Pispot / toilet insert" },
+    { "kanji": "滑り止めマット", "furigana": "すべりどめまっと", "arti": "Keset / matras antiselip" },
+    { "kanji": "換気", "furigana": "かんき", "arti": "Ventilasi / pergantian udara" }
+  ],
+  "dokkai": {
+    "title": "移動・食事・排泄の介助とケア",
+    "text": "スタッフ：「高橋さん、おはようございます。朝の準備を始めましょうね。ずっと<span class=\"kaigo-target-kw\"><ruby>あおむけ（仰臥位）<rt>あおむけ（ぎょうがい）</rt></ruby></span>でお休みでしたから、まずは<span class=\"kaigo-target-kw\"><ruby>横向き（側臥位）<rt>よこむき（そくがい）</rt></ruby></span>になって、<span class=\"kaigo-target-kw\"><ruby>体位<rt>たいい</rt></ruby></span>を変えましょうか。背中が痛ければ<span class=\"kaigo-target-kw\"><ruby>うつぶせ（腹臥位）<rt>うつぶせ（ふくがい）</rt></ruby></span>もお手伝いできますよ。」<br><br>高橋さん：「横向きの方が楽だな。右側に<span class=\"kaigo-target-kw\"><ruby>麻痺<rt>まひ</rt></ruby></span>があるから、自分で動くのが難しくてね。」<br><br>スタッフ：「無理をしないでくださいね。こちらの<span class=\"kaigo-target-kw\"><ruby>健側<rt>けんそく</rt></ruby></span>の左手で柵をしっかりつかんで、<span class=\"kaigo-target-kw\"><ruby>患側<rt>かんそく</rt></ruby></span>の右半身を支えながらゆっくり動きましょう。<span class=\"kaigo-target-kw\"><ruby>重心<rt>じゅうしん</rt></ruby></span>を前に傾けるとスムーズに動けます。ベッドの端に足を下ろして、一度<span class=\"kaigo-target-kw\"><ruby>端座位<rt>たんざい</rt></ruby></span>になりましょうか。」<br><br>高橋さん：「よいしょ。ふらつきはないよ。車いすへ<span class=\"kaigo-target-kw\"><ruby>移乗<rt>いじょう</rt></ruby></span>するかい？」<br><br>スタッフ：「はい。足元には<span class=\"kaigo-target-kw\"><ruby>滑り止めマット<rt>すべりどめまっと</rt></ruby></span>を敷いてありますので、しっかり床を踏みしめて、安定した<span class=\"kaigo-target-kw\"><ruby>立位<rt>りつい</rt></ruby></span>をとってから乗り移りましょう。車いすの上でも背筋を伸ばした良い<span class=\"kaigo-target-kw\"><ruby>姿勢<rt>しせい</rt></ruby></span>を保ち、リラックスできる<span class=\"kaigo-target-kw\"><ruby>座位<rt>ざい</rt></ruby></span>をとってくださいね。」<br><br>高橋さん：「ありがとう。ところで、朝ごはんの前にトイレを済ませたいんだが、ポータブルトイレを使うよ。」<br><br>スタッフ：「かしこまりました。もし起き上がるのが辛ければベッドの上で<span class=\"kaigo-target-kw\"><ruby>差込便器<rt>さしこみべんき</rt></ruby></span>もお使いいただけますが、ポータブルトイレへ行きましょう。窓を少し開けてお部屋の<span class=\"kaigo-target-kw\"><ruby>換気<rt>かんき</rt></ruby></span>もしておきますね。」<br><br>高橋さん：「すっきりしたよ。今日のごはんは何かな。」<br><br>スタッフ：「今日の朝食は、主食が柔らかい<span class=\"kaigo-target-kw\"><ruby>ごはん<rt>ごはん</rt></ruby></span>です。主菜は<span class=\"kaigo-target-kw\"><ruby>煮魚<rt>にざかな</rt></ruby></span>か香ばしい<span class=\"kaigo-target-kw\"><ruby>焼き魚<rt>やきざかな</rt></ruby></span>が選べますよ。副菜には野菜たっぷりの<span class=\"kaigo-target-kw\"><ruby>煮物<rt>にもの</rt></ruby></span>と、ほうれん草の<span class=\"kaigo-target-kw\"><ruby>おひたし<rt>おひたし</rt></ruby></span>もついています。」<br><br>高橋さん：「麺類も好きなんだけど、昼は<span class=\"kaigo-target-kw\"><ruby>うどん<rt>うどん</rt></ruby></span>や<span class=\"kaigo-target-kw\"><ruby>そば<rt>そば</rt></ruby></span>が出るかい？ たまには<span class=\"kaigo-target-kw\"><ruby>パン<rt>ぱん</rt></ruby></span>も食べたいな。」<br><br>スタッフ：「お昼は温かいうどんの予定ですよ。高橋さんは飲み込みが少し心配ですので、食べやすいように具材を小さくした<span class=\"kaigo-target-kw\"><ruby>刻み食<rt>きざみしょく</rt></ruby></span>や、柔らかい<span class=\"kaigo-target-kw\"><ruby>ソフト食<rt>そふとしょく</rt></ruby></span>、あるいはペースト状の<span class=\"kaigo-target-kw\"><ruby>ミキサー食<rt>みきさーしょく</rt></ruby></span>への変更も可能です。お汁にはトロミをつけた<span class=\"kaigo-target-kw\"><ruby>とろみ食<rt>とろみしょく</rt></ruby></span>に調整してあります。ベッドでお食事をとる際も、上体を起こした<span class=\"kaigo-target-kw\"><ruby>半座位<rt>はんざい</rt></ruby></span>にして誤嚥を防ぎましょう。」<br><br>高橋さん：「食器も持ちやすいものがあると助かるんだが。」<br><br>スタッフ：「はい、握りやすい<span class=\"kaigo-target-kw\"><ruby>介護用スプーン<rt>かいごようすぷーん</rt></ruby></span>や<span class=\"kaigo-target-kw\"><ruby>介護用フォーク<rt>かいごようふぉーく</rt></ruby></span>、すくいやすい工夫がされた<span class=\"kaigo-target-kw\"><ruby>介護用食器<rt>かいごようしょっき</rt></ruby></span>をご用意しています。ご自身のペースでゆっくり美味しく召し上がってくださいね。」"
+  }
+}

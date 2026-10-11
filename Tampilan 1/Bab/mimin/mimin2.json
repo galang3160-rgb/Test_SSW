@@ -1,0 +1,17 @@
+{
+  "vocab": [
+    { "kanji": "仰臥位／あおむけ", "furigana": "ぎょうがい／あおむけ", "arti": "Posisi supinasi" },
+    { "kanji": "側臥位／よこむき", "furigana": "そくがい／よこむき", "arti": "Posisi lateral" },
+    { "kanji": "腹臥位／うつぶせ", "furigana": "ふくがい／うつぶせ", "arti": "Posisi pronasi" },
+    { "kanji": "端座位", "furigana": "たんざい", "arti": "Duduk tegak lurus" },
+    { "kanji": "椅座位", "furigana": "いざい", "arti": "Duduk kursi" },
+    { "kanji": "立位", "furigana": "りつい", "arti": "Berdiri" },
+    { "kanji": "体位", "furigana": "たいい", "arti": "Posisi" },
+    { "kanji": "体位変換", "furigana": "たいいへんかん", "arti": "Mengubah posisi" },
+    { "kanji": "姿勢", "furigana": "しせい", "arti": "Postur" }
+  ],
+  "dokkai": {
+    "title": "ベッド上での体位変換と離床介助",
+    "text": "スタッフ：「木村さん、おはようございます。朝のケアを始めましょうね。同じ<span class=\"kaigo-target-kw\"><ruby>体位<rt>たいい</rt></ruby></span>のままずっとベッドで休まれていたので、褥瘡を防ぐために<span class=\"kaigo-target-kw\"><ruby>体位変換<rt>たいいへんかん</rt></ruby></span>をしましょうか。」<br><br>木村さん：「おはよう。<span class=\"kaigo-target-kw\"><ruby>仰臥位／あおむけ<rt>ぎょうがい／あおむけ</rt></ruby></span>で寝ていると少し腰が痛くなってきたから、向きを変えてもらえると助かるよ。」<br><br>スタッフ：「承知しました。少し体をほぐすために、まずは<span class=\"kaigo-target-kw\"><ruby>側臥位／よこむき<rt>そくがい／よこむき</rt></ruby></span>になりましょう。右側を向くのは楽ですか。もし背中やお腹を伸ばしたければ、短時間なら<span class=\"kaigo-target-kw\"><ruby>腹臥位／うつぶせ<rt>ふくがい／うつぶせ</rt></ruby></span>の姿勢をとることもできますよ。」<br><br>木村さん：「横向きが一番落ち着くね。でも、そろそろ朝ごはんの時間だから起きたいんだが。」<br><br>スタッフ：「分かりました。ではゆっくり上体を起こして、ベッドの端に足を下ろしましょう。一度<span class=\"kaigo-target-kw\"><ruby>端座位<rt>たんざい</rt></ruby></span>になって、めまいやふらつきがないか確認してくださいね。」<br><br>木村さん：「頭はすっきりしているよ。今日は車いすじゃなくて、テーブルの椅子に座って食べたいな。」<br><br>スタッフ：「いいですね。では足底をしっかり床につけて、安定した<span class=\"kaigo-target-kw\"><ruby>立位<rt>りつい</rt></ruby></span>をとってから椅子へ移動しましょう。椅子に座った<span class=\"kaigo-target-kw\"><ruby>椅座位<rt>いざい</rt></ruby></span>でも、背筋をしっかり伸ばして良い<span class=\"kaigo-target-kw\"><ruby>姿勢<rt>しせい</rt></ruby></span>を保つと誤嚥予防になりますよ。」<br><br>木村さん：「しっかり座って美味しくいただくよ。介助をありがとう。」"
+  }
+}

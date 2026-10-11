@@ -1,0 +1,29 @@
+{
+  "vocab": [
+    { "kanji": "観察", "furigana": "かんさつ", "arti": "mengamati, observasi" },
+    { "kanji": "行事", "furigana": "ぎょうじ", "arti": "acara" },
+    { "kanji": "禁止", "furigana": "きんし", "arti": "larangan" },
+    { "kanji": "計画", "furigana": "けいかく", "arti": "rencana" },
+    { "kanji": "掲示", "furigana": "けいじ", "arti": "pengumuman" },
+    { "kanji": "ケース", "furigana": "けーす", "arti": "kasus" },
+    { "kanji": "玄関", "furigana": "げんかん", "arti": "area pintu masuk" },
+    { "kanji": "参加者", "furigana": "さんかしゃ", "arti": "peserta" },
+    { "kanji": "事故", "furigana": "じこ", "arti": "kecelakaan" },
+    { "kanji": "施設", "furigana": "しせつ", "arti": "fasilitas" },
+    { "kanji": "就寝", "furigana": "しゅうしん", "arti": "pergi tidur" },
+    { "kanji": "出勤", "furigana": "しゅっきん", "arti": "pergi bekerja" },
+    { "kanji": "巡視", "furigana": "じゅんし", "arti": "patroli" },
+    { "kanji": "使用", "furigana": "しよう", "arti": "menggunakan" },
+    { "kanji": "状況", "furigana": "じょうきょう", "arti": "kondisi" },
+    { "kanji": "ショートステイ", "furigana": "しょーとすてい", "arti": "tinggal jangka pendek, short stay" },
+    { "kanji": "自立", "furigana": "じりつ", "arti": "kemandirian" },
+    { "kanji": "送迎車", "furigana": "そうげいしゃ", "arti": "mobil antar-jemput" },
+    { "kanji": "退勤", "furigana": "たいきん", "arti": "pulang bekerja" },
+    { "kanji": "タイヤ", "furigana": "たいや", "arti": "roda" },
+    { "kanji": "建物", "furigana": "たてもの", "arti": "bangunan" }
+  ],
+  "dokkai": {
+    "title": "施設での業務と利用者支援",
+    "text": "スタッフA：「おはようございます。朝の<span class=\"kaigo-target-kw\"><ruby>出勤<rt>しゅっきん</rt></ruby></span>後、<span class=\"kaigo-target-kw\"><ruby>施設<rt>しせつ</rt></ruby></span>の<span class=\"kaigo-target-kw\"><ruby>建物<rt>たてもの</rt></ruby></span>や<span class=\"kaigo-target-kw\"><ruby>玄関<rt>げんかん</rt></ruby></span>周りの安全確認を行いました。<span class=\"kaigo-target-kw\"><ruby>事故<rt>じこ</rt></ruby></span>を防ぐため、<span class=\"kaigo-target-kw\"><ruby>送迎車<rt>そうげいしゃ</rt></ruby></span>の<span class=\"kaigo-target-kw\"><ruby>タイヤ<rt>たいや</rt></ruby></span>の空気圧も点検済みです。」<br><br>スタッフB：「ありがとうございます。掲示板の<span class=\"kaigo-target-kw\"><ruby>掲示<rt>けいじ</rt></ruby></span>通り、今日は季節の<span class=\"kaigo-target-kw\"><ruby>行事<rt>ぎょうじ</rt></ruby></span>の<span class=\"kaigo-target-kw\"><ruby>計画<rt>けいかく</rt></ruby></span>を進めましょう。<span class=\"kaigo-target-kw\"><ruby>ショートステイ<rt>しょーとすてい</rt></ruby></span>をご利用中の方も含め、多くの<span class=\"kaigo-target-kw\"><ruby>参加者<rt>さんかしゃ</rt></ruby></span>が集まる予定です。危険な物品の<span class=\"kaigo-target-kw\"><ruby>使用<rt>しよう</rt></ruby></span>は<span class=\"kaigo-target-kw\"><ruby>禁止<rt>きんし</rt></ruby></span>ルールを徹底してくださいね。」<br><br>スタッフA：「承知しました。利用者の皆さんの日常の<span class=\"kaigo-target-kw\"><ruby>状況<rt>じょうきょう</rt></ruby></span>をしっかり<span class=\"kaigo-target-kw\"><ruby>観察<rt>かんさつ</rt></ruby></span>し、できることはご自身で行っていただくよう<span class=\"kaigo-target-kw\"><ruby>自立<rt>じりつ</rt></ruby></span>支援を心がけます。体調不良などの難しい<span class=\"kaigo-target-kw\"><ruby>ケース<rt>けーす</rt></ruby></span>があればすぐ相談しますね。」<br><br>スタッフB：「よろしくお願いします。夜勤担当者は夜の<span class=\"kaigo-target-kw\"><ruby>就寝<rt>しゅうしん</rt></ruby></span>後も定時に<span class=\"kaigo-target-kw\"><ruby>巡視<rt>じゅんし</rt></ruby></span>を行い、安全を見守ってから翌朝<span class=\"kaigo-target-kw\"><ruby>退勤<rt>たいきん</rt></ruby></span>となります。今日も一日連携していきましょう。」"
+  }
+}
